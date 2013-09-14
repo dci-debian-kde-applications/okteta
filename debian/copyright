@@ -1,0 +1,185 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: okteta
+Upstream-Contact: Friedrich W. H. Kossebau <kossebau@kde.org>
+                  Jeremy Paul Whiting <jpwhiting@kde.org>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 2012, Alessandro Di Federico <ale@clearmind.me>
+           2009-2013, Alex Richardson <alex.richardson@gmx.de>
+           2003-2012, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: LGPL-2.1 or LGPL-3 or later editions as approved by KDE eV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ versions 2.1 and 3 can be found in `/usr/share/common-licenses/LGPL-2.1' and
+ `/usr/share/common-licenses/LGPL-3'.
+
+Files: mobile/program/about.cpp
+       mobile/program/about.h
+       mobile/program/main.cpp
+       mobile/program/mainwindow.cpp
+       mobile/program/mainwindow.h
+       mobile/program/program.cpp
+       mobile/program/program.h
+       program/about.cpp
+       program/about.h
+       program/main.cpp
+       program/mainwindow.cpp
+       program/mainwindow.h
+       program/program.cpp
+       program/program.h
+Copyright: 2006-2012, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: GPL-2 or GPL-3 or later editions as approved by KDE eV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: kasten/controllers/test/allprimitivetypestest.cpp
+       kasten/controllers/test/arraydatainformationtest.cpp
+       kasten/controllers/test/basicdatainformationtest.cpp
+       kasten/controllers/test/customtostringtest.cpp
+       kasten/controllers/test/jsparsertest.cpp
+       kasten/controllers/test/locktooffsettest.cpp
+       kasten/controllers/test/osdparsertest.cpp
+       kasten/controllers/test/primitivearraytest.cpp
+       kasten/controllers/test/primitivedatainformationtest.cpp
+       kasten/controllers/test/scriptclassestest.cpp
+       kasten/controllers/test/scriptvalueconvertertest.cpp
+       kasten/controllers/test/testutils.h
+       kasten/controllers/test/uniondatainformationtest.cpp
+       kasten/controllers/view/structures/datatypes/strings/utf32stringdata.h
+Copyright: 2011-2013, Alex Richardson <alex.richardson@gmx.de>
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+Files: designer/examples/main.cpp
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumalgorithm.cpp
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumalgorithm.h
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumparameterset.cpp
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumparameterset.h
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumparametersetedit.cpp
+       kasten/controllers/view/libbytearraychecksum/algorithm/template/template_bytearraychecksumparametersetedit.h
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilter.cpp
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilter.h
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilterparameterset.cpp
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilterparameterset.h
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilterparametersetedit.cpp
+       kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilterparametersetedit.h
+Copyright: 2009-2011, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: public-domain
+
+Files: libs/kasten/core/tests/util/filesystem.cpp
+       libs/kasten/core/tests/util/filesystem.h
+Copyright: 2007, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: kasten/controllers/view/structures/modeltest.cpp
+       kasten/controllers/view/structures/modeltest.h
+Copyright: 2007, Trolltech ASA. All rights reserved
+License: GPL-2
+ This file may be used under the terms of the GNU General Public
+ License version 2.0 as published by the Free Software Foundation
+ and appearing in the file LICENSE.GPL included in the packaging of
+ this file.  Please review the following information to ensure GNU
+ General Public Licensing requirements will be met:
+ http://www.trolltech.com/products/qt/opensource.html
+ .
+ If you are unsure which license is appropriate for your use, please
+ review the following information:
+ http://www.trolltech.com/products/qt/licensing.html or contact the
+ sales department at sales@trolltech.com.
+ .
+ This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: doc/*
+Copyright: 2008-2010, Alex Richardson <alex.richardson@gmx.de>
+           2008-2010, Friedrich W. H. Kossebau <kossebau@kde.org>
+License: GFDL-1.2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".

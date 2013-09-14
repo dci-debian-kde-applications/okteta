@@ -1,0 +1,5 @@
+okteta (4:4.11.1-1) UNRELEASED; urgency=low
+
+  * First release of kdesdk after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Sep 2013 20:42:01 +0200

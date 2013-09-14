@@ -1,0 +1,20 @@
+From: José Manuel Santamaría Lema <panfaust@gmail.com>
+Subject: Use DebianABIManager for this source package. It's Debian-specific.
+Forwarded: not-needed
+
+For more information about DebianABIManager, refer to
+/usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
+
+
+
+Index: okteta/CMakeLists.txt
+===================================================================
+--- okteta.orig/CMakeLists.txt	2013-09-14 21:57:14.547055169 +0200
++++ okteta/CMakeLists.txt	2013-09-14 21:57:53.705474741 +0200
+@@ -93,3 +93,6 @@
+ endif (QT_QTDECLARATIVE_FOUND AND OKTETA_MOBILE_UI)
+ 
+ macro_display_feature_log()
++
++# Add support for DebianABIManager
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
