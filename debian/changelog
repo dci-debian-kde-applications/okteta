@@ -1,3 +1,9 @@
+okteta (4:4.11.2-2) UNRELEASED; urgency=low
+
+  * Typo in libkasten2gui2 symbols file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 16:48:17 +0200
+
 okteta (4:4.11.2-1) experimental; urgency=low
 
   * First release of kdesdk after being split by upstream.
