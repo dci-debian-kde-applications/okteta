@@ -1,10 +1,10 @@
-okteta (4:4.11.3-1) UNRELEASED; urgency=low
+okteta (4:4.11.3-1) unstable; urgency=low
 
-  * Typo in libkasten2gui2 symbols file.
   * New upstream release.
+  * Typo in libkasten2gui2 symbols file.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 18:38:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 14:25:55 +0100
 
 okteta (4:4.11.2-1) experimental; urgency=low
 
