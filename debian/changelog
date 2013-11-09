@@ -2,6 +2,7 @@ okteta (4:4.11.3-1) UNRELEASED; urgency=low
 
   * Typo in libkasten2gui2 symbols file.
   * New upstream release.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 18:38:23 +0100
 
