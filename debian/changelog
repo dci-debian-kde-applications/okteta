@@ -1,9 +1,9 @@
-okteta (4:4.11.3-2) UNRELEASED; urgency=low
+okteta (4:4.11.3-2) unstable; urgency=low
 
   * Disable auto test. (Closes: #730037)
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Nov 2013 20:13:51 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 21 Nov 2013 12:56:26 +0100
 
 okteta (4:4.11.3-1) unstable; urgency=low
 
