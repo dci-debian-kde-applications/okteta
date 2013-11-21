@@ -1,6 +1,7 @@
 okteta (4:4.11.3-2) UNRELEASED; urgency=low
 
   * Disable auto test. (Closes: #730037)
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Nov 2013 20:13:51 +0100
 
