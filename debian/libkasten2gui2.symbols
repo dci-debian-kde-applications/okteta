@@ -166,10 +166,10 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten218AbstractToolWidgetD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidgetD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidgetD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_2_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=inline|arch=!armhf)_ZN7Kasten219AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews12closeRequestERK5QListIPNS_12AbstractViewEE@ABI_2_0 4:4.10.2
@@ -307,12 +307,12 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryC1EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryC2EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
@@ -431,7 +431,7 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTIN7Kasten217AbstractLinePopupE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten218AbstractControllerE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten218AbstractToolWidgetE@ABI_2_0 4:4.10.2
- _ZTIN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTIN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten220AbstractGroupedViewsE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten221AbstractSelectionViewE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten221ModelCodecViewManagerE@ABI_2_0 4:4.10.2
@@ -447,8 +447,8 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTIN7Kasten238AbstractModelStreamEncoderConfigEditorE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten240AbstractModelExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten242ModelEncoderFileSystemExporterConfigEditorE@ABI_2_0 4:4.10.2
- _ZTIN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
- _ZTIN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTIN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTIN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten29DummyViewE@ABI_2_0 4:4.10.2
  _ZTIN7Kasten29StatusBarE@ABI_2_0 4:4.10.2
@@ -466,7 +466,7 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTSN7Kasten217AbstractLinePopupE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten218AbstractControllerE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten218AbstractToolWidgetE@ABI_2_0 4:4.10.2
- _ZTSN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTSN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten220AbstractGroupedViewsE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten221AbstractSelectionViewE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten221ModelCodecViewManagerE@ABI_2_0 4:4.10.2
@@ -482,8 +482,8 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTSN7Kasten238AbstractModelStreamEncoderConfigEditorE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten240AbstractModelExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten242ModelEncoderFileSystemExporterConfigEditorE@ABI_2_0 4:4.10.2
- _ZTSN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
- _ZTSN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTSN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTSN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten29DummyViewE@ABI_2_0 4:4.10.2
  _ZTSN7Kasten29StatusBarE@ABI_2_0 4:4.10.2
@@ -503,7 +503,7 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTVN7Kasten217AbstractLinePopupE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten218AbstractControllerE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten218AbstractToolWidgetE@ABI_2_0 4:4.10.2
- _ZTVN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTVN7Kasten219AbstractViewFactoryE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten220AbstractGroupedViewsE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten221AbstractSelectionViewE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten221ModelCodecViewManagerE@ABI_2_0 4:4.10.2
@@ -519,8 +519,8 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTVN7Kasten238AbstractModelStreamEncoderConfigEditorE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten240AbstractModelExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten242ModelEncoderFileSystemExporterConfigEditorE@ABI_2_0 4:4.10.2
- _ZTVN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
- _ZTVN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTVN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!armhf)_ZTVN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten29DummyViewE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten29StatusBarE@ABI_2_0 4:4.10.2
