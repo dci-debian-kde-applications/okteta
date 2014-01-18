@@ -39,7 +39,7 @@ Description: hexadecimal editor for binary files
 Package: okteta-dev
 Architecture: any
 Section: devel
-Depends: okteta (= ${binary:Version}), ${misc:Depends}, ${so:Depends}
+Depends: ${misc:Depends}, ${so:Depends}
 Description: Development files for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
