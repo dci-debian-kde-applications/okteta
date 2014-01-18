@@ -3,6 +3,7 @@ okteta (4:4.11.3-4) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Use the sodeps dh addon to simplify the list of library dependencies in
     okteta-dev.
+  * Add the pkg-config build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jan 2014 10:17:58 +0100
 
