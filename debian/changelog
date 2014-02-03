@@ -1,4 +1,6 @@
-okteta (4:4.11.3-4) UNRELEASED; urgency=medium
+okteta (4:4.11.5-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Use the sodeps dh addon to simplify the list of library dependencies in
@@ -6,7 +8,7 @@ okteta (4:4.11.3-4) UNRELEASED; urgency=medium
   * Add the pkg-config build dependency.
   * Remove extra okteta dependency from okteta-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jan 2014 10:17:58 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 
 okteta (4:4.11.3-3) unstable; urgency=low
 
