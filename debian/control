@@ -7,12 +7,14 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- pkg-config,
- shared-mime-info (>= 0.30),
- libqca2-dev (>= 2.0.0)
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libqca2-dev (>= 2.0.0),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               shared-mime-info (>= 0.30)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okteta.git
@@ -20,7 +22,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okteta.git
 
 Package: okteta
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: hexadecimal editor for binary files
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -53,7 +55,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastencontrollers
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: controllers Kasten library for Okteta
@@ -68,7 +70,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastencore
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: core Kasten library for Okteta
@@ -83,7 +85,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastengui
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: gui Kasten library for Okteta
@@ -98,7 +100,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetacore
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: core Okteta library
@@ -114,7 +116,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetagui
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: gui Okteta library
@@ -130,7 +132,7 @@ Architecture: any
 X-Debian-ABI: 1
 X-CMake-Target: oktetakastencontrollers
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: kastencontrollers library for Okteta
@@ -147,7 +149,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetakastencore
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: kastencore library for Okteta
@@ -163,7 +165,7 @@ Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetakastengui
 Section: libs
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: kastengui library for Okteta
