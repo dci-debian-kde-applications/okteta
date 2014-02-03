@@ -8,6 +8,9 @@ okteta (4:4.11.5-1) UNRELEASED; urgency=medium
   * Add the pkg-config build dependency.
   * Remove extra okteta dependency from okteta-dev.
 
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.5, no changes needed.
+
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 
 okteta (4:4.11.3-3) unstable; urgency=low
