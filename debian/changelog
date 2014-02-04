@@ -19,6 +19,7 @@ okteta (4:4.11.5-1) UNRELEASED; urgency=medium
   * New patch: install_poddata
   * New patch: install_containedstring
   * New patch: install_selection
+  * New patch: install_addressrangelist
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 

@@ -5,3 +5,4 @@ install_config-qca2
 install_poddata
 install_containedstring
 install_selection
+install_addressrangelist

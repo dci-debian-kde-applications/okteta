@@ -1,0 +1,12 @@
+Index: okteta/core/CMakeLists.txt
+===================================================================
+--- okteta.orig/core/CMakeLists.txt	2014-02-03 23:12:33.531835517 +0100
++++ okteta/core/CMakeLists.txt	2014-02-04 13:31:39.960871761 +0100
+@@ -78,6 +78,7 @@
+   range.h
+   numberrange.h
+   addressrange.h
++  addressrangelist.h
+   valuecodec.h
+   wordbytearrayservice.h
+ )
