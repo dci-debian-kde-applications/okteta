@@ -1,0 +1,12 @@
+Index: okteta/kasten/controllers/CMakeLists.txt
+===================================================================
+--- okteta.orig/kasten/controllers/CMakeLists.txt	2014-02-04 02:17:43.372634128 +0100
++++ okteta/kasten/controllers/CMakeLists.txt	2014-02-04 02:18:23.993605967 +0100
+@@ -537,6 +537,7 @@
+   document/info/documentinfotoolview.h
+   document/info/documentinfotool.h
+   document/overwriteonly/overwriteonlycontroller.h
++  ${CMAKE_CURRENT_BINARY_DIR}/config-qca2.h
+ )
+ 
+ kde4_add_library( ${oktetakastencontrollers_LIB}  SHARED ${OKTETA_KASTEN_CONTROLLERS_SRCS} )
