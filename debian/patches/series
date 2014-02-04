@@ -2,3 +2,4 @@ enable_debianabimanager.diff
 rename_modelstreamgeneratethread
 install_coordrange
 install_config-qca2
+install_poddata
