@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/kasten2/okteta1/bytearraydocumentfactory.h
+    /usr/include/kasten2/okteta1/bytearraydocument.h
+    /usr/include/kasten2/okteta1/bytearrayrawfilesynchronizerfactory.h
+    /usr/include/kasten2/okteta1/bytearrayrawfilesynchronizer.h
+    /usr/include/kasten2/okteta1/bytearrayselection.h
+    /usr/include/kasten2/okteta1/oktetakastencore_export.h
+</headers>
+
+<search_headers>
+    /usr/include/kasten2
+    /usr/include/okteta1
+    /usr/include/KDE
+    /usr/include/qt4
+</search_headers>
+
+<libs>
+    /usr/lib/libkasten2okteta1core.so
+</libs>
+
+</descriptor>

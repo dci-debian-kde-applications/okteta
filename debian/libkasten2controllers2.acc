@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    4.11.3
+</version>
+
+<headers>
+    /usr/include/kasten2/clipboardcontroller.h
+    /usr/include/kasten2/closecontroller.h
+    /usr/include/kasten2/copyascontroller.h
+    /usr/include/kasten2/creatorcontroller.h
+    /usr/include/kasten2/documentstool.h
+    /usr/include/kasten2/documentstoolview.h
+    /usr/include/kasten2/exportcontroller.h
+    /usr/include/kasten2/filesystembrowsertool.h
+    /usr/include/kasten2/filesystembrowsertoolview.h
+    /usr/include/kasten2/fullscreencontroller.h
+    /usr/include/kasten2/insertcontroller.h
+    /usr/include/kasten2/kastencontrollers_export.h
+    /usr/include/kasten2/loadercontroller.h
+    /usr/include/kasten2/modifiedbarcontroller.h
+    /usr/include/kasten2/quitcontroller.h
+    /usr/include/kasten2/readonlybarcontroller.h
+    /usr/include/kasten2/readonlycontroller.h
+    /usr/include/kasten2/selectcontroller.h
+    /usr/include/kasten2/setremotecontroller.h
+    /usr/include/kasten2/switchviewcontroller.h
+    /usr/include/kasten2/synchronizecontroller.h
+    /usr/include/kasten2/toollistmenucontroller.h
+    /usr/include/kasten2/versioncontroller.h
+    /usr/include/kasten2/versionviewtool.h
+    /usr/include/kasten2/versionviewtoolview.h
+    /usr/include/kasten2/viewareasplitcontroller.h
+    /usr/include/kasten2/viewlistmenucontroller.h
+    /usr/include/kasten2/zoombarcontroller.h
+    /usr/include/kasten2/zoomcontroller.h
+    /usr/include/KDE/Kasten2/ClipboardController
+    /usr/include/KDE/Kasten2/CloseController
+    /usr/include/KDE/Kasten2/CopyAsController
+    /usr/include/KDE/Kasten2/CreatorController
+    /usr/include/KDE/Kasten2/DocumentsTool
+    /usr/include/KDE/Kasten2/DocumentsToolView
+    /usr/include/KDE/Kasten2/ExportController
+    /usr/include/KDE/Kasten2/FileSystemBrowserTool
+    /usr/include/KDE/Kasten2/FileSystemBrowserToolView
+    /usr/include/KDE/Kasten2/FullScreenController
+    /usr/include/KDE/Kasten2/LoaderController
+    /usr/include/KDE/Kasten2/ModifiedBarController
+    /usr/include/KDE/Kasten2/QuitController
+    /usr/include/KDE/Kasten2/ReadOnlyBarController
+    /usr/include/KDE/Kasten2/ReadOnlyController
+    /usr/include/KDE/Kasten2/SelectController
+    /usr/include/KDE/Kasten2/SetRemoteController
+    /usr/include/KDE/Kasten2/SwitchViewController
+    /usr/include/KDE/Kasten2/SynchronizeController
+    /usr/include/KDE/Kasten2/ToolListMenuController
+    /usr/include/KDE/Kasten2/VersionController
+    /usr/include/KDE/Kasten2/VersionViewTool
+    /usr/include/KDE/Kasten2/VersionViewToolView
+    /usr/include/KDE/Kasten2/ViewListMenuController
+    /usr/include/KDE/Kasten2/ZoomBarController
+    /usr/include/KDE/Kasten2/ZoomController
+</headers>
+
+<libs>
+    /usr/lib/libkasten2controllers.so
+</libs>
+
+</descriptor>
