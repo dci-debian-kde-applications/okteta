@@ -14,6 +14,7 @@ okteta (4:4.11.5-1) UNRELEASED; urgency=medium
   * Add abi-compliance-checker info.
   * New patch: rename_modelstreamgeneratethread
   * New patch: install_coordrange
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 
