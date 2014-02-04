@@ -257,6 +257,7 @@ usr/include/kasten2/okteta1/checksumtoolfactory.h
 usr/include/kasten2/okteta1/checksumtoolview.h
 usr/include/kasten2/okteta1/checksumtoolviewfactory.h
 usr/include/kasten2/okteta1/config-qca2.h
+usr/include/kasten2/okteta1/containedstring.h
 usr/include/kasten2/okteta1/documentinfotool.h
 usr/include/kasten2/okteta1/documentinfotoolview.h
 usr/include/kasten2/okteta1/filtertool.h

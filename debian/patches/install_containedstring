@@ -1,0 +1,12 @@
+Index: okteta/kasten/controllers/CMakeLists.txt
+===================================================================
+--- okteta.orig/kasten/controllers/CMakeLists.txt	2014-02-04 02:30:48.243401922 +0100
++++ okteta/kasten/controllers/CMakeLists.txt	2014-02-04 12:12:25.635054878 +0100
+@@ -525,6 +525,7 @@
+   view/viewstatus/viewstatuscontroller.h
+   view/viewprofiles/viewprofilecontroller.h
+   view/viewprofiles/viewprofilesmanagecontroller.h
++  view/stringsextract/containedstring.h
+   view/stringsextract/stringsextracttool.h
+   view/stringsextract/stringsextracttoolview.h
+   view/stringsextract/stringsextracttoolfactory.h

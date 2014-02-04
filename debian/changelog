@@ -17,6 +17,7 @@ okteta (4:4.11.5-1) UNRELEASED; urgency=medium
   * Update install files.
   * New patch: install_config-qca2
   * New patch: install_poddata
+  * New patch: install_containedstring
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 
