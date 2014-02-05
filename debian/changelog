@@ -1,4 +1,4 @@
-okteta (4:4.12.2-1) UNRELEASED; urgency=medium
+okteta (4:4.11.5-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
@@ -20,9 +20,8 @@ okteta (4:4.12.2-1) UNRELEASED; urgency=medium
   * New patch: install_containedstring
   * New patch: install_selection
   * New patch: install_addressrangelist
-  * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:01:48 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:42:37 +0100
 
 okteta (4:4.11.3-3) unstable; urgency=low
 
