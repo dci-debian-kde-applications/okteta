@@ -1,8 +1,4 @@
 enable_debianabimanager.diff
-rename_modelstreamgeneratethread
-install_coordrange
-install_config-qca2
-install_poddata
-install_containedstring
-install_selection
-install_addressrangelist
+okteta-fix_wrong_include
+okteta-fix_forwarding_to_meanwhile
+okteta-install_missing_headers

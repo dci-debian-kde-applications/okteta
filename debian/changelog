@@ -12,14 +12,10 @@ okteta (4:4.12.2-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtests.
   * Add abi-compliance-checker info.
-  * New patch: rename_modelstreamgeneratethread
-  * New patch: install_coordrange
   * Update install files.
-  * New patch: install_config-qca2
-  * New patch: install_poddata
-  * New patch: install_containedstring
-  * New patch: install_selection
-  * New patch: install_addressrangelist
+  * New upstream patch: okteta-fix_wrong_include
+  * New upstream patch: okteta-fix_forwarding_to_meanwhile
+  * New upstream patch: okteta-install_missing_headers
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:33 +0100
 

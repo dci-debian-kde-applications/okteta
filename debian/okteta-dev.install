@@ -343,7 +343,6 @@ usr/include/okteta1/abstractcolumnrenderer.h
 usr/include/okteta1/abstractcolumnstylist.h
 usr/include/okteta1/address.h
 usr/include/okteta1/addressrange.h
-usr/include/okteta1/addressrangelist.h
 usr/include/okteta1/arraychangemetrics.h
 usr/include/okteta1/bookmark.h
 usr/include/okteta1/bookmarkable.h

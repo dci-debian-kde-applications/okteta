@@ -28,7 +28,6 @@
     /usr/include/okteta1/abstractbytearraymodel.h
     /usr/include/okteta1/address.h
     /usr/include/okteta1/addressrange.h
-    /usr/include/okteta1/addressrangelist.h
     /usr/include/okteta1/arraychangemetrics.h
     /usr/include/okteta1/bookmarkable.h
     /usr/include/okteta1/bookmark.h
