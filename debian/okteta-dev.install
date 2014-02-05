@@ -132,10 +132,12 @@ usr/include/KDE/Okteta1/LineRange
 usr/include/KDE/Okteta1/NumberRange
 usr/include/KDE/Okteta1/OffsetColumnRenderer
 usr/include/KDE/Okteta1/OffsetFormat
+usr/include/KDE/Okteta1/PieceTableByteArrayModel
 usr/include/KDE/Okteta1/Range
 usr/include/KDE/Okteta1/Size
 usr/include/KDE/Okteta1/ValueByteArrayColumnRenderer
 usr/include/KDE/Okteta1/ValueCodec
+usr/include/KDE/Okteta1/Versionable
 usr/include/KDE/Okteta1/WidgetColumnStylist
 usr/include/KDE/Okteta1/WordByteArrayService
 usr/include/kasten2/abstractconnectjob.h
@@ -378,11 +380,13 @@ usr/include/okteta1/oktetacore.h
 usr/include/okteta1/oktetacore_export.h
 usr/include/okteta1/oktetagui.h
 usr/include/okteta1/oktetagui_export.h
+usr/include/okteta1/piecetablebytearraymodel.h
 usr/include/okteta1/range.h
 usr/include/okteta1/selection.h
 usr/include/okteta1/size.h
 usr/include/okteta1/valuebytearraycolumnrenderer.h
 usr/include/okteta1/valuecodec.h
+usr/include/okteta1/versionable.h
 usr/include/okteta1/widgetcolumnstylist.h
 usr/include/okteta1/wordbytearrayservice.h
 usr/lib/libkasten2controllers.so

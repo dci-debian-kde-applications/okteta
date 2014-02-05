@@ -21,9 +21,11 @@
     /usr/include/KDE/Okteta1/Character
     /usr/include/KDE/Okteta1/CharCodec
     /usr/include/KDE/Okteta1/NumberRange
+    /usr/include/KDE/Okteta1/PieceTableByteArrayModel
     /usr/include/KDE/Okteta1/Range
     /usr/include/KDE/Okteta1/Size
     /usr/include/KDE/Okteta1/ValueCodec
+    /usr/include/KDE/Okteta1/Versionable
     /usr/include/KDE/Okteta1/WordByteArrayService
     /usr/include/okteta1/abstractbytearraymodel.h
     /usr/include/okteta1/address.h
@@ -43,9 +45,11 @@
     /usr/include/okteta1/numberrange.h
     /usr/include/okteta1/oktetacore_export.h
     /usr/include/okteta1/oktetacore.h
+    /usr/include/okteta1/piecetablebytearraymodel.h
     /usr/include/okteta1/range.h
     /usr/include/okteta1/size.h
     /usr/include/okteta1/valuecodec.h
+    /usr/include/okteta1/versionable.h
     /usr/include/okteta1/wordbytearrayservice.h
 </headers>
 
