@@ -20,7 +20,6 @@ okteta (4:4.12.2-1) UNRELEASED; urgency=medium
   * New patch: install_containedstring
   * New patch: install_selection
   * New patch: install_addressrangelist
-  * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:33 +0100
 
