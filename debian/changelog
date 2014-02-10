@@ -1,4 +1,4 @@
-okteta (4:4.12.2-1) UNRELEASED; urgency=medium
+okteta (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
 
@@ -19,7 +19,7 @@ okteta (4:4.12.2-1) UNRELEASED; urgency=medium
   * Patch bytearraydocument.h after build.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:33 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:27 +0100
 
 okteta (4:4.11.3-3) unstable; urgency=low
 
