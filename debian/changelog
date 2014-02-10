@@ -17,6 +17,7 @@ okteta (4:4.12.2-1) UNRELEASED; urgency=medium
   * New upstream patch: okteta-fix_forwarding_to_meanwhile
   * New upstream patch: okteta-install_missing_headers
   * Patch bytearraydocument.h after build.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:33 +0100
 
