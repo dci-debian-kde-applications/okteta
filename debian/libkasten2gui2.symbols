@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.12.3 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x
 libkasten2gui.so.2 libkasten2gui2 #MINVER#
  ABI_2_0@ABI_2_0 4:4.10.2
  _ZN7Kasten211ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
@@ -524,8 +524,8 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZTVN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten29DummyViewE@ABI_2_0 4:4.10.2
  _ZTVN7Kasten29StatusBarE@ABI_2_0 4:4.10.2
- (optional=gccinternal|c++)"construction vtable for KXmlGuiWindow-in-Kasten2::ShellWindow@ABI_2_0" 4:4.10.2
- (optional=gccinternal|c++)"construction vtable for KXmlGuiWindow-in-Kasten2::SingleViewWindow@ABI_2_0" 4:4.10.2
+ (optional=gccinternal|arch=sparc|c++)"construction vtable for KXmlGuiWindow-in-Kasten2::ShellWindow@ABI_2_0" 4:4.10.2
+ (optional=gccinternal|arch=sparc|c++)"construction vtable for KXmlGuiWindow-in-Kasten2::SingleViewWindow@ABI_2_0" 4:4.10.2
  (c++)"non-virtual thunk to Kasten2::AbstractLinePopup::~AbstractLinePopup()@ABI_2_0" 4:4.10.2
  (c++)"non-virtual thunk to Kasten2::AbstractModelDataGeneratorConfigEditor::~AbstractModelDataGeneratorConfigEditor()@ABI_2_0" 4:4.10.2
  (c++)"non-virtual thunk to Kasten2::AbstractModelExporterConfigEditor::~AbstractModelExporterConfigEditor()@ABI_2_0" 4:4.10.2
