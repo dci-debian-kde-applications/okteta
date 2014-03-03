@@ -1,11 +1,11 @@
-okteta (4:4.12.3-1~) UNRELEASED; urgency=medium
+okteta (4:4.12.3-1) experimental; urgency=medium
 
   * New upstream release.
   * Remove patches: okteta-fix_forwarding_to_meanwhile okteta-
     fix_wrong_include okteta-install_missing_headers
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:30 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:22 +0100
 
 okteta (4:4.12.2-1) experimental; urgency=medium
 
