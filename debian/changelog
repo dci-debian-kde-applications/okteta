@@ -1,8 +1,8 @@
-okteta (4:4.12.4-1) UNRELEASED; urgency=medium
+okteta (4:4.12.4-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 29 Mar 2014 23:59:37 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Apr 2014 17:05:54 +0200
 
 okteta (4:4.12.3-1) experimental; urgency=medium
 
