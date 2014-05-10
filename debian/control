@@ -108,7 +108,7 @@ Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package the core part of the Okteta libraries.
+ This package provides the core part of the Okteta libraries.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -124,7 +124,7 @@ Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package the GUI part of the Okteta libraries.
+ This package provides the GUI part of the Okteta libraries.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -140,7 +140,7 @@ Description: kastencontrollers library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package the part of the Okteta libraries interfacing with Kasten
+ This package provides the part of the Okteta libraries interfacing with Kasten
  controllers.
  .
  This package is part of the KDE Software Development Kit module.
@@ -157,7 +157,7 @@ Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package the part of the Okteta libraries interfacing with Kasten core.
+ This package provides the part of the Okteta libraries interfacing with Kasten core.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -173,6 +173,6 @@ Description: kastengui library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package the part of the Okteta libraries interfacing with Kasten GUI.
+ This package provides the part of the Okteta libraries interfacing with Kasten GUI.
  .
  This package is part of the KDE Software Development Kit module.
