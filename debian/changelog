@@ -1,4 +1,4 @@
-okteta (4:4.13.1-1) UNRELEASED; urgency=medium
+okteta (4:4.13.1-1) unstable; urgency=medium
 
   [ Adrien Grellier ]
   * typo in the package's descriptions (Closes: #747153)
@@ -7,7 +7,7 @@ okteta (4:4.13.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 12:45:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 14:38:55 +0200
 
 okteta (4:4.12.4-1) unstable; urgency=medium
 
