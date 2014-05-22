@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.10.2
  _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
@@ -84,9 +84,9 @@ libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  _ZN7Kasten213ByteArrayViewD1Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten213ByteArrayViewD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten219AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_1_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD0Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD1Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten219AbstractViewFactoryD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten219AbstractViewFactoryD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten219AbstractViewFactoryD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten219AbstractViewFactoryD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewFactory13createViewForEPNS_16AbstractDocumentE@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewFactoryC1EPNS_27ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
@@ -188,12 +188,12 @@ libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  _ZN7Kasten232ByteArrayViewProfileSynchronizerD0Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten232ByteArrayViewProfileSynchronizerD1Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten232ByteArrayViewProfileSynchronizerD2Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten248ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@ABI_1_0 4:4.10.2
  _ZN7Kasten248ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@ABI_1_0 4:4.10.2
  _ZNK6Okteta15AddressComboBox10metaObjectEv@ABI_1_0 4:4.10.2

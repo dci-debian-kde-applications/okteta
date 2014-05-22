@@ -5,6 +5,7 @@ okteta (4:4.13.1-1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 12:45:00 +0200
 

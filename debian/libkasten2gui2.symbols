@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkasten2gui.so.2 libkasten2gui2 #MINVER#
  ABI_2_0@ABI_2_0 4:4.10.2
  _ZN7Kasten211ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
@@ -167,9 +167,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten218AbstractToolWidgetD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidgetD2Ev@ABI_2_0 4:4.10.2
  (optional=inline|arch=!armhf)_ZN7Kasten219AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten219AbstractViewFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten219AbstractViewFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten219AbstractViewFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten219AbstractViewFactoryD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten220AbstractGroupedViews12closeRequestERK5QListIPNS_12AbstractViewEE@ABI_2_0 4:4.10.2
@@ -243,9 +243,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten222SingleDocumentStrategyD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten222SingleDocumentStrategyD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten222SingleDocumentStrategyD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten223AbstractOverwriteDialogD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten223AbstractOverwriteDialogD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten223AbstractOverwriteDialogD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten223AbstractOverwriteDialogD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten223AbstractOverwriteDialogD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten223AbstractOverwriteDialogD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractDocumentStrategy11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractDocumentStrategy11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractDocumentStrategy14focusRequestedEPNS_16AbstractDocumentE@ABI_2_0 4:4.10.2
@@ -266,9 +266,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten224AbstractXmlGuiControllerD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractXmlGuiControllerD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractXmlGuiControllerD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten225AbstractSaveDiscardDialogD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten225AbstractSaveDiscardDialogD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten225AbstractSaveDiscardDialogD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten225AbstractSaveDiscardDialogD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten225AbstractSaveDiscardDialogD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten225AbstractSaveDiscardDialogD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor15validityChangedEb@ABI_2_0 4:4.10.2
@@ -296,9 +296,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten238AbstractModelStreamEncoderConfigEditorD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten238AbstractModelStreamEncoderConfigEditorD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten238AbstractModelStreamEncoderConfigEditorD2Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten240AbstractModelExporterConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten240AbstractModelExporterConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten240AbstractModelExporterConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten240AbstractModelExporterConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten240AbstractModelExporterConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64)_ZN7Kasten240AbstractModelExporterConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditor11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditor16staticMetaObjectE@ABI_2_0 4:4.10.2
@@ -307,12 +307,12 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten242ModelEncoderFileSystemExporterConfigEditorD2Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryC1EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryC2EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_2_0 4:4.10.2
  _ZN7Kasten249ModelEncoderFileSystemExporterConfigEditorFactoryD0Ev@ABI_2_0 4:4.10.2

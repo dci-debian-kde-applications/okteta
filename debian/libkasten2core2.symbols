@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 armhf
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkasten2core.so.2 libkasten2core2 #MINVER#
  ABI_2_0@ABI_2_0 4:4.10.2
  _ZN7Kasten210JobManager10executeJobEP4KJob@ABI_2_0 4:4.10.2
@@ -165,9 +165,9 @@ libkasten2core.so.2 libkasten2core2 #MINVER#
  _ZN7Kasten223AbstractDocumentFactoryD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten223AbstractDocumentFactoryD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten223AbstractDocumentFactoryD2Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten223AbstractOverwriteDialogD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten223AbstractOverwriteDialogD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten223AbstractOverwriteDialogD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten223AbstractOverwriteDialogD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten223AbstractOverwriteDialogD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten223AbstractOverwriteDialogD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten223AbstractSyncToRemoteJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten223AbstractSyncToRemoteJob11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten223AbstractSyncToRemoteJob16staticMetaObjectE@ABI_2_0 4:4.10.2
@@ -218,9 +218,9 @@ libkasten2core.so.2 libkasten2core2 #MINVER#
  _ZN7Kasten225AbstractModelSynchronizerD0Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten225AbstractModelSynchronizerD1Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten225AbstractModelSynchronizerD2Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten225AbstractSaveDiscardDialogD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten225AbstractSaveDiscardDialogD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal|arch=!armhf)_ZN7Kasten225AbstractSaveDiscardDialogD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten225AbstractSaveDiscardDialogD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten225AbstractSaveDiscardDialogD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=!amd64 !armhf)_ZN7Kasten225AbstractSaveDiscardDialogD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten225AbstractSyncFromRemoteJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten225AbstractSyncFromRemoteJob11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten225AbstractSyncFromRemoteJob16staticMetaObjectE@ABI_2_0 4:4.10.2
