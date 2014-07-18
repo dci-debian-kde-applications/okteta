@@ -1,9 +1,9 @@
-okteta (4:4.13.3-1) UNRELEASED; urgency=medium
+okteta (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
   * Update symbols with 4:4.13.1-1 build logs.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 12:51:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Jul 2014 08:45:58 +0200
 
 okteta (4:4.13.1-1) unstable; urgency=medium
 
