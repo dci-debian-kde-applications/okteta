@@ -3,6 +3,7 @@ usr/bin/struct2osd.sh
 usr/lib/kde4/libkbytearrayedit.so
 usr/lib/kde4/oktetapart.so
 usr/lib/kde4/plugins/designer/oktetadesignerplugin.so
+usr/share/appdata/okteta.appdata.xml
 usr/share/applications/kde4/okteta.desktop
 usr/share/doc/kde/HTML/en/okteta/common
 usr/share/doc/kde/HTML/en/okteta/index.cache.bz2
