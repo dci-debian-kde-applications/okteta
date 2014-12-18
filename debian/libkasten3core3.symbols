@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.0 amd64 arm64 armhf powerpc ppc64el
 libkasten3core.so.3 libkasten3core3 #MINVER#
  ABI_3_0@ABI_3_0 4:14.12.0
  _ZN6Kasten10JobManager10executeJobEP4KJob@ABI_3_0 4:14.12.0
@@ -469,13 +469,13 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZTVN6Kasten21DocumentCreateManagerE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten22AbstractModelSelectionE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten23AbstractDocumentFactoryE@ABI_3_0 4:14.12.0
- _ZTVN6Kasten23AbstractOverwriteDialogE@ABI_3_0 4:14.12.0
+ (arch=!armhf)_ZTVN6Kasten23AbstractOverwriteDialogE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten23AbstractSyncToRemoteJobE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten23ModelDataGenerateThreadE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten23ModelStreamEncodeThreadE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten25AbstractFileSystemLoadJobE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten25AbstractModelSynchronizerE@ABI_3_0 4:14.12.0
- _ZTVN6Kasten25AbstractSaveDiscardDialogE@ABI_3_0 4:14.12.0
+ (arch=!armhf)_ZTVN6Kasten25AbstractSaveDiscardDialogE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten25AbstractSyncFromRemoteJobE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten25AbstractSyncWithRemoteJobE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten26AbstractModelDataGeneratorE@ABI_3_0 4:14.12.0
