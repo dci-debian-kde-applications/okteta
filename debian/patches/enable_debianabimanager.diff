@@ -7,14 +7,14 @@ For more information about DebianABIManager, refer to
 
 
 
-Index: okteta/CMakeLists.txt
+Index: okteta-14.12.0/CMakeLists.txt
 ===================================================================
---- okteta.orig/CMakeLists.txt	2013-09-14 21:57:14.547055169 +0200
-+++ okteta/CMakeLists.txt	2013-09-14 21:57:53.705474741 +0200
-@@ -93,3 +93,6 @@
- endif (QT_QTDECLARATIVE_FOUND AND OKTETA_MOBILE_UI)
+--- okteta-14.12.0.orig/CMakeLists.txt
++++ okteta-14.12.0/CMakeLists.txt
+@@ -116,3 +116,6 @@ add_subdirectory( parts )
+ add_subdirectory( program )
  
- macro_display_feature_log()
+ feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 +
 +# Add support for DebianABIManager
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

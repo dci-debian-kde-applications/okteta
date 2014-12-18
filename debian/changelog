@@ -1,3 +1,12 @@
+okteta (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, remaining changes:
+  * Experimentally drop change in debian/rules, work around a link failure
+    when built with -O3 on ppc64el.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Dec 2014 12:29:15 +0100
+
 okteta (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
@@ -24,6 +33,72 @@ okteta (4:4.13.3-1) unstable; urgency=medium
   * Update symbols with 4:4.13.1-1 build logs.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Jul 2014 08:45:58 +0200
+
+okteta (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Add new file to install.
+  * Change std shortname in copyright to LGP2.1-KDEeV. 
+  * Fix copyright to use GPL-KDEeV as short license.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:30:05 -0700
+
+okteta (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:51:13 +0200
+
+okteta (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:35:56 +0200
+
+okteta (4:4.13.97-0ubuntu2) utopic; urgency=medium
+
+  * Work around a link failure when built with -O3 on ppc64el.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 05 Aug 2014 12:56:54 +0200
+
+okteta (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 31 Jul 2014 12:51:12 -0700
+
+okteta (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Update symbols files for new gcc
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:51:36 +0200
+
+okteta (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:39:46 +0200
+
+okteta (4:4.13.2-0ubuntu2) utopic; urgency=medium
+
+  * Drop X-Debian-ABI if set to 0 (so we don't have to re-generate all
+    symbol files)
+  * Refresh libkasten2core2.symbols
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 24 Jun 2014 20:26:02 +0200
+
+okteta (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian
+   - Add Debian ABI version to libkasten2controllers2abi1
+     due to upstream API abreak
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:03 +0100
 
 okteta (4:4.13.1-1) unstable; urgency=medium
 
@@ -100,3 +175,141 @@ okteta (4:4.11.2-1) experimental; urgency=low
   * First release of kdesdk after being split by upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 10:59:34 +0200
+
+okteta (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:25:09 +0100
+
+okteta (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:52:59 +0200
+
+okteta (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:52:08 +0100
+
+okteta (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:59:25 +0000
+
+okteta (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 21:13:36 +0100
+
+okteta (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:24:31 +0000
+
+okteta (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:38:04 +0000
+
+okteta (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:40:32 +0000
+
+okteta (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:39:30 +0000
+
+okteta (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:35:24 +0100
+
+okteta (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:56:40 +0100
+
+okteta (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:51:15 +0100
+
+okteta (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:37:55 +0100
+
+okteta (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:40:25 +0100
+
+okteta (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 20:01:29 +0100
+
+okteta (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:33:29 +0000
+
+okteta (4:4.10.90-0ubuntu3) saucy; urgency=low
+
+  * Fix libkasten2gui2.symbols for !armhf 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 14 Jul 2013 17:58:24 +0200
+
+okteta (4:4.10.90-0ubuntu2) saucy; urgency=low
+
+  * Update debian/libkasten2core2.symbols
+    for all architectures.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Sat, 29 Jun 2013 21:03:37 +0800
+
+okteta (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  [ Michał Zając ]
+  * New upstream bet release
+
+  [ Philip Muškovac ]
+  * Update debian/libkasten2core2.symbols
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:29:11 +0100
+
+okteta (4:4.10.80-0ubuntu2) saucy; urgency=low
+
+  * Update libkasten2core2.symbols for symbols not on ARM
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Jun 2013 15:41:22 +0100
+
+okteta (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Initial package, split from okteta
+  * Add Debian ABI version to libkasten2controllers2abi1 and
+    libkasten2okteta1controllers1abi1 due to upstream API abreak
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:30:29 +0100

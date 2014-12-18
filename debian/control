@@ -1,7 +1,7 @@
 Source: okteta
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -9,17 +9,26 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
-               libqca2-dev (>= 2.0.0),
+               extra-cmake-modules,
+               kdoctools-dev,
+               kio-dev,
+               libkf5bookmarks-dev,
+               libkf5dbusaddons-dev,
+               libkf5i18n-dev,
+               libkf5kcmutils-dev,
+	       libkf5newstuff-dev,
+	       libkf5parts-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               shared-mime-info (>= 0.30)
-Standards-Version: 3.9.5
+               qtbase5-dev,
+	       qttools5-dev,
+	       qtscript5-dev,
+               shared-mime-info (>= 0.30),
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/okteta.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/okteta.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/okteta.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/okteta.git
 
 Package: okteta
 Architecture: any
@@ -51,14 +60,12 @@ Description: Development files for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2controllers2
+Package: libkasten3controllers3
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastencontrollers
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: controllers Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -66,14 +73,12 @@ Description: controllers Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2core2
+Package: libkasten3core3
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastencore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: core Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -81,14 +86,12 @@ Description: core Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2gui2
+Package: libkasten3gui3
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: kastengui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: gui Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -96,14 +99,12 @@ Description: gui Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libokteta1core1
+Package: libokteta2core2
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetacore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -112,14 +113,12 @@ Description: core Okteta library
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libokteta1gui1
+Package: libokteta2gui2
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetagui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -128,14 +127,12 @@ Description: gui Okteta library
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2okteta1controllers1abi1
+Package: libkasten3okteta1controllers1
 Architecture: any
-X-Debian-ABI: 1
+X-Debian-ABI: 0
 X-CMake-Target: oktetakastencontrollers
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: kastencontrollers library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -145,34 +142,32 @@ Description: kastencontrollers library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2okteta1core1
+Package: libkasten3okteta1core1
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetakastencore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package provides the part of the Okteta libraries interfacing with Kasten core.
+ This package provides the part of the Okteta libraries interfacing
+ with Kasten core.
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkasten2okteta1gui1
+Package: libkasten3okteta1gui1
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: oktetakastengui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: okteta (<< 4:4.6)
-Breaks: okteta (<< 4:4.6)
 Description: kastengui library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package provides the part of the Okteta libraries interfacing with Kasten GUI.
+ This package provides the part of the Okteta libraries interfacing
+ with Kasten GUI.
  .
  This package is part of the KDE Software Development Kit module.

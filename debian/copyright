@@ -8,7 +8,7 @@ Files: *
 Copyright: 2012, Alessandro Di Federico <ale@clearmind.me>
            2009-2013, Alex Richardson <alex.richardson@gmx.de>
            2003-2012, Friedrich W. H. Kossebau <kossebau@kde.org>
-License: LGPL-2.1 or LGPL-3 or later editions as approved by KDE eV
+License: LGPL-2.1-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -44,7 +44,7 @@ Files: mobile/program/about.cpp
        program/program.cpp
        program/program.h
 Copyright: 2006-2012, Friedrich W. H. Kossebau <kossebau@kde.org>
-License: GPL-2 or GPL-3 or later editions as approved by KDE eV
+License: GPL-2 or GPL-3 or GPL-KDEeV
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of
@@ -113,6 +113,7 @@ Files: designer/examples/main.cpp
        kasten/controllers/view/libbytearrayfilter/filter/template/template_bytearrayfilterparametersetedit.h
 Copyright: 2009-2011, Friedrich W. H. Kossebau <kossebau@kde.org>
 License: public-domain
+ These files have no copyright restrictions.
 
 Files: libs/kasten/core/tests/util/filesystem.cpp
        libs/kasten/core/tests/util/filesystem.h
