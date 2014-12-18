@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.0 amd64 arm64 armhf i386 powerpc ppc64el
 libkasten3gui.so.3 libkasten3gui3 #MINVER#
  ABI_3_0@ABI_3_0 4:14.12.0
  _ZN6Kasten11ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@ABI_3_0 4:14.12.0
@@ -415,7 +415,7 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTVN6Kasten17AbstractLinePopupE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten18AbstractControllerE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten18AbstractToolWidgetE@ABI_3_0 4:14.12.0
- _ZTVN6Kasten19AbstractViewFactoryE@ABI_3_0 4:14.12.0
+ (arch=!armhf)_ZTVN6Kasten19AbstractViewFactoryE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten20AbstractGroupedViewsE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten21AbstractSelectionViewE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten21ModelCodecViewManagerE@ABI_3_0 4:14.12.0
@@ -431,8 +431,8 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTVN6Kasten38AbstractModelStreamEncoderConfigEditorE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten40AbstractModelExporterConfigEditorFactoryE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@ABI_3_0 4:14.12.0
- _ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_3_0 4:14.12.0
- _ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_3_0 4:14.12.0
+ (arch=!armhf)_ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_3_0 4:14.12.0
+ (arch=!armhf)_ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten9DummyViewE@ABI_3_0 4:14.12.0
  _ZTVN6Kasten9StatusBarE@ABI_3_0 4:14.12.0

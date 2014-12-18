@@ -1,3 +1,11 @@
+okteta (4:14.12.0-0ubuntu3) vivid; urgency=medium
+
+  * Update .symbols files
+  * Add back change in debian/rules, work around a link failure
+    when built with -O3 on ppc64el.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 19:28:06 +0100
+
 okteta (4:14.12.0-0ubuntu2) vivid; urgency=medium
 
   * Update .symbols files
