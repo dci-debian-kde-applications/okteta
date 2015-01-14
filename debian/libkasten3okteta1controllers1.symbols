@@ -2,7 +2,8 @@
 libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  ABI_1_0@ABI_1_0 4:14.12.0
  (optional=templinst)_Z17qRegisterMetaTypeI12QScriptValueEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
- (optional=templinst)_Z17qRegisterMetaTypeI13SafeReferenceEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=!armhf)_Z17qRegisterMetaTypeI13SafeReferenceEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=armhf)_Z17qRegisterMetaTypeI4Utf8EiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI4Utf8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI7Binary8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
@@ -1092,8 +1093,8 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN5QHashIihE13duplicateNodeEPN9QHashData4NodeEPv@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN5QHashIihEixERKi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN5QListI12QScriptValueE18detach_helper_growEii@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 powerpc ppc64el)_ZN5QListI12QScriptValueED1Ev@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 powerpc ppc64el)_ZN5QListI12QScriptValueED2Ev@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=arm64 armhf powerpc ppc64el)_ZN5QListI12QScriptValueED1Ev@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=arm64 armhf powerpc ppc64el)_ZN5QListI12QScriptValueED2Ev@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE18detach_helper_growEii@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE6appendERKS2_@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN5QListIP22PointerDataInformationE18detach_helper_growEii@ABI_1_0 4:14.12.0
@@ -1648,7 +1649,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN7QVectorIfE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_ZN7QVectorIhE6appendERKh@ABI_1_0 4:14.12.0
- (optional=templinst|arch=!powerpc)_ZN7QVectorIhE6detachEv@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=!armhf !i386 !powerpc)_ZN7QVectorIhE6detachEv@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE7reserveEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIiE6resizeEi@ABI_1_0 4:14.12.0
@@ -1674,6 +1675,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN9OsdParser12arrayFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser12parseElementERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser12readPropertyERK11QDomElementRK7QStringS5_@ABI_1_0 4:14.12.0
+ (arch=armhf i386)_ZN9OsdParser12unionFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser13stringFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser14pointerFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser15bitfieldFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
@@ -1725,7 +1727,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK13Float64Editor10metaObjectEv@ABI_1_0 4:14.12.0
  _ZNK13Float64Editor4dataEv@ABI_1_0 4:14.12.0
  _ZNK14Char8Validator8validateER7QStringRi@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 powerpc ppc64el)_ZNK14QStringBuilderIS_I7QStringS0_ES0_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=arm64 armhf i386 powerpc ppc64el)_ZNK14QStringBuilderIS_I7QStringS0_ES0_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_ZNK14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
  _ZNK14Utf8StringData11stringValueEi@ABI_1_0 4:14.12.0
  _ZNK14Utf8StringData14completeStringEb@ABI_1_0 4:14.12.0
@@ -1741,21 +1743,23 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK15AsciiStringData6sizeAtEj@ABI_1_0 4:14.12.0
  _ZNK15AsciiStringData8charTypeEv@ABI_1_0 4:14.12.0
  _ZNK15AsciiStringData8typeNameEv@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZNK15DataInformation10isTopLevelEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation10sizeStringEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation13tooltipStringEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation14customToStringERK12QScriptValue@ABI_1_0 4:14.12.0
  _ZNK15DataInformation14fullObjectPathEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation14positionInFileEi@ABI_1_0 4:14.12.0
  _ZNK15DataInformation15valueStringImplEv@ABI_1_0 4:14.12.0
- (arch=!arm64 !powerpc !ppc64el)_ZNK15DataInformation16toStringFunctionEv@ABI_1_0 4:14.12.0
+ (arch=!arm64 !armhf !powerpc !ppc64el)_ZNK15DataInformation16toStringFunctionEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation18effectiveByteOrderEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation21byteOrderFromSettingsEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation23topLevelDataInformationEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation3rowEv@ABI_1_0 4:14.12.0
  _ZNK15DataInformation4dataEii@ABI_1_0 4:14.12.0
  _ZNK15DataInformation5childERK7QString@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZNK15DataInformation5flagsEib@ABI_1_0 4:14.12.0
  _ZNK15DataInformation6loggerEv@ABI_1_0 4:14.12.0
- (arch=!arm64 !powerpc !ppc64el)_ZNK15DataInformation8typeNameEv@ABI_1_0 4:14.12.0
+ (arch=!arm64 !armhf !powerpc !ppc64el)_ZNK15DataInformation8typeNameEv@ABI_1_0 4:14.12.0
  _ZNK15Utf16StringData11stringValueEi@ABI_1_0 4:14.12.0
  _ZNK15Utf16StringData14completeStringEb@ABI_1_0 4:14.12.0
  _ZNK15Utf16StringData4sizeEv@ABI_1_0 4:14.12.0
@@ -2315,6 +2319,8 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK31UnsignedBitfieldDataInformation16createEditWidgetEP7QWidget@ABI_1_0 4:14.12.0
  _ZNK31UnsignedBitfieldDataInformation19valueAsQScriptValueEv@ABI_1_0 4:14.12.0
  _ZNK31UnsignedBitfieldDataInformation5cloneEv@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZNK32DataInformationWithDummyChildren34isDataInformationWithDummyChildrenEv@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZNK32DataInformationWithDummyChildren7indexOfEPK15DataInformation@ABI_1_0 4:14.12.0
  (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8findNodeERKS1_Pj@ABI_1_0 4:14.12.0
  (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8findNodeERKS3_Pj@ABI_1_0 4:14.12.0
  (optional=templinst)_ZNK5QHashIi8QVariantE8findNodeERKiPj@ABI_1_0 4:14.12.0
@@ -2554,6 +2560,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZTV31AbstractBitfieldDataInformation@ABI_1_0 4:14.12.0
  _ZTV31PrimitiveDataInformationWrapper@ABI_1_0 4:14.12.0
  _ZTV31UnsignedBitfieldDataInformation@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZTV32DataInformationWithDummyChildren@ABI_1_0 4:14.12.0
  _ZTV9OsdParser@ABI_1_0 4:14.12.0
  _ZTVN20ScriptValueConverter25ScriptValueChildrenParserE@ABI_1_0 4:14.12.0
  _ZTVN6Kasten10FilterToolE@ABI_1_0 4:14.12.0
