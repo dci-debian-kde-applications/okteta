@@ -1,6 +1,7 @@
 okteta (4:14.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * batchpatch new symbols. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 06 Feb 2015 12:23:08 -0800
 
