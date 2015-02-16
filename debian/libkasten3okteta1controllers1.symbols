@@ -1,16 +1,16 @@
-# SymbolsHelper-Confirmed: 4:14.12.2 amd64
+# SymbolsHelper-Confirmed: 4:14.12.2 amd64 arm64 armhf i386 powerpc ppc64el
 libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  ABI_1_0@ABI_1_0 4:14.12.0
  (optional=templinst)_Z17qRegisterMetaTypeI12QScriptValueEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=!armhf)_Z17qRegisterMetaTypeI13SafeReferenceEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=armhf)_Z17qRegisterMetaTypeI4Utf8EiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
- (optional=templinst)_Z27qRegisterNormalizedMetaTypeI12Hexadecimal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
+ (optional=templinst|arch=amd64 armhf i386)_Z27qRegisterNormalizedMetaTypeI12Hexadecimal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
  (optional=templinst|arch=arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI4Utf8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
- (optional=templinst|arch=amd64 arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
- (optional=templinst)_Z27qRegisterNormalizedMetaTypeI6Octal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
+ (optional=templinst)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=amd64 armhf i386)_Z27qRegisterNormalizedMetaTypeI6Octal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
  (optional=templinst|arch=arm64 powerpc ppc64el)_Z27qRegisterNormalizedMetaTypeI7Binary8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.0
- (optional=templinst)_Z27qRegisterNormalizedMetaTypeI7Float32EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
- (optional=templinst)_Z27qRegisterNormalizedMetaTypeI7Float64EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
+ (optional=templinst|arch=amd64 armhf i386)_Z27qRegisterNormalizedMetaTypeI7Float32EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
+ (optional=templinst|arch=amd64 armhf i386)_Z27qRegisterNormalizedMetaTypeI7Float64EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@ABI_1_0 4:14.12.2
  _Z40LOG_KASTEN_OKTETA_CONTROLLERS_STRUCTURESv@ABI_1_0 4:14.12.0
  _ZN10StringData15setLittleEndianEb@ABI_1_0 4:14.12.0
  _ZN10StringData23setTerminationCodePointEj@ABI_1_0 4:14.12.0
@@ -1657,7 +1657,6 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN7QVectorIiE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
  (optional=templinst|arch=arm64 powerpc ppc64el)_ZN7QVectorIjE6appendERKj@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 powerpc ppc64el)_ZN7QVectorIjE6detachEv@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE7reserveEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIsE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
@@ -1668,7 +1667,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN7QVectorIxE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIxE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
- (optional=templinst)_ZN7QVectorIyE6detachEv@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=!armhf)_ZN7QVectorIyE6detachEv@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE6resizeEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE7reserveEi@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN8QMapNodeI17AllPrimitiveTypes7QStringE14destroySubTreeEv@ABI_1_0 4:14.12.0
@@ -1677,7 +1676,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN9OsdParser12arrayFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser12parseElementERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser12readPropertyERK11QDomElementRK7QStringS5_@ABI_1_0 4:14.12.0
- (arch=armhf i386)_ZN9OsdParser12unionFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
+ (arch=armhf)_ZN9OsdParser12unionFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser13stringFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser14pointerFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
  _ZN9OsdParser15bitfieldFromXMLERK11QDomElementRK13OsdParserInfo@ABI_1_0 4:14.12.0
@@ -1729,8 +1728,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK13Float64Editor10metaObjectEv@ABI_1_0 4:14.12.0
  _ZNK13Float64Editor4dataEv@ABI_1_0 4:14.12.0
  _ZNK14Char8Validator8validateER7QStringRi@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 armhf i386 powerpc ppc64el)_ZNK14QStringBuilderIS_I7QStringS0_ES0_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
- (optional=templinst|arch=arm64 powerpc ppc64el)_ZNK14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
+ (optional=templinst|arch=arm64 armhf powerpc ppc64el)_ZNK14QStringBuilderIS_I7QStringS0_ES0_E9convertToIS0_EET_v@ABI_1_0 4:14.12.0
  _ZNK14Utf8StringData11stringValueEi@ABI_1_0 4:14.12.0
  _ZNK14Utf8StringData14completeStringEb@ABI_1_0 4:14.12.0
  _ZNK14Utf8StringData4sizeEv@ABI_1_0 4:14.12.0

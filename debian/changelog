@@ -1,3 +1,9 @@
+okteta (4:14.12.2-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Update symbols files from build logs.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 16 Feb 2015 17:46:05 +0300
+
 okteta (4:14.12.2-0ubuntu2) vivid; urgency=medium
 
   * Remove two Qt symbols for Qt 5.4.
