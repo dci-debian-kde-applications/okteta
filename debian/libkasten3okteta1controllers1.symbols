@@ -1625,8 +1625,6 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten8InfoToolD0Ev@ABI_1_0 4:14.12.0
  _ZN6Kasten8InfoToolD1Ev@ABI_1_0 4:14.12.0
  _ZN6Kasten8InfoToolD2Ev@ABI_1_0 4:14.12.0
- _ZN6QDebugD1Ev@ABI_1_0 4:14.12.0
- _ZN6QDebugD2Ev@ABI_1_0 4:14.12.0
  _ZN6QDebuglsEPKc@ABI_1_0 4:14.12.0
  _ZN6QDebuglsERK7QString@ABI_1_0 4:14.12.0
  (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@ABI_1_0 4:14.12.0
