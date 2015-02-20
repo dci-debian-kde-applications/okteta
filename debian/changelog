@@ -19,7 +19,7 @@ okteta (4:14.12.2-0ubuntu2) vivid; urgency=medium
 okteta (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * batchpatch new symbols. 
+  * batchpatch new symbols.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:37:27 -0800
 
@@ -89,7 +89,7 @@ okteta (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Add new file to install.
-  * Change std shortname in copyright to LGP2.1-KDEeV. 
+  * Change std shortname in copyright to LGP2.1-KDEeV.
   * Fix copyright to use GPL-KDEeV as short license.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:30:05 -0700
@@ -329,7 +329,7 @@ okteta (4:4.10.95-0ubuntu1) saucy; urgency=low
 
 okteta (4:4.10.90-0ubuntu3) saucy; urgency=low
 
-  * Fix libkasten2gui2.symbols for !armhf 
+  * Fix libkasten2gui2.symbols for !armhf
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 14 Jul 2013 17:58:24 +0200
 
