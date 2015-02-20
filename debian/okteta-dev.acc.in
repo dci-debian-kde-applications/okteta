@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    14.12.2
+</version>
+
+<headers>
+    /usr/include/Kasten3/
+    /usr/include/Okteta/
+    /usr/include/kasten3/
+    /usr/include/okteta/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3controllers.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3core.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3gui.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3okteta1controllers.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3okteta1core.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libkasten3okteta1gui.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libokteta2core.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libokteta2gui.so
+</libs>
+
+<gcc_options>
+    -fPIC
+</gcc_options>
+
+</descriptor>
