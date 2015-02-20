@@ -1,4 +1,7 @@
-usr/include/
+usr/include/Kasten3/
+usr/include/Okteta/
+usr/include/kasten3/
+usr/include/okteta/
 usr/lib/*/libkasten3controllers.so
 usr/lib/*/libkasten3core.so
 usr/lib/*/libkasten3gui.so
