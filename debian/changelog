@@ -1,4 +1,4 @@
-okteta (4:14.12.2-1~) UNRELEASED; urgency=medium
+okteta (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Update build dependencies to build against experimental and to
@@ -7,7 +7,7 @@ okteta (4:14.12.2-1~) UNRELEASED; urgency=medium
   * New upstream patch: upstream_fix_installation_path_for_kasten
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 09:41:05 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 11:02:20 +0100
 
 okteta (4:14.12.2-0ubuntu3) vivid; urgency=medium
 
