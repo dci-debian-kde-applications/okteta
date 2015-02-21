@@ -5,6 +5,7 @@ okteta (4:14.12.2-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Update copyright information.
   * New upstream patch: upstream_fix_installation_path_for_kasten
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 09:41:05 +0100
 
