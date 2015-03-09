@@ -1,3 +1,9 @@
+okteta (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 11:29:46 -0700
+
 okteta (4:14.12.2-0ubuntu3) vivid; urgency=medium
 
   * Update symbols files from build logs.
