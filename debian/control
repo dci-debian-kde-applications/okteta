@@ -16,14 +16,14 @@ Build-Depends: cmake,
                libkf5dbusaddons-dev,
                libkf5i18n-dev,
                libkf5kcmutils-dev,
-	       libkf5newstuff-dev,
-	       libkf5parts-dev,
+               libkf5newstuff-dev,
+               libkf5parts-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev,
-	       qttools5-dev,
-	       qtscript5-dev,
-               shared-mime-info (>= 0.30),
+               qtscript5-dev,
+               qttools5-dev,
+               shared-mime-info (>= 0.30)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
