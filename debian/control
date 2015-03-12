@@ -62,8 +62,6 @@ Description: Development files for Okteta
 
 Package: libkasten3controllers3
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: kastencontrollers
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: controllers Kasten library for Okteta

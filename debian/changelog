@@ -1,6 +1,14 @@
 okteta (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
+
+  [ Harald Sitter ]
+  * Rip out ABIManager patch and versioning.
+    + KF5 based release had no ABI breakage yet so the symbols distrotion
+      caused by the ABI manager is more useless than anything
+    + The package is now CI'd by Kubuntu CI which means we'll be able to catch
+      BIC before release making sure upstream does a so-version bump
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 11:29:46 -0700
 
