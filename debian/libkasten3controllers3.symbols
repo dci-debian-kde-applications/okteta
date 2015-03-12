@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.3+git20150312.1136+15.04 amd64 i386
 libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten12TerminalTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten12TerminalTool11qt_metacastEPKc@Base 4:14.12.0
@@ -374,6 +374,66 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZNK6Kasten25FileSystemBrowserToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView5titleEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView6widgetEv@Base 4:14.12.0
+ _ZTIN6Kasten12TerminalToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten13DocumentsToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten14QuitControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten14ZoomControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten15CloseControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten15VersionViewToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16CopyAsControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16ExportControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16InsertControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16LoaderControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16SelectControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten16TerminalToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten17CreatorControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten17DocumentsToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten17VersionControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten17ZoomBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten18ReadOnlyControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten19ClipboardControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten19SetRemoteControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten19VersionViewToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten20FullScreenControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten20SwitchViewControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten21FileSystemBrowserToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten21ModifiedBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten21ReadOnlyBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten21SynchronizeControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten22ToolListMenuControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten22ViewListMenuControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten23ViewAreaSplitControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten25FileSystemBrowserToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten12TerminalToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten13DocumentsToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten14QuitControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten14ZoomControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten15CloseControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten15VersionViewToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16CopyAsControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16ExportControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16InsertControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16LoaderControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16SelectControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten16TerminalToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten17CreatorControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten17DocumentsToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten17VersionControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten17ZoomBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten18ReadOnlyControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten19ClipboardControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten19SetRemoteControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten19VersionViewToolViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten20FullScreenControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten20SwitchViewControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten21FileSystemBrowserToolE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten21ModifiedBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten21ReadOnlyBarControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten21SynchronizeControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten22ToolListMenuControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten22ViewListMenuControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten23ViewAreaSplitControllerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten25FileSystemBrowserToolViewE@Base 4:14.12.3+git20150312.1136+15.04
  _ZTVN6Kasten12TerminalToolE@Base 4:14.12.0
  _ZTVN6Kasten13DocumentsToolE@Base 4:14.12.0
  _ZTVN6Kasten14QuitControllerE@Base 4:14.12.0

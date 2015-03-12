@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.3+git20150312.1136+15.04 amd64 i386
 libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
@@ -263,6 +263,26 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZNK6Okteta17ByteArrayComboBox9byteArrayEv@Base 4:14.12.0
  _ZNK6Okteta17ByteArrayComboBox9maxLengthEv@Base 4:14.12.0
  _ZNK6Okteta17ByteArrayComboBox9minLengthEv@Base 4:14.12.0
+ _ZTIN6Kasten13ByteArrayViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten19AbstractViewFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten20ByteArrayViewFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten27ByteArrayViewProfileManagerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten30AbstractByteArrayStreamEncoderE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten32ByteArrayViewProfileSynchronizerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta15AddressComboBoxE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta17ByteArrayComboBoxE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten13ByteArrayViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten19AbstractViewFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten20ByteArrayViewFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten27ByteArrayViewProfileManagerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten30AbstractByteArrayStreamEncoderE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten32ByteArrayViewProfileSynchronizerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta15AddressComboBoxE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta17ByteArrayComboBoxE@Base 4:14.12.3+git20150312.1136+15.04
  _ZTVN6Kasten13ByteArrayViewE@Base 4:14.12.0
  _ZTVN6Kasten19AbstractViewFactoryE@Base 4:14.12.0
  _ZTVN6Kasten20ByteArrayViewFactoryE@Base 4:14.12.0
