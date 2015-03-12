@@ -62,8 +62,6 @@ Description: Development files for Okteta
 
 Package: libkasten3controllers3
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: kastencontrollers
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: controllers Kasten library for Okteta
@@ -75,8 +73,6 @@ Description: controllers Kasten library for Okteta
 
 Package: libkasten3core3
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: kastencore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: core Kasten library for Okteta
@@ -101,8 +97,6 @@ Description: gui Kasten library for Okteta
 
 Package: libokteta2core2
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: oktetacore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: core Okteta library
@@ -115,8 +109,6 @@ Description: core Okteta library
 
 Package: libokteta2gui2
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: oktetagui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: gui Okteta library
@@ -129,8 +121,6 @@ Description: gui Okteta library
 
 Package: libkasten3okteta1controllers1
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: oktetakastencontrollers
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: kastencontrollers library for Okteta
@@ -144,8 +134,6 @@ Description: kastencontrollers library for Okteta
 
 Package: libkasten3okteta1core1
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: oktetakastencore
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: kastencore library for Okteta
@@ -159,8 +147,6 @@ Description: kastencore library for Okteta
 
 Package: libkasten3okteta1gui1
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: oktetakastengui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: kastengui library for Okteta
