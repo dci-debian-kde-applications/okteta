@@ -85,8 +85,6 @@ Description: core Kasten library for Okteta
 
 Package: libkasten3gui3
 Architecture: any
-X-Debian-ABI: 0
-X-CMake-Target: kastengui
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: gui Kasten library for Okteta

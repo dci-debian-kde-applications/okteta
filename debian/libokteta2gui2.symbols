@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.3+git20150312.1136+15.04 amd64 i386
 libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@Base 4:14.12.0
  _ZN6Okteta11ColumnsView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -465,6 +465,34 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta31AbstractByteArrayColumnRenderer27xsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer33columnXsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer8byteRectERKNS_5CoordE@Base 4:14.12.0
+ _ZTI11QSharedData@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta11ColumnsViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta16ByteArrayRowViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta19ByteArrayColumnViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta19WidgetColumnStylistE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta20BorderColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta20OffsetColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta21AbstractByteArrayViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta21AbstractColumnStylistE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta22AbstractColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta26ByteArrayRowColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta27CharByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta28ValueByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta31AbstractByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTS11QSharedData@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta11ColumnsViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta16ByteArrayRowViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta19ByteArrayColumnViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta19WidgetColumnStylistE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta20BorderColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta20OffsetColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta21AbstractByteArrayViewE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta21AbstractColumnStylistE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta22AbstractColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta26ByteArrayRowColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta27CharByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta28ValueByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta31AbstractByteArrayColumnRendererE@Base 4:14.12.3+git20150312.1136+15.04
  _ZTVN6Okteta11ColumnsViewE@Base 4:14.12.0
  _ZTVN6Okteta16ByteArrayRowViewE@Base 4:14.12.0
  _ZTVN6Okteta19ByteArrayColumnViewE@Base 4:14.12.0

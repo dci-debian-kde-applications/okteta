@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:14.12.3+git20150312.1136+15.04 amd64 i386
 libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@Base 4:14.12.0
  _ZN6Okteta10ValueCodecD0Ev@Base 4:14.12.0
@@ -162,6 +162,20 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZNK6Okteta24PieceTableByteArrayModel4byteEi@Base 4:14.12.0
  _ZNK6Okteta24PieceTableByteArrayModel4sizeEv@Base 4:14.12.0
  _ZNK6Okteta24PieceTableByteArrayModel7changesEii@Base 4:14.12.0
+ _ZTI11QSharedData@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta10ValueCodecE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta14ByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta18FileByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta22AbstractByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta24PieceTableByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Okteta9CharCodecE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTS11QSharedData@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta10ValueCodecE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta14ByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta18FileByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta22AbstractByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta24PieceTableByteArrayModelE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Okteta9CharCodecE@Base 4:14.12.3+git20150312.1136+15.04
  _ZTVN6Okteta10ValueCodecE@Base 4:14.12.0
  _ZTVN6Okteta14ByteArrayModelE@Base 4:14.12.0
  _ZTVN6Okteta18FileByteArrayModelE@Base 4:14.12.0
