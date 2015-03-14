@@ -1,4 +1,4 @@
-okteta (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+okteta (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -13,7 +13,7 @@ okteta (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add missing libqca-qt5-2-dev to build depends. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 11:29:46 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:21:57 -0700
 
 okteta (4:14.12.2-0ubuntu3) vivid; urgency=medium
 
