@@ -4,6 +4,23 @@ okteta (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:21:01 +0100
 
+okteta (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ Harald Sitter ]
+  * Rip out ABIManager patch and versioning.
+    + KF5 based release had no ABI breakage yet so the symbols distrotion
+      caused by the ABI manager is more useless than anything
+    + The package is now CI'd by Kubuntu CI which means we'll be able to catch
+      BIC before release making sure upstream does a so-version bump
+
+  [ Scarlett Clark ]
+  * Add missing libqca-qt5-2-dev to build depends. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:21:57 -0700
+
 okteta (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
