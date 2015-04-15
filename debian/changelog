@@ -1,10 +1,8 @@
-okteta (4:14.12.3-0ubuntu2) vivid; urgency=medium
-
-  * Add upstream_cmake-IconThemes.diff to fix comile
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 16:27:07 +0200
-
 okteta (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Add upstream_cmake-IconThemes.diff to fix compile
+  * Update .install files
 
   [ Scarlett Clark ]
   * New upstream release
