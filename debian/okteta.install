@@ -1,6 +1,6 @@
 etc/xdg/okteta-structures.knsrc
 usr/bin/okteta
-usr/bin/struct2osd
+usr/bin/struct2osd.sh
 usr/lib/*/qt5/plugins/designer/oktetadesignerplugin.so
 usr/lib/*/qt5/plugins/oktetapart.so
 usr/share/appdata/okteta.appdata.xml
