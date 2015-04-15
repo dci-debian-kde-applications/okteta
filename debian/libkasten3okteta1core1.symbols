@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.3 amd64 i386
+# SymbolsHelper-Confirmed: 4:14.12.3+git20150312.1136+15.04 amd64 i386
 libkasten3okteta1core.so.1 libkasten3okteta1core1 #MINVER#
  _ZN6Kasten17ByteArrayDocument10usersAddedERK5QListINS_6PersonEE@Base 4:14.12.0
  _ZN6Kasten17ByteArrayDocument11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -85,16 +85,16 @@ libkasten3okteta1core.so.1 libkasten3okteta1core1 #MINVER#
  _ZNK6Kasten35ByteArrayRawFileSynchronizerFactory17supportedWorkTypeEv@Base 4:14.12.0
  _ZNK6Kasten35ByteArrayRawFileSynchronizerFactory18createSynchronizerEv@Base 4:14.12.0
  _ZNK6Kasten35ByteArrayRawFileSynchronizerFactory19supportedRemoteTypeEv@Base 4:14.12.0
- _ZTIN6Kasten17ByteArrayDocumentE@Base 4:14.12.3
- _ZTIN6Kasten18ByteArraySelectionE@Base 4:14.12.3
- _ZTIN6Kasten24ByteArrayDocumentFactoryE@Base 4:14.12.3
- _ZTIN6Kasten28ByteArrayRawFileSynchronizerE@Base 4:14.12.3
- _ZTIN6Kasten35ByteArrayRawFileSynchronizerFactoryE@Base 4:14.12.3
- _ZTSN6Kasten17ByteArrayDocumentE@Base 4:14.12.3
- _ZTSN6Kasten18ByteArraySelectionE@Base 4:14.12.3
- _ZTSN6Kasten24ByteArrayDocumentFactoryE@Base 4:14.12.3
- _ZTSN6Kasten28ByteArrayRawFileSynchronizerE@Base 4:14.12.3
- _ZTSN6Kasten35ByteArrayRawFileSynchronizerFactoryE@Base 4:14.12.3
+ _ZTIN6Kasten17ByteArrayDocumentE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten18ByteArraySelectionE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten24ByteArrayDocumentFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten28ByteArrayRawFileSynchronizerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTIN6Kasten35ByteArrayRawFileSynchronizerFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten17ByteArrayDocumentE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten18ByteArraySelectionE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten24ByteArrayDocumentFactoryE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten28ByteArrayRawFileSynchronizerE@Base 4:14.12.3+git20150312.1136+15.04
+ _ZTSN6Kasten35ByteArrayRawFileSynchronizerFactoryE@Base 4:14.12.3+git20150312.1136+15.04
  _ZTVN6Kasten17ByteArrayDocumentE@Base 4:14.12.0
  _ZTVN6Kasten18ByteArraySelectionE@Base 4:14.12.0
  _ZTVN6Kasten24ByteArrayDocumentFactoryE@Base 4:14.12.0
