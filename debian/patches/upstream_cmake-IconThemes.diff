@@ -1,0 +1,12 @@
+Index: okteta-14.12.2/CMakeLists.txt
+===================================================================
+--- okteta-14.12.2.orig/CMakeLists.txt
++++ okteta-14.12.2/CMakeLists.txt
+@@ -41,6 +41,7 @@ find_package(KF5 REQUIRED
+     ConfigWidgets
+     DBusAddons
+     DocTools
++    IconThemes
+     I18n
+     KCMUtils
+     KIO
