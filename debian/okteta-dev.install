@@ -1,4 +1,5 @@
 usr/include/
+usr/lib/*/cmake/
 usr/lib/*/libkasten3controllers.so
 usr/lib/*/libkasten3core.so
 usr/lib/*/libkasten3gui.so
