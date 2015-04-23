@@ -1,3 +1,13 @@
+okteta (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Delete upstream_cmake-IconThemes.diff, applied upstream.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:33:01 -0700
+
 okteta (4:14.12.3-0ubuntu4) vivid; urgency=medium
 
   * Move symbols files to amd64 only, I can't work out the other arches
