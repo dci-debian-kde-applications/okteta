@@ -2,6 +2,14 @@ usr/include/Kasten/
 usr/include/Okteta/
 usr/include/kasten/
 usr/include/okteta/
+usr/lib/*/cmake/KastenControllers/
+usr/lib/*/cmake/KastenCore/
+usr/lib/*/cmake/KastenGui/
+usr/lib/*/cmake/OktetaCore/
+usr/lib/*/cmake/OktetaGui/
+usr/lib/*/cmake/OktetaKastenControllers/
+usr/lib/*/cmake/OktetaKastenCore/
+usr/lib/*/cmake/OktetaKastenGui/
 usr/lib/*/libkasten3controllers.so
 usr/lib/*/libkasten3core.so
 usr/lib/*/libkasten3gui.so
