@@ -2,6 +2,7 @@ okteta (4:15.04.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * Add missing dev dependency (thanks to acc headers check)
+  * New patch: install_missing_header
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:18:03 +0200
 
