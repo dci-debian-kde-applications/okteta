@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.04.0 amd64
 libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten12TerminalTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten12TerminalTool11qt_metacastEPKc@Base 4:14.12.0
@@ -30,9 +30,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten14QuitController4quitEv@Base 4:14.12.0
  _ZN6Kasten14QuitControllerC1EPNS_8KProgramEP13KXmlGuiWindow@Base 4:14.12.0
  _ZN6Kasten14QuitControllerC2EPNS_8KProgramEP13KXmlGuiWindow@Base 4:14.12.0
- _ZN6Kasten14QuitControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten14QuitControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten14QuitControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14QuitControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14QuitControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14QuitControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten14ZoomController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten14ZoomController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten14ZoomController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -42,9 +42,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten14ZoomController7zoomOutEv@Base 4:14.12.0
  _ZN6Kasten14ZoomControllerC1EP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten14ZoomControllerC2EP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten14ZoomControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten14ZoomControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten14ZoomControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14ZoomControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14ZoomControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten14ZoomControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten15CloseController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten15CloseController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten15CloseController13closeAllOtherEv@Base 4:14.12.0
@@ -76,9 +76,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten16CopyAsController17onActionTriggeredEP7QAction@Base 4:14.12.0
  _ZN6Kasten16CopyAsControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten16CopyAsControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten16CopyAsControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten16CopyAsControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten16CopyAsControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16CopyAsControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16CopyAsControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16CopyAsControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten16ExportController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten16ExportController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten16ExportController13updateActionsEv@Base 4:14.12.0
@@ -87,9 +87,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten16ExportController17onActionTriggeredEP7QAction@Base 4:14.12.0
  _ZN6Kasten16ExportControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten16ExportControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten16ExportControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten16ExportControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten16ExportControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16ExportControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16ExportControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16ExportControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten16InsertController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten16InsertController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten16InsertController13updateActionsEv@Base 4:14.12.0
@@ -99,9 +99,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten16InsertController17onReadOnlyChangedEb@Base 4:14.12.0
  _ZN6Kasten16InsertControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten16InsertControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten16InsertControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten16InsertControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten16InsertControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16InsertControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16InsertControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16InsertControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten16LoaderController10loadRecentERK4QUrl@Base 4:14.12.0
  _ZN6Kasten16LoaderController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten16LoaderController11qt_metacastEPKc@Base 4:14.12.0
@@ -123,9 +123,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten16SelectController9selectAllEv@Base 4:14.12.0
  _ZN6Kasten16SelectControllerC1EP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten16SelectControllerC2EP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten16SelectControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten16SelectControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten16SelectControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16SelectControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16SelectControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten16SelectControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten16TerminalToolViewC1EPNS_12TerminalToolE@Base 4:14.12.0
  _ZN6Kasten16TerminalToolViewC2EPNS_12TerminalToolE@Base 4:14.12.0
  _ZN6Kasten16TerminalToolViewD0Ev@Base 4:14.12.0
@@ -162,18 +162,18 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten17VersionController29onOlderVersionMenuAboutToShowEv@Base 4:14.12.0
  _ZN6Kasten17VersionControllerC1EP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten17VersionControllerC2EP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten17VersionControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten17VersionControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten17VersionControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17VersionControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17VersionControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17VersionControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten17ZoomBarController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten17ZoomBarController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten17ZoomBarController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
  _ZN6Kasten17ZoomBarController16staticMetaObjectE@Base 4:14.12.0
  _ZN6Kasten17ZoomBarControllerC1EPNS_9StatusBarE@Base 4:14.12.0
  _ZN6Kasten17ZoomBarControllerC2EPNS_9StatusBarE@Base 4:14.12.0
- _ZN6Kasten17ZoomBarControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten17ZoomBarControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten17ZoomBarControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17ZoomBarControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17ZoomBarControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten17ZoomBarControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten18ReadOnlyController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten18ReadOnlyController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten18ReadOnlyController11setReadOnlyEb@Base 4:14.12.0
@@ -181,9 +181,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten18ReadOnlyController16staticMetaObjectE@Base 4:14.12.0
  _ZN6Kasten18ReadOnlyControllerC1EP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten18ReadOnlyControllerC2EP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten18ReadOnlyControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten18ReadOnlyControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten18ReadOnlyControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten18ReadOnlyControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten18ReadOnlyControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten18ReadOnlyControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten19ClipboardController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten19ClipboardController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten19ClipboardController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -196,9 +196,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten19ClipboardController5pasteEv@Base 4:14.12.0
  _ZN6Kasten19ClipboardControllerC1EP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten19ClipboardControllerC2EP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten19ClipboardControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten19ClipboardControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten19ClipboardControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19ClipboardControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19ClipboardControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19ClipboardControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten19SetRemoteController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten19SetRemoteController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten19SetRemoteController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -206,9 +206,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten19SetRemoteController6saveAsEv@Base 4:14.12.0
  _ZN6Kasten19SetRemoteControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten19SetRemoteControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten19SetRemoteControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten19SetRemoteControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten19SetRemoteControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19SetRemoteControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19SetRemoteControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten19SetRemoteControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten19VersionViewToolViewC1EPNS_15VersionViewToolE@Base 4:14.12.0
  _ZN6Kasten19VersionViewToolViewC2EPNS_15VersionViewToolE@Base 4:14.12.0
  _ZN6Kasten19VersionViewToolViewD0Ev@Base 4:14.12.0
@@ -221,9 +221,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten20FullScreenController16switchFullScreenEb@Base 4:14.12.0
  _ZN6Kasten20FullScreenControllerC1EP13KXmlGuiWindow@Base 4:14.12.0
  _ZN6Kasten20FullScreenControllerC2EP13KXmlGuiWindow@Base 4:14.12.0
- _ZN6Kasten20FullScreenControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten20FullScreenControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten20FullScreenControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20FullScreenControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20FullScreenControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20FullScreenControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten20SwitchViewController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten20SwitchViewController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten20SwitchViewController13updateActionsEv@Base 4:14.12.0
@@ -233,9 +233,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten20SwitchViewController8backwardEv@Base 4:14.12.0
  _ZN6Kasten20SwitchViewControllerC1EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten20SwitchViewControllerC2EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten20SwitchViewControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten20SwitchViewControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten20SwitchViewControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20SwitchViewControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20SwitchViewControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten20SwitchViewControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten21FileSystemBrowserTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten21FileSystemBrowserTool11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten21FileSystemBrowserTool14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -258,9 +258,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten21ModifiedBarController24onRemoteSyncStateChangedENS_15RemoteSyncStateE@Base 4:14.12.0
  _ZN6Kasten21ModifiedBarControllerC1EPNS_9StatusBarE@Base 4:14.12.0
  _ZN6Kasten21ModifiedBarControllerC2EPNS_9StatusBarE@Base 4:14.12.0
- _ZN6Kasten21ModifiedBarControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten21ModifiedBarControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten21ModifiedBarControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ModifiedBarControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ModifiedBarControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ModifiedBarControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten21ReadOnlyBarController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten21ReadOnlyBarController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten21ReadOnlyBarController11setReadOnlyEb@Base 4:14.12.0
@@ -268,9 +268,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten21ReadOnlyBarController16staticMetaObjectE@Base 4:14.12.0
  _ZN6Kasten21ReadOnlyBarControllerC1EPNS_9StatusBarE@Base 4:14.12.0
  _ZN6Kasten21ReadOnlyBarControllerC2EPNS_9StatusBarE@Base 4:14.12.0
- _ZN6Kasten21ReadOnlyBarControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten21ReadOnlyBarControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten21ReadOnlyBarControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ReadOnlyBarControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ReadOnlyBarControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21ReadOnlyBarControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten21SynchronizeController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten21SynchronizeController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten21SynchronizeController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -282,9 +282,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten21SynchronizeController6reloadEv@Base 4:14.12.0
  _ZN6Kasten21SynchronizeControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten21SynchronizeControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten21SynchronizeControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten21SynchronizeControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten21SynchronizeControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21SynchronizeControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21SynchronizeControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten21SynchronizeControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten22ToolListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten22ToolListMenuController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten22ToolListMenuController13updateActionsEv@Base 4:14.12.0
@@ -292,9 +292,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten22ToolListMenuController16staticMetaObjectE@Base 4:14.12.0
  _ZN6Kasten22ToolListMenuControllerC1EPNS_2If15WidgetsDockableEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten22ToolListMenuControllerC2EPNS_2If15WidgetsDockableEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten22ToolListMenuControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten22ToolListMenuControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten22ToolListMenuControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ToolListMenuControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ToolListMenuControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ToolListMenuControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuController13updateActionsEv@Base 4:14.12.0
@@ -303,9 +303,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten22ViewListMenuController17onActionTriggeredEP7QAction@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten22ViewListMenuControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten22ViewListMenuControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten22ViewListMenuControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ViewListMenuControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ViewListMenuControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten22ViewListMenuControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitController13splitViewAreaEN2Qt11OrientationE@Base 4:14.12.0
@@ -319,9 +319,9 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten23ViewAreaSplitController5closeEv@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
- _ZN6Kasten23ViewAreaSplitControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten23ViewAreaSplitControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten23ViewAreaSplitControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten23ViewAreaSplitControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten23ViewAreaSplitControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=amd64)_ZN6Kasten23ViewAreaSplitControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten25FileSystemBrowserToolViewC1EPNS_21FileSystemBrowserToolE@Base 4:14.12.0
  _ZN6Kasten25FileSystemBrowserToolViewC2EPNS_21FileSystemBrowserToolE@Base 4:14.12.0
  _ZN6Kasten25FileSystemBrowserToolViewD0Ev@Base 4:14.12.0
@@ -374,6 +374,66 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZNK6Kasten25FileSystemBrowserToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView5titleEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView6widgetEv@Base 4:14.12.0
+ _ZTIN6Kasten12TerminalToolE@Base 4:15.04.0
+ _ZTIN6Kasten13DocumentsToolE@Base 4:15.04.0
+ _ZTIN6Kasten14QuitControllerE@Base 4:15.04.0
+ _ZTIN6Kasten14ZoomControllerE@Base 4:15.04.0
+ _ZTIN6Kasten15CloseControllerE@Base 4:15.04.0
+ _ZTIN6Kasten15VersionViewToolE@Base 4:15.04.0
+ _ZTIN6Kasten16CopyAsControllerE@Base 4:15.04.0
+ _ZTIN6Kasten16ExportControllerE@Base 4:15.04.0
+ _ZTIN6Kasten16InsertControllerE@Base 4:15.04.0
+ _ZTIN6Kasten16LoaderControllerE@Base 4:15.04.0
+ _ZTIN6Kasten16SelectControllerE@Base 4:15.04.0
+ _ZTIN6Kasten16TerminalToolViewE@Base 4:15.04.0
+ _ZTIN6Kasten17CreatorControllerE@Base 4:15.04.0
+ _ZTIN6Kasten17DocumentsToolViewE@Base 4:15.04.0
+ _ZTIN6Kasten17VersionControllerE@Base 4:15.04.0
+ _ZTIN6Kasten17ZoomBarControllerE@Base 4:15.04.0
+ _ZTIN6Kasten18ReadOnlyControllerE@Base 4:15.04.0
+ _ZTIN6Kasten19ClipboardControllerE@Base 4:15.04.0
+ _ZTIN6Kasten19SetRemoteControllerE@Base 4:15.04.0
+ _ZTIN6Kasten19VersionViewToolViewE@Base 4:15.04.0
+ _ZTIN6Kasten20FullScreenControllerE@Base 4:15.04.0
+ _ZTIN6Kasten20SwitchViewControllerE@Base 4:15.04.0
+ _ZTIN6Kasten21FileSystemBrowserToolE@Base 4:15.04.0
+ _ZTIN6Kasten21ModifiedBarControllerE@Base 4:15.04.0
+ _ZTIN6Kasten21ReadOnlyBarControllerE@Base 4:15.04.0
+ _ZTIN6Kasten21SynchronizeControllerE@Base 4:15.04.0
+ _ZTIN6Kasten22ToolListMenuControllerE@Base 4:15.04.0
+ _ZTIN6Kasten22ViewListMenuControllerE@Base 4:15.04.0
+ _ZTIN6Kasten23ViewAreaSplitControllerE@Base 4:15.04.0
+ _ZTIN6Kasten25FileSystemBrowserToolViewE@Base 4:15.04.0
+ _ZTSN6Kasten12TerminalToolE@Base 4:15.04.0
+ _ZTSN6Kasten13DocumentsToolE@Base 4:15.04.0
+ _ZTSN6Kasten14QuitControllerE@Base 4:15.04.0
+ _ZTSN6Kasten14ZoomControllerE@Base 4:15.04.0
+ _ZTSN6Kasten15CloseControllerE@Base 4:15.04.0
+ _ZTSN6Kasten15VersionViewToolE@Base 4:15.04.0
+ _ZTSN6Kasten16CopyAsControllerE@Base 4:15.04.0
+ _ZTSN6Kasten16ExportControllerE@Base 4:15.04.0
+ _ZTSN6Kasten16InsertControllerE@Base 4:15.04.0
+ _ZTSN6Kasten16LoaderControllerE@Base 4:15.04.0
+ _ZTSN6Kasten16SelectControllerE@Base 4:15.04.0
+ _ZTSN6Kasten16TerminalToolViewE@Base 4:15.04.0
+ _ZTSN6Kasten17CreatorControllerE@Base 4:15.04.0
+ _ZTSN6Kasten17DocumentsToolViewE@Base 4:15.04.0
+ _ZTSN6Kasten17VersionControllerE@Base 4:15.04.0
+ _ZTSN6Kasten17ZoomBarControllerE@Base 4:15.04.0
+ _ZTSN6Kasten18ReadOnlyControllerE@Base 4:15.04.0
+ _ZTSN6Kasten19ClipboardControllerE@Base 4:15.04.0
+ _ZTSN6Kasten19SetRemoteControllerE@Base 4:15.04.0
+ _ZTSN6Kasten19VersionViewToolViewE@Base 4:15.04.0
+ _ZTSN6Kasten20FullScreenControllerE@Base 4:15.04.0
+ _ZTSN6Kasten20SwitchViewControllerE@Base 4:15.04.0
+ _ZTSN6Kasten21FileSystemBrowserToolE@Base 4:15.04.0
+ _ZTSN6Kasten21ModifiedBarControllerE@Base 4:15.04.0
+ _ZTSN6Kasten21ReadOnlyBarControllerE@Base 4:15.04.0
+ _ZTSN6Kasten21SynchronizeControllerE@Base 4:15.04.0
+ _ZTSN6Kasten22ToolListMenuControllerE@Base 4:15.04.0
+ _ZTSN6Kasten22ViewListMenuControllerE@Base 4:15.04.0
+ _ZTSN6Kasten23ViewAreaSplitControllerE@Base 4:15.04.0
+ _ZTSN6Kasten25FileSystemBrowserToolViewE@Base 4:15.04.0
  _ZTVN6Kasten12TerminalToolE@Base 4:14.12.0
  _ZTVN6Kasten13DocumentsToolE@Base 4:14.12.0
  _ZTVN6Kasten14QuitControllerE@Base 4:14.12.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.12.0 amd64
+# SymbolsHelper-Confirmed: 4:15.04.0 amd64
 libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten10JobManager10executeJobEP4KJob@Base 4:14.12.0
  _ZN6Kasten12AbstractTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -455,6 +455,78 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZNK6Kasten6Person4nameEv@Base 4:14.12.0
  _ZNK6Kasten6Person8faceIconEv@Base 4:14.12.0
  _ZNK6Kasten6PersoneqERKS0_@Base 4:14.12.0
+ _ZTIN6Kasten12AbstractToolE@Base 4:15.04.0
+ _ZTIN6Kasten13AbstractModelE@Base 4:15.04.0
+ _ZTIN6Kasten15AbstractLoadJobE@Base 4:15.04.0
+ _ZTIN6Kasten15DocumentManagerE@Base 4:15.04.0
+ _ZTIN6Kasten16AbstractDocumentE@Base 4:15.04.0
+ _ZTIN6Kasten17AbstractExportJobE@Base 4:15.04.0
+ _ZTIN6Kasten17ModelCodecManagerE@Base 4:15.04.0
+ _ZTIN6Kasten18AbstractConnectJobE@Base 4:15.04.0
+ _ZTIN6Kasten19DocumentSyncManagerE@Base 4:15.04.0
+ _ZTIN6Kasten21AbstractModelExporterE@Base 4:15.04.0
+ _ZTIN6Kasten21DocumentCreateManagerE@Base 4:15.04.0
+ _ZTIN6Kasten22AbstractModelSelectionE@Base 4:15.04.0
+ _ZTIN6Kasten23AbstractDocumentFactoryE@Base 4:15.04.0
+ _ZTIN6Kasten23AbstractOverwriteDialogE@Base 4:15.04.0
+ _ZTIN6Kasten23AbstractSyncToRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten23ModelDataGenerateThreadE@Base 4:15.04.0
+ _ZTIN6Kasten23ModelStreamEncodeThreadE@Base 4:15.04.0
+ _ZTIN6Kasten25AbstractFileSystemLoadJobE@Base 4:15.04.0
+ _ZTIN6Kasten25AbstractModelSynchronizerE@Base 4:15.04.0
+ _ZTIN6Kasten25AbstractSaveDiscardDialogE@Base 4:15.04.0
+ _ZTIN6Kasten25AbstractSyncFromRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten25AbstractSyncWithRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten26AbstractModelDataGeneratorE@Base 4:15.04.0
+ _ZTIN6Kasten26AbstractModelStreamEncoderE@Base 4:15.04.0
+ _ZTIN6Kasten27AbstractFileSystemExportJobE@Base 4:15.04.0
+ _ZTIN6Kasten28AbstractFileSystemConnectJobE@Base 4:15.04.0
+ _ZTIN6Kasten30ModelEncoderFileSystemExporterE@Base 4:15.04.0
+ _ZTIN6Kasten31ModelEncoderFileSystemExportJobE@Base 4:15.04.0
+ _ZTIN6Kasten32AbstractModelSynchronizerFactoryE@Base 4:15.04.0
+ _ZTIN6Kasten33AbstractFileSystemSyncToRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten35AbstractFileSystemConnectJobPrivateE@Base 4:15.04.0
+ _ZTIN6Kasten35AbstractFileSystemSyncFromRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten35AbstractFileSystemSyncWithRemoteJobE@Base 4:15.04.0
+ _ZTIN6Kasten35AbstractModelFileSystemSynchronizerE@Base 4:15.04.0
+ _ZTIN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateE@Base 4:15.04.0
+ _ZTIN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateE@Base 4:15.04.0
+ _ZTSN6Kasten12AbstractToolE@Base 4:15.04.0
+ _ZTSN6Kasten13AbstractModelE@Base 4:15.04.0
+ _ZTSN6Kasten15AbstractLoadJobE@Base 4:15.04.0
+ _ZTSN6Kasten15DocumentManagerE@Base 4:15.04.0
+ _ZTSN6Kasten16AbstractDocumentE@Base 4:15.04.0
+ _ZTSN6Kasten17AbstractExportJobE@Base 4:15.04.0
+ _ZTSN6Kasten17ModelCodecManagerE@Base 4:15.04.0
+ _ZTSN6Kasten18AbstractConnectJobE@Base 4:15.04.0
+ _ZTSN6Kasten19DocumentSyncManagerE@Base 4:15.04.0
+ _ZTSN6Kasten21AbstractModelExporterE@Base 4:15.04.0
+ _ZTSN6Kasten21DocumentCreateManagerE@Base 4:15.04.0
+ _ZTSN6Kasten22AbstractModelSelectionE@Base 4:15.04.0
+ _ZTSN6Kasten23AbstractDocumentFactoryE@Base 4:15.04.0
+ _ZTSN6Kasten23AbstractOverwriteDialogE@Base 4:15.04.0
+ _ZTSN6Kasten23AbstractSyncToRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten23ModelDataGenerateThreadE@Base 4:15.04.0
+ _ZTSN6Kasten23ModelStreamEncodeThreadE@Base 4:15.04.0
+ _ZTSN6Kasten25AbstractFileSystemLoadJobE@Base 4:15.04.0
+ _ZTSN6Kasten25AbstractModelSynchronizerE@Base 4:15.04.0
+ _ZTSN6Kasten25AbstractSaveDiscardDialogE@Base 4:15.04.0
+ _ZTSN6Kasten25AbstractSyncFromRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten25AbstractSyncWithRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten26AbstractModelDataGeneratorE@Base 4:15.04.0
+ _ZTSN6Kasten26AbstractModelStreamEncoderE@Base 4:15.04.0
+ _ZTSN6Kasten27AbstractFileSystemExportJobE@Base 4:15.04.0
+ _ZTSN6Kasten28AbstractFileSystemConnectJobE@Base 4:15.04.0
+ _ZTSN6Kasten30ModelEncoderFileSystemExporterE@Base 4:15.04.0
+ _ZTSN6Kasten31ModelEncoderFileSystemExportJobE@Base 4:15.04.0
+ _ZTSN6Kasten32AbstractModelSynchronizerFactoryE@Base 4:15.04.0
+ _ZTSN6Kasten33AbstractFileSystemSyncToRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten35AbstractFileSystemConnectJobPrivateE@Base 4:15.04.0
+ _ZTSN6Kasten35AbstractFileSystemSyncFromRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten35AbstractFileSystemSyncWithRemoteJobE@Base 4:15.04.0
+ _ZTSN6Kasten35AbstractModelFileSystemSynchronizerE@Base 4:15.04.0
+ _ZTSN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateE@Base 4:15.04.0
+ _ZTSN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateE@Base 4:15.04.0
  _ZTVN6Kasten12AbstractToolE@Base 4:14.12.0
  _ZTVN6Kasten13AbstractModelE@Base 4:14.12.0
  _ZTVN6Kasten15AbstractLoadJobE@Base 4:14.12.0
