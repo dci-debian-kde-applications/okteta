@@ -1,4 +1,4 @@
-okteta (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+okteta (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -6,7 +6,10 @@ okteta (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
   [ José Manuel Santamaría Lema ]
   * Delete upstream_cmake-IconThemes.diff, applied upstream.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:33:01 -0700
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 23:01:45 -0700
 
 okteta (4:14.12.3-0ubuntu4) vivid; urgency=medium
 
