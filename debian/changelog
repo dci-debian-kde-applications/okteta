@@ -5,6 +5,7 @@ okteta (4:15.04.1-1~) UNRELEASED; urgency=medium
   * New patch: install_missing_header
   * Update symbols files.
   * New upstream release (15.04.1).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:08:36 +0200
 
