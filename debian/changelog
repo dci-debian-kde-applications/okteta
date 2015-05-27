@@ -8,8 +8,9 @@ okteta (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 23:01:45 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 09:19:27 -0700
 
 okteta (4:14.12.3-0ubuntu4) vivid; urgency=medium
 
