@@ -3,7 +3,7 @@ usr/bin/okteta
 usr/bin/struct2osd
 usr/lib/*/qt5/plugins/designer/oktetadesignerplugin.so
 usr/lib/*/qt5/plugins/oktetapart.so
-usr/share/appdata/okteta.appdata.xml
+usr/share/appdata/org.kde.okteta.appdata.xml
 usr/share/applications/org.kde.okteta.desktop
 usr/share/config.kcfg/structviewpreferences.kcfg
 usr/share/doc/HTML/en/okteta/index.cache.bz2
