@@ -1,4 +1,4 @@
-okteta (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+okteta (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -10,7 +10,10 @@ okteta (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 09:19:27 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:26:20 +0200
 
 okteta (4:14.12.3-0ubuntu4) vivid; urgency=medium
 
