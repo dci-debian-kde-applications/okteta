@@ -1,4 +1,4 @@
-okteta (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+okteta (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files:
@@ -8,7 +8,7 @@ okteta (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 22:47:44 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:29:17 +0100
 
 okteta (4:15.04.2-0ubuntu3) wily; urgency=medium
 

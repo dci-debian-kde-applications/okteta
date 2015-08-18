@@ -12,9 +12,6 @@ usr/share/icons/hicolor/16x16/apps/okteta.png
 usr/share/icons/hicolor/32x32/apps/okteta.png
 usr/share/icons/hicolor/48x48/apps/okteta.png
 usr/share/kxmlgui5/okteta/oktetaui.rc
-usr/share/oktetapart/oktetapartbrowserui.rc
-usr/share/oktetapart/oktetapartreadonlyui.rc
-usr/share/oktetapart/oktetapartreadwriteui.rc
 usr/share/mime/packages/okteta.xml
 usr/share/okteta/structures/elf/main.osd
 usr/share/okteta/structures/elf/metadata.desktop
@@ -22,3 +19,6 @@ usr/share/okteta/structures/gccxml-to-osd.xsl
 usr/share/okteta/structures/png/main.osd
 usr/share/okteta/structures/png/metadata.desktop
 usr/share/okteta/structures/uuid.js
+usr/share/oktetapart/oktetapartbrowserui.rc
+usr/share/oktetapart/oktetapartreadonlyui.rc
+usr/share/oktetapart/oktetapartreadwriteui.rc
