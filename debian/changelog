@@ -1,6 +1,7 @@
 okteta (4:4.14.2-2~) UNRELEASED; urgency=medium
 
   * Add libsoprano-dev build dep.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 13:54:19 +0200
 

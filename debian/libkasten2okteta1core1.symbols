@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libkasten2okteta1core.so.1 libkasten2okteta1core1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.10.2
  _ZN7Kasten217ByteArrayDocument10usersAddedERK5QListINS_6PersonEE@ABI_1_0 4:4.10.2
@@ -36,9 +36,9 @@ libkasten2okteta1core.so.1 libkasten2okteta1core1 #MINVER#
  _ZN7Kasten224ByteArrayDocumentFactory16staticMetaObjectE@ABI_1_0 4:4.10.2
  _ZN7Kasten224ByteArrayDocumentFactory17canCreateFromDataEPK9QMimeData@ABI_1_0 4:4.10.2
  _ZN7Kasten224ByteArrayDocumentFactory6createEv@ABI_1_0 4:4.10.2
- _ZN7Kasten224ByteArrayDocumentFactoryD0Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten224ByteArrayDocumentFactoryD1Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten224ByteArrayDocumentFactoryD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224ByteArrayDocumentFactoryD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224ByteArrayDocumentFactoryD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224ByteArrayDocumentFactoryD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten228ByteArrayRawFileSynchronizer11onUrlChangeERK4KUrl@ABI_1_0 4:4.10.2
  _ZN7Kasten228ByteArrayRawFileSynchronizer11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
  _ZN7Kasten228ByteArrayRawFileSynchronizer11qt_metacastEPKc@ABI_1_0 4:4.10.2
@@ -53,9 +53,9 @@ libkasten2okteta1core.so.1 libkasten2okteta1core1 #MINVER#
  _ZN7Kasten228ByteArrayRawFileSynchronizer9startLoadERK4KUrl@ABI_1_0 4:4.10.2
  _ZN7Kasten228ByteArrayRawFileSynchronizerC1Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten228ByteArrayRawFileSynchronizerC2Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten228ByteArrayRawFileSynchronizerD0Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten228ByteArrayRawFileSynchronizerD1Ev@ABI_1_0 4:4.10.2
- _ZN7Kasten228ByteArrayRawFileSynchronizerD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten228ByteArrayRawFileSynchronizerD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten228ByteArrayRawFileSynchronizerD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten228ByteArrayRawFileSynchronizerD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten235ByteArrayRawFileSynchronizerFactory11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
  _ZN7Kasten235ByteArrayRawFileSynchronizerFactory11qt_metacastEPKc@ABI_1_0 4:4.10.2
  _ZN7Kasten235ByteArrayRawFileSynchronizerFactory16staticMetaObjectE@ABI_1_0 4:4.10.2

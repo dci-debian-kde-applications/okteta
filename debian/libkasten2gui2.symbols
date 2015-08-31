@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.13.3 alpha armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libkasten2gui.so.2 libkasten2gui2 #MINVER#
  ABI_2_0@ABI_2_0 4:4.10.2
  _ZN7Kasten211ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
@@ -154,9 +154,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten218AbstractController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractController16staticMetaObjectE@ABI_2_0 4:4.10.2
- _ZN7Kasten218AbstractControllerD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten218AbstractControllerD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten218AbstractControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten218AbstractControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten218AbstractControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten218AbstractControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidget11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidget11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten218AbstractToolWidget16staticMetaObjectE@ABI_2_0 4:4.10.2
@@ -257,9 +257,9 @@ libkasten2gui.so.2 libkasten2gui2 #MINVER#
  _ZN7Kasten224AbstractXmlGuiController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractXmlGuiController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten224AbstractXmlGuiController16staticMetaObjectE@ABI_2_0 4:4.10.2
- _ZN7Kasten224AbstractXmlGuiControllerD0Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten224AbstractXmlGuiControllerD1Ev@ABI_2_0 4:4.10.2
- _ZN7Kasten224AbstractXmlGuiControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224AbstractXmlGuiControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224AbstractXmlGuiControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal)_ZN7Kasten224AbstractXmlGuiControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten233AbstractModelExporterConfigEditor15validityChangedEb@ABI_2_0 4:4.10.2

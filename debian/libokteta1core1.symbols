@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64
 libokteta1core.so.1 libokteta1core1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@ABI_1_0 4:4.8.4
@@ -180,7 +180,7 @@ libokteta1core.so.1 libokteta1core1 #MINVER#
  _ZTVN6Okteta18FileByteArrayModelE@ABI_1_0 4:4.8.4
  _ZTVN6Okteta22AbstractByteArrayModelE@ABI_1_0 4:4.8.4
  _ZTVN6Okteta24PieceTableByteArrayModelE@ABI_1_0 4:4.8.4
- _ZTVN6Okteta9CharCodecE@ABI_1_0 4:4.8.4
+ (optional=gccinternal)_ZTVN6Okteta9CharCodecE@ABI_1_0 4:4.8.4
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::addBookmarks(QList<Okteta::Bookmark> const&)@ABI_1_0" 4:4.8.4
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::bookmarkAt(unsigned int) const@ABI_1_0" 4:4.8.4
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::bookmarkFor(int) const@ABI_1_0" 4:4.8.4
