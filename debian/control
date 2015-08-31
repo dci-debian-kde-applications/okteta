@@ -12,6 +12,7 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
                libqca2-dev (>= 2.0.0),
+               libsoprano-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                shared-mime-info (>= 0.30)
