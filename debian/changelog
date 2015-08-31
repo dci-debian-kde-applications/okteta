@@ -32,7 +32,7 @@ okteta (4:14.12.3-0ubuntu1) vivid; urgency=medium
       BIC before release making sure upstream does a so-version bump
 
   [ Scarlett Clark ]
-  * Add missing libqca-qt5-2-dev to build depends. 
+  * Add missing libqca-qt5-2-dev to build depends.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:21:57 -0700
 
