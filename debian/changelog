@@ -101,6 +101,13 @@ okteta (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Dec 2014 12:29:15 +0100
 
+okteta (4:4.14.2-2) unstable; urgency=medium
+
+  * Add libsoprano-dev build dep.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 16:14:02 +0200
+
 okteta (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
