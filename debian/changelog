@@ -101,6 +101,12 @@ okteta (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Dec 2014 12:29:15 +0100
 
+okteta (4:4.14.2-3) unstable; urgency=medium
+
+  * Update symbols files from buildds logs (4:4.14.2-2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 13:40:21 +0200
+
 okteta (4:4.14.2-2) unstable; urgency=medium
 
   * Add libsoprano-dev build dep.
