@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.10.2
  _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
@@ -88,9 +88,9 @@ libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  _ZN7Kasten220ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewFactoryC1EPNS_27ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewFactoryC2EPNS_27ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220ByteArrayViewFactoryD0Ev@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220ByteArrayViewFactoryD1Ev@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220ByteArrayViewFactoryD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ByteArrayViewFactoryD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ByteArrayViewFactoryD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ByteArrayViewFactoryD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewProfile12setViewModusEi@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewProfile13setCharCodingERK7QString@ABI_1_0 4:4.10.2
  _ZN7Kasten220ByteArrayViewProfile14setLayoutStyleEi@ABI_1_0 4:4.10.2
@@ -182,9 +182,9 @@ libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  _ZN7Kasten232ByteArrayViewProfileSynchronizer7setViewEPNS_13ByteArrayViewE@ABI_1_0 4:4.10.2
  _ZN7Kasten232ByteArrayViewProfileSynchronizerC1EPNS_27ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
  _ZN7Kasten232ByteArrayViewProfileSynchronizerC2EPNS_27ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten232ByteArrayViewProfileSynchronizerD0Ev@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten232ByteArrayViewProfileSynchronizerD1Ev@ABI_1_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten232ByteArrayViewProfileSynchronizerD2Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten232ByteArrayViewProfileSynchronizerD0Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten232ByteArrayViewProfileSynchronizerD1Ev@ABI_1_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten232ByteArrayViewProfileSynchronizerD2Ev@ABI_1_0 4:4.10.2
  _ZN7Kasten248ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@ABI_1_0 4:4.10.2
  _ZN7Kasten248ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@ABI_1_0 4:4.10.2
  _ZNK6Okteta15AddressComboBox10metaObjectEv@ABI_1_0 4:4.10.2
@@ -283,13 +283,13 @@ libkasten2okteta1gui.so.1 libkasten2okteta1gui1 #MINVER#
  _ZTVN6Okteta15AddressComboBoxE@ABI_1_0 4:4.10.2
  _ZTVN6Okteta17ByteArrayComboBoxE@ABI_1_0 4:4.10.2
  _ZTVN7Kasten213ByteArrayViewE@ABI_1_0 4:4.10.2
- _ZTVN7Kasten219AbstractViewFactoryE@ABI_1_0 4:4.10.2
+ (arch=!armel !armhf)_ZTVN7Kasten219AbstractViewFactoryE@ABI_1_0 4:4.14.2
  _ZTVN7Kasten220ByteArrayViewFactoryE@ABI_1_0 4:4.10.2
  _ZTVN7Kasten227ByteArrayViewProfileManagerE@ABI_1_0 4:4.10.2
  _ZTVN7Kasten230AbstractByteArrayStreamEncoderE@ABI_1_0 4:4.10.2
  _ZTVN7Kasten232ByteArrayViewProfileSynchronizerE@ABI_1_0 4:4.10.2
- _ZTVN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.10.2
- _ZTVN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.10.2
+ (arch=!armel !armhf)_ZTVN7Kasten245AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.14.2
+ (arch=!armel !armhf)_ZTVN7Kasten245AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.14.2
  (c++)"non-virtual thunk to Kasten2::ByteArrayView::canReadData(QMimeData const*) const@ABI_1_0" 4:4.10.2
  (c++)"non-virtual thunk to Kasten2::ByteArrayView::copySelectedData() const@ABI_1_0" 4:4.10.2
  (c++)"non-virtual thunk to Kasten2::ByteArrayView::cutSelectedData()@ABI_1_0" 4:4.10.2

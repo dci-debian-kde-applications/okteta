@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  ABI_2_0@ABI_2_0 4:4.10.2
  _ZN7Kasten212TerminalTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
@@ -31,9 +31,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten214QuitController4quitEv@ABI_2_0 4:4.10.2
  _ZN7Kasten214QuitControllerC1EPNS_8KProgramEP13KXmlGuiWindow@ABI_2_0 4:4.10.2
  _ZN7Kasten214QuitControllerC2EPNS_8KProgramEP13KXmlGuiWindow@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214QuitControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214QuitControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214QuitControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214QuitControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214QuitControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214QuitControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten214ZoomController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten214ZoomController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten214ZoomController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
@@ -43,9 +43,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten214ZoomController7zoomOutEv@ABI_2_0 4:4.10.2
  _ZN7Kasten214ZoomControllerC1EP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten214ZoomControllerC2EP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214ZoomControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214ZoomControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten214ZoomControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214ZoomControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214ZoomControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten214ZoomControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten215CloseController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten215CloseController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten215CloseController13closeAllOtherEv@ABI_2_0 4:4.10.2
@@ -77,9 +77,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten216CopyAsController17onActionTriggeredEP7QAction@ABI_2_0 4:4.10.2
  _ZN7Kasten216CopyAsControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten216CopyAsControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216CopyAsControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216CopyAsControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216CopyAsControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216CopyAsControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216CopyAsControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216CopyAsControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten216ExportController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten216ExportController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten216ExportController13updateActionsEv@ABI_2_0 4:4.10.2
@@ -88,9 +88,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten216ExportController17onActionTriggeredEP7QAction@ABI_2_0 4:4.10.2
  _ZN7Kasten216ExportControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten216ExportControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216ExportControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216ExportControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216ExportControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216ExportControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216ExportControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216ExportControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten216InsertController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten216InsertController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten216InsertController13updateActionsEv@ABI_2_0 4:4.10.2
@@ -100,9 +100,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten216InsertController17onReadOnlyChangedEb@ABI_2_0 4:4.10.2
  _ZN7Kasten216InsertControllerC1EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten216InsertControllerC2EPNS_21ModelCodecViewManagerEPNS_17ModelCodecManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216InsertControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216InsertControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216InsertControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216InsertControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216InsertControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216InsertControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten216LoaderController10loadRecentERK4KUrl@ABI_2_0 4:4.10.2
  _ZN7Kasten216LoaderController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten216LoaderController11qt_metacastEPKc@ABI_2_0 4:4.10.2
@@ -124,9 +124,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten216SelectController9selectAllEv@ABI_2_0 4:4.10.2
  _ZN7Kasten216SelectControllerC1EP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten216SelectControllerC2EP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216SelectControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216SelectControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten216SelectControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216SelectControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216SelectControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten216SelectControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten216TerminalToolViewC1EPNS_12TerminalToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten216TerminalToolViewC2EPNS_12TerminalToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten216TerminalToolViewD0Ev@ABI_2_0 4:4.10.2
@@ -163,18 +163,18 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten217VersionController29onOlderVersionMenuAboutToShowEv@ABI_2_0 4:4.10.2
  _ZN7Kasten217VersionControllerC1EP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten217VersionControllerC2EP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217VersionControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217VersionControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217VersionControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217VersionControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217VersionControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217VersionControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarController16staticMetaObjectE@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarControllerC1EPNS_9StatusBarE@ABI_2_0 4:4.10.2
  _ZN7Kasten217ZoomBarControllerC2EPNS_9StatusBarE@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217ZoomBarControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217ZoomBarControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten217ZoomBarControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217ZoomBarControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217ZoomBarControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten217ZoomBarControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten218ReadOnlyController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten218ReadOnlyController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten218ReadOnlyController11setReadOnlyEb@ABI_2_0 4:4.10.2
@@ -182,9 +182,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten218ReadOnlyController16staticMetaObjectE@ABI_2_0 4:4.10.2
  _ZN7Kasten218ReadOnlyControllerC1EP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten218ReadOnlyControllerC2EP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten218ReadOnlyControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten218ReadOnlyControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten218ReadOnlyControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ReadOnlyControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ReadOnlyControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ReadOnlyControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten219ClipboardController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten219ClipboardController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten219ClipboardController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
@@ -197,9 +197,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten219ClipboardController5pasteEv@ABI_2_0 4:4.10.2
  _ZN7Kasten219ClipboardControllerC1EP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten219ClipboardControllerC2EP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219ClipboardControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219ClipboardControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219ClipboardControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219ClipboardControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219ClipboardControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219ClipboardControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten219SetRemoteController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten219SetRemoteController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten219SetRemoteController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
@@ -207,9 +207,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten219SetRemoteController6saveAsEv@ABI_2_0 4:4.10.2
  _ZN7Kasten219SetRemoteControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten219SetRemoteControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219SetRemoteControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219SetRemoteControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten219SetRemoteControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219SetRemoteControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219SetRemoteControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten219SetRemoteControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten219VersionViewToolViewC1EPNS_15VersionViewToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten219VersionViewToolViewC2EPNS_15VersionViewToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten219VersionViewToolViewD0Ev@ABI_2_0 4:4.10.2
@@ -222,9 +222,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten220FullScreenController16switchFullScreenEb@ABI_2_0 4:4.10.2
  _ZN7Kasten220FullScreenControllerC1EP13KXmlGuiWindow@ABI_2_0 4:4.10.2
  _ZN7Kasten220FullScreenControllerC2EP13KXmlGuiWindow@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220FullScreenControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220FullScreenControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220FullScreenControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220FullScreenControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220FullScreenControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220FullScreenControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten220SwitchViewController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten220SwitchViewController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten220SwitchViewController13updateActionsEv@ABI_2_0 4:4.10.2
@@ -234,9 +234,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten220SwitchViewController8backwardEv@ABI_2_0 4:4.10.2
  _ZN7Kasten220SwitchViewControllerC1EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten220SwitchViewControllerC2EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220SwitchViewControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220SwitchViewControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten220SwitchViewControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220SwitchViewControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220SwitchViewControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220SwitchViewControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten221FileSystemBrowserTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten221FileSystemBrowserTool11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten221FileSystemBrowserTool14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
@@ -259,9 +259,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten221ModifiedBarController24onRemoteSyncStateChangedENS_15RemoteSyncStateE@ABI_2_0 4:4.10.2
  _ZN7Kasten221ModifiedBarControllerC1EPNS_9StatusBarE@ABI_2_0 4:4.10.2
  _ZN7Kasten221ModifiedBarControllerC2EPNS_9StatusBarE@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ModifiedBarControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ModifiedBarControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ModifiedBarControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ModifiedBarControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ModifiedBarControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ModifiedBarControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten221ReadOnlyBarController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten221ReadOnlyBarController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten221ReadOnlyBarController11setReadOnlyEb@ABI_2_0 4:4.10.2
@@ -269,9 +269,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten221ReadOnlyBarController16staticMetaObjectE@ABI_2_0 4:4.10.2
  _ZN7Kasten221ReadOnlyBarControllerC1EPNS_9StatusBarE@ABI_2_0 4:4.10.2
  _ZN7Kasten221ReadOnlyBarControllerC2EPNS_9StatusBarE@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ReadOnlyBarControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ReadOnlyBarControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221ReadOnlyBarControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ReadOnlyBarControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ReadOnlyBarControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ReadOnlyBarControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten221SynchronizeController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten221SynchronizeController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten221SynchronizeController14setTargetModelEPNS_13AbstractModelE@ABI_2_0 4:4.10.2
@@ -283,9 +283,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten221SynchronizeController6reloadEv@ABI_2_0 4:4.10.2
  _ZN7Kasten221SynchronizeControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten221SynchronizeControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221SynchronizeControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221SynchronizeControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten221SynchronizeControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221SynchronizeControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221SynchronizeControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221SynchronizeControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten222ToolListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten222ToolListMenuController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten222ToolListMenuController13updateActionsEv@ABI_2_0 4:4.10.2
@@ -293,9 +293,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten222ToolListMenuController16staticMetaObjectE@ABI_2_0 4:4.10.2
  _ZN7Kasten222ToolListMenuControllerC1EPNS_2If15WidgetsDockableEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten222ToolListMenuControllerC2EPNS_2If15WidgetsDockableEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ToolListMenuControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ToolListMenuControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ToolListMenuControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ToolListMenuControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ToolListMenuControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ToolListMenuControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten222ViewListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten222ViewListMenuController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten222ViewListMenuController13updateActionsEv@ABI_2_0 4:4.10.2
@@ -304,9 +304,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten222ViewListMenuController17onActionTriggeredEP7QAction@ABI_2_0 4:4.10.2
  _ZN7Kasten222ViewListMenuControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten222ViewListMenuControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ViewListMenuControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ViewListMenuControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten222ViewListMenuControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ViewListMenuControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ViewListMenuControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten222ViewListMenuControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten223ViewAreaSplitController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_2_0 4:4.10.2
  _ZN7Kasten223ViewAreaSplitController11qt_metacastEPKc@ABI_2_0 4:4.10.2
  _ZN7Kasten223ViewAreaSplitController13splitViewAreaEN2Qt11OrientationE@ABI_2_0 4:4.10.2
@@ -320,9 +320,9 @@ libkasten2controllers.so.2 libkasten2controllers2 #MINVER#
  _ZN7Kasten223ViewAreaSplitController5closeEv@ABI_2_0 4:4.10.2
  _ZN7Kasten223ViewAreaSplitControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
  _ZN7Kasten223ViewAreaSplitControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten223ViewAreaSplitControllerD0Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten223ViewAreaSplitControllerD1Ev@ABI_2_0 4:4.10.2
- (optional=gccinternal)_ZN7Kasten223ViewAreaSplitControllerD2Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223ViewAreaSplitControllerD0Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223ViewAreaSplitControllerD1Ev@ABI_2_0 4:4.10.2
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223ViewAreaSplitControllerD2Ev@ABI_2_0 4:4.10.2
  _ZN7Kasten225FileSystemBrowserToolViewC1EPNS_21FileSystemBrowserToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten225FileSystemBrowserToolViewC2EPNS_21FileSystemBrowserToolE@ABI_2_0 4:4.10.2
  _ZN7Kasten225FileSystemBrowserToolViewD0Ev@ABI_2_0 4:4.10.2

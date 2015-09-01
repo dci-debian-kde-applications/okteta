@@ -1,6 +1,6 @@
 okteta (4:4.14.2-3~) UNRELEASED; urgency=medium
 
-  * 
+  * Update symbols files from buildds logs (4:4.14.2-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 13:37:18 +0200
 

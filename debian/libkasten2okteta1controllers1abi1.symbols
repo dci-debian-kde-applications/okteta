@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.14.2 amd64
+# SymbolsHelper-Confirmed: 4:4.14.2 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  ABI_1_1@ABI_1_1 4:4.11.1
  _ZN7Kasten210FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_1 4:4.11.1
@@ -256,9 +256,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten218ViewModeController16staticMetaObjectE@ABI_1_1 4:4.11.1
  _ZN7Kasten218ViewModeControllerC1EP13KXMLGUIClient@ABI_1_1 4:4.11.1
  _ZN7Kasten218ViewModeControllerC2EP13KXMLGUIClient@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten218ViewModeControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten218ViewModeControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten218ViewModeControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ViewModeControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ViewModeControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten218ViewModeControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten219BookmarksController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_1 4:4.11.1
  _ZN7Kasten219BookmarksController11qt_metacastEPKc@ABI_1_1 4:4.11.1
  _ZN7Kasten219BookmarksController14createBookmarkEv@ABI_1_1 4:4.11.1
@@ -339,9 +339,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten220ViewConfigController32onVisibleByteArrayCodingsChangedEi@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewConfigControllerC1EP13KXMLGUIClient@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewConfigControllerC2EP13KXMLGUIClient@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewConfigControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewConfigControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewConfigControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewConfigControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewConfigControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewConfigControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewStatusController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewStatusController11qt_metacastEPKc@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewStatusController13setCharCodingEi@ABI_1_1 4:4.11.1
@@ -357,9 +357,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten220ViewStatusController9fixWidthsEi@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewStatusControllerC1EPNS_9StatusBarE@ABI_1_1 4:4.11.1
  _ZN7Kasten220ViewStatusControllerC2EPNS_9StatusBarE@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewStatusControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewStatusControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten220ViewStatusControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewStatusControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewStatusControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten220ViewStatusControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten221CharsetConversionTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_1 4:4.11.1
  _ZN7Kasten221CharsetConversionTool11qt_metacastEPKc@ABI_1_1 4:4.11.1
  _ZN7Kasten221CharsetConversionTool12convertCharsEv@ABI_1_1 4:4.11.1
@@ -418,9 +418,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten221ViewProfileController29onResetChangesActionTriggeredEv@ABI_1_1 4:4.11.1
  _ZN7Kasten221ViewProfileControllerC1EPNS_27ByteArrayViewProfileManagerEP7QWidgetP13KXMLGUIClient@ABI_1_1 4:4.11.1
  _ZN7Kasten221ViewProfileControllerC2EPNS_27ByteArrayViewProfileManagerEP7QWidgetP13KXMLGUIClient@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten221ViewProfileControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten221ViewProfileControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten221ViewProfileControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ViewProfileControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ViewProfileControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten221ViewProfileControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten222StringsExtractToolViewC1EPNS_18StringsExtractToolE@ABI_1_1 4:4.11.1
  _ZN7Kasten222StringsExtractToolViewC2EPNS_18StringsExtractToolE@ABI_1_1 4:4.11.1
  _ZN7Kasten222StringsExtractToolViewD0Ev@ABI_1_1 4:4.11.1
@@ -439,9 +439,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten223OverwriteModeController16staticMetaObjectE@ABI_1_1 4:4.11.1
  _ZN7Kasten223OverwriteModeControllerC1EP13KXMLGUIClient@ABI_1_1 4:4.11.1
  _ZN7Kasten223OverwriteModeControllerC2EP13KXMLGUIClient@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten223OverwriteModeControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten223OverwriteModeControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten223OverwriteModeControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223OverwriteModeControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223OverwriteModeControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten223OverwriteModeControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten224BookmarksToolViewFactory6createEPNS_12AbstractToolE@ABI_1_1 4:4.11.1
  _ZN7Kasten224BookmarksToolViewFactoryC1Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten224BookmarksToolViewFactoryC2Ev@ABI_1_1 4:4.11.1
@@ -490,9 +490,9 @@ libkasten2okteta1controllers.so.1abi1 libkasten2okteta1controllers1abi1 #MINVER#
  _ZN7Kasten228ViewProfilesManageController16staticMetaObjectE@ABI_1_1 4:4.11.1
  _ZN7Kasten228ViewProfilesManageControllerC1EP13KXMLGUIClientPNS_27ByteArrayViewProfileManagerEP7QWidget@ABI_1_1 4:4.11.1
  _ZN7Kasten228ViewProfilesManageControllerC2EP13KXMLGUIClientPNS_27ByteArrayViewProfileManagerEP7QWidget@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten228ViewProfilesManageControllerD0Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten228ViewProfilesManageControllerD1Ev@ABI_1_1 4:4.11.1
- (optional=gccinternal)_ZN7Kasten228ViewProfilesManageControllerD2Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten228ViewProfilesManageControllerD0Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten228ViewProfilesManageControllerD1Ev@ABI_1_1 4:4.11.1
+ (optional=gccinternal|arch=amd64)_ZN7Kasten228ViewProfilesManageControllerD2Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten229StringsExtractToolViewFactory6createEPNS_12AbstractToolE@ABI_1_1 4:4.11.1
  _ZN7Kasten229StringsExtractToolViewFactoryC1Ev@ABI_1_1 4:4.11.1
  _ZN7Kasten229StringsExtractToolViewFactoryC2Ev@ABI_1_1 4:4.11.1
