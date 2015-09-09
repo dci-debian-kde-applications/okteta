@@ -9,6 +9,7 @@ okteta (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.2).
   * New upstream release (15.04.3).
   * New upstream release (15.08.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 12:14:39 +0200
 

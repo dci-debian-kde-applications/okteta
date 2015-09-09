@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten11ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten11ShellWindow11qt_metacastEPKc@Base 4:14.12.0
@@ -105,8 +105,6 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten14SingleViewAreaD0Ev@Base 4:14.12.0
  _ZN6Kasten14SingleViewAreaD1Ev@Base 4:14.12.0
  _ZN6Kasten14SingleViewAreaD2Ev@Base 4:14.12.0
- _ZN6Kasten16AbstractToolView7PrivateC1EPS0_@Base 4:14.12.0
- _ZN6Kasten16AbstractToolView7PrivateC2EPS0_@Base 4:14.12.0
  _ZN6Kasten16AbstractToolViewC1Ev@Base 4:14.12.0
  _ZN6Kasten16AbstractToolViewC2Ev@Base 4:14.12.0
  _ZN6Kasten16AbstractToolViewD0Ev@Base 4:14.12.0
@@ -153,9 +151,9 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten18AbstractController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten18AbstractController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
  _ZN6Kasten18AbstractController16staticMetaObjectE@Base 4:14.12.0
- _ZN6Kasten18AbstractControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten18AbstractControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten18AbstractControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget16staticMetaObjectE@Base 4:14.12.0
@@ -183,8 +181,6 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten21AbstractSelectionView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten21AbstractSelectionView11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten21AbstractSelectionView16staticMetaObjectE@Base 4:14.12.0
- _ZN6Kasten21AbstractSelectionView7PrivateC1EPS0_@Base 4:14.12.0
- _ZN6Kasten21AbstractSelectionView7PrivateC2EPS0_@Base 4:14.12.0
  _ZN6Kasten21AbstractSelectionViewC1Ev@Base 4:14.12.0
  _ZN6Kasten21AbstractSelectionViewC2Ev@Base 4:14.12.0
  _ZN6Kasten21AbstractSelectionViewD0Ev@Base 4:14.12.0
@@ -216,8 +212,6 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten21MultiDocumentStrategyD0Ev@Base 4:14.12.0
  _ZN6Kasten21MultiDocumentStrategyD1Ev@Base 4:14.12.0
  _ZN6Kasten21MultiDocumentStrategyD2Ev@Base 4:14.12.0
- _ZN6Kasten22AbstractToolInlineView7PrivateC1EPS0_@Base 4:14.12.0
- _ZN6Kasten22AbstractToolInlineView7PrivateC2EPS0_@Base 4:14.12.0
  _ZN6Kasten22AbstractToolInlineView8activateEv@Base 4:14.12.0
  _ZN6Kasten22AbstractToolInlineViewC1Ev@Base 4:14.12.0
  _ZN6Kasten22AbstractToolInlineViewC2Ev@Base 4:14.12.0
@@ -256,9 +250,9 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten24AbstractXmlGuiController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten24AbstractXmlGuiController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten24AbstractXmlGuiController16staticMetaObjectE@Base 4:14.12.0
- _ZN6Kasten24AbstractXmlGuiControllerD0Ev@Base 4:14.12.0
- _ZN6Kasten24AbstractXmlGuiControllerD1Ev@Base 4:14.12.0
- _ZN6Kasten24AbstractXmlGuiControllerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor15validityChangedEb@Base 4:14.12.0

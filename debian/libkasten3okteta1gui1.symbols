@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
@@ -62,9 +62,9 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZN6Kasten20ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewFactoryC1EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewFactoryC2EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
- _ZN6Kasten20ByteArrayViewFactoryD0Ev@Base 4:14.12.0
- _ZN6Kasten20ByteArrayViewFactoryD1Ev@Base 4:14.12.0
- _ZN6Kasten20ByteArrayViewFactoryD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten20ByteArrayViewFactoryD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten20ByteArrayViewFactoryD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten20ByteArrayViewFactoryD2Ev@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewProfile12setViewModusEi@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewProfile13setCharCodingERK7QString@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewProfile14setLayoutStyleEi@Base 4:14.12.0
@@ -156,9 +156,9 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZN6Kasten32ByteArrayViewProfileSynchronizer7setViewEPNS_13ByteArrayViewE@Base 4:14.12.0
  _ZN6Kasten32ByteArrayViewProfileSynchronizerC1EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
  _ZN6Kasten32ByteArrayViewProfileSynchronizerC2EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
- _ZN6Kasten32ByteArrayViewProfileSynchronizerD0Ev@Base 4:14.12.0
- _ZN6Kasten32ByteArrayViewProfileSynchronizerD1Ev@Base 4:14.12.0
- _ZN6Kasten32ByteArrayViewProfileSynchronizerD2Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten32ByteArrayViewProfileSynchronizerD0Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten32ByteArrayViewProfileSynchronizerD1Ev@Base 4:14.12.0
+ (optional=gccinternal|arch=!amd64)_ZN6Kasten32ByteArrayViewProfileSynchronizerD2Ev@Base 4:14.12.0
  _ZN6Kasten48ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@Base 4:14.12.0
  _ZN6Kasten48ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@Base 4:14.12.0
  _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0

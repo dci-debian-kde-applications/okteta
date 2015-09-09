@@ -1,12 +1,10 @@
-# SymbolsHelper-Confirmed: 4:15.04.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten10JobManager10executeJobEP4KJob@Base 4:14.12.0
  _ZN6Kasten12AbstractTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten12AbstractTool11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten12AbstractTool12titleChangedERK7QString@Base 4:14.12.0
  _ZN6Kasten12AbstractTool16staticMetaObjectE@Base 4:14.12.0
- _ZN6Kasten12AbstractTool7PrivateC1EPS0_@Base 4:14.12.0
- _ZN6Kasten12AbstractTool7PrivateC2EPS0_@Base 4:14.12.0
  _ZN6Kasten12AbstractToolC1Ev@Base 4:14.12.0
  _ZN6Kasten12AbstractToolC2Ev@Base 4:14.12.0
  _ZN6Kasten12AbstractToolD0Ev@Base 4:14.12.0
