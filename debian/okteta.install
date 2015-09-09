@@ -3,12 +3,14 @@ usr/bin/okteta
 usr/bin/struct2osd
 usr/lib/*/qt5/plugins/designer/oktetadesignerplugin.so
 usr/lib/*/qt5/plugins/oktetapart.so
-usr/share/appdata/okteta.appdata.xml
+usr/share/appdata/org.kde.okteta.appdata.xml
 usr/share/applications/org.kde.okteta.desktop
 usr/share/config.kcfg/structviewpreferences.kcfg
 usr/share/doc/HTML/*/okteta/
 usr/share/icons/hicolor/*/apps/okteta.png
 usr/share/kxmlgui5/okteta/oktetaui.rc
+usr/share/kxmlgui5/oktetapart/oktetapartbrowserui.rc
+usr/share/kxmlgui5/oktetapart/oktetapartreadonlyui.rc
+usr/share/kxmlgui5/oktetapart/oktetapartreadwriteui.rc
 usr/share/mime/packages/okteta.xml
 usr/share/okteta/
-usr/share/oktetapart/

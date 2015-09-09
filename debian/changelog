@@ -12,12 +12,78 @@ okteta (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 12:14:39 +0200
 
+okteta (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 18:19:59 +0100
+
+okteta (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Remove the .amd64 suffix allowing to use the files for other architectures
+    - Mark as optional the symbols gone after building with GCC 5
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 12:25:28 +0100
+
+okteta (4:15.04.2-0ubuntu3) wily; urgency=medium
+
+  * Fix version number for symbols file updates.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 12 Aug 2015 19:45:31 +0200
+
+okteta (4:15.04.2-0ubuntu2) wily; urgency=medium
+
+  * Update symbols files.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 12 Aug 2015 19:21:29 +0200
+
+okteta (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Delete upstream_cmake-IconThemes.diff, applied upstream.
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:34:19 +0200
+
 okteta (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:45 +0200
+
+okteta (4:14.12.3-0ubuntu4) vivid; urgency=medium
+
+  * Move symbols files to amd64 only, I can't work out the other arches
+    alas
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 23:11:10 +0200
+
+okteta (4:14.12.3-0ubuntu3) vivid; urgency=medium
+
+  * Update symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 21:01:07 +0200
+
+okteta (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Add upstream_cmake-IconThemes.diff to fix compile
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 16:27:07 +0200
 
 okteta (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
