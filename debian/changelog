@@ -1,4 +1,4 @@
-okteta (4:15.08.0-1~) UNRELEASED; urgency=medium
+okteta (4:15.08.0-1) experimental; urgency=medium
 
   * New upstream release (15.04.0).
   * Add missing dev dependency (thanks to acc headers check)
@@ -11,7 +11,7 @@ okteta (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 12:14:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 15:09:57 +0200
 
 okteta (4:15.08.0-0ubuntu1) wily; urgency=medium
 
