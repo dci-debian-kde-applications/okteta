@@ -6,3 +6,4 @@ Restrictions: build-needed
 Tests: acc
 Depends: @, @builddeps@,
          dh-acc, exuberant-ctags
+Restrictions: allow-stderr
