@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.04.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 armel armhf
 libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@Base 4:14.12.0
  _ZN6Okteta11ColumnsView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -465,7 +465,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta31AbstractByteArrayColumnRenderer27xsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer33columnXsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer8byteRectERKNS_5CoordE@Base 4:14.12.0
- _ZTI11QSharedData@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTI11QSharedData@Base 4:15.04.0
  _ZTIN6Okteta11ColumnsViewE@Base 4:15.04.0
  _ZTIN6Okteta16ByteArrayRowViewE@Base 4:15.04.0
  _ZTIN6Okteta19ByteArrayColumnViewE@Base 4:15.04.0
@@ -479,7 +479,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZTIN6Okteta27CharByteArrayColumnRendererE@Base 4:15.04.0
  _ZTIN6Okteta28ValueByteArrayColumnRendererE@Base 4:15.04.0
  _ZTIN6Okteta31AbstractByteArrayColumnRendererE@Base 4:15.04.0
- _ZTS11QSharedData@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTS11QSharedData@Base 4:15.04.0
  _ZTSN6Okteta11ColumnsViewE@Base 4:15.04.0
  _ZTSN6Okteta16ByteArrayRowViewE@Base 4:15.04.0
  _ZTSN6Okteta19ByteArrayColumnViewE@Base 4:15.04.0

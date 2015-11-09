@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
 libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten11ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten11ShellWindow11qt_metacastEPKc@Base 4:14.12.0
@@ -151,9 +151,6 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten18AbstractController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten18AbstractController14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
  _ZN6Kasten18AbstractController16staticMetaObjectE@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD0Ev@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD1Ev@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten18AbstractControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten18AbstractToolWidget16staticMetaObjectE@Base 4:14.12.0
@@ -250,9 +247,6 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZN6Kasten24AbstractXmlGuiController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten24AbstractXmlGuiController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten24AbstractXmlGuiController16staticMetaObjectE@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD0Ev@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD1Ev@Base 4:14.12.0
- (optional=gccinternal|arch=!amd64)_ZN6Kasten24AbstractXmlGuiControllerD2Ev@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten33AbstractModelExporterConfigEditor15validityChangedEb@Base 4:14.12.0
@@ -406,7 +400,7 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTIN6Kasten17AbstractLinePopupE@Base 4:15.04.0
  _ZTIN6Kasten18AbstractControllerE@Base 4:15.04.0
  _ZTIN6Kasten18AbstractToolWidgetE@Base 4:15.04.0
- _ZTIN6Kasten19AbstractViewFactoryE@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTIN6Kasten19AbstractViewFactoryE@Base 4:15.08.0
  _ZTIN6Kasten20AbstractGroupedViewsE@Base 4:15.04.0
  _ZTIN6Kasten21AbstractSelectionViewE@Base 4:15.04.0
  _ZTIN6Kasten21ModelCodecViewManagerE@Base 4:15.04.0
@@ -422,8 +416,8 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTIN6Kasten38AbstractModelStreamEncoderConfigEditorE@Base 4:15.04.0
  _ZTIN6Kasten40AbstractModelExporterConfigEditorFactoryE@Base 4:15.04.0
  _ZTIN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@Base 4:15.04.0
- _ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:15.04.0
- _ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:15.08.0
+ (arch=!armel !armhf)_ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:15.08.0
  _ZTIN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@Base 4:15.04.0
  _ZTIN6Kasten9DummyViewE@Base 4:15.04.0
  _ZTIN6Kasten9StatusBarE@Base 4:15.04.0
@@ -441,7 +435,7 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTSN6Kasten17AbstractLinePopupE@Base 4:15.04.0
  _ZTSN6Kasten18AbstractControllerE@Base 4:15.04.0
  _ZTSN6Kasten18AbstractToolWidgetE@Base 4:15.04.0
- _ZTSN6Kasten19AbstractViewFactoryE@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTSN6Kasten19AbstractViewFactoryE@Base 4:15.08.0
  _ZTSN6Kasten20AbstractGroupedViewsE@Base 4:15.04.0
  _ZTSN6Kasten21AbstractSelectionViewE@Base 4:15.04.0
  _ZTSN6Kasten21ModelCodecViewManagerE@Base 4:15.04.0
@@ -457,8 +451,8 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTSN6Kasten38AbstractModelStreamEncoderConfigEditorE@Base 4:15.04.0
  _ZTSN6Kasten40AbstractModelExporterConfigEditorFactoryE@Base 4:15.04.0
  _ZTSN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@Base 4:15.04.0
- _ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:15.04.0
- _ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:15.04.0
+ (arch=!armel !armhf)_ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:15.08.0
+ (arch=!armel !armhf)_ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:15.08.0
  _ZTSN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@Base 4:15.04.0
  _ZTSN6Kasten9DummyViewE@Base 4:15.04.0
  _ZTSN6Kasten9StatusBarE@Base 4:15.04.0
@@ -478,24 +472,24 @@ libkasten3gui.so.3 libkasten3gui3 #MINVER#
  _ZTVN6Kasten17AbstractLinePopupE@Base 4:14.12.0
  _ZTVN6Kasten18AbstractControllerE@Base 4:14.12.0
  _ZTVN6Kasten18AbstractToolWidgetE@Base 4:14.12.0
- _ZTVN6Kasten19AbstractViewFactoryE@Base 4:14.12.0
+ (arch=!armel !armhf)_ZTVN6Kasten19AbstractViewFactoryE@Base 4:15.08.0
  _ZTVN6Kasten20AbstractGroupedViewsE@Base 4:14.12.0
  _ZTVN6Kasten21AbstractSelectionViewE@Base 4:14.12.0
  _ZTVN6Kasten21ModelCodecViewManagerE@Base 4:14.12.0
  _ZTVN6Kasten21MultiDocumentStrategyE@Base 4:14.12.0
  _ZTVN6Kasten22AbstractToolInlineViewE@Base 4:14.12.0
  _ZTVN6Kasten22SingleDocumentStrategyE@Base 4:14.12.0
- _ZTVN6Kasten23AbstractOverwriteDialogE@Base 4:14.12.0
+ (arch=!armel !armhf)_ZTVN6Kasten23AbstractOverwriteDialogE@Base 4:15.08.0
  _ZTVN6Kasten24AbstractDocumentStrategyE@Base 4:14.12.0
  _ZTVN6Kasten24AbstractXmlGuiControllerE@Base 4:14.12.0
- _ZTVN6Kasten25AbstractSaveDiscardDialogE@Base 4:14.12.0
+ (arch=!armel !armhf)_ZTVN6Kasten25AbstractSaveDiscardDialogE@Base 4:15.08.0
  _ZTVN6Kasten33AbstractModelExporterConfigEditorE@Base 4:14.12.0
  _ZTVN6Kasten38AbstractModelDataGeneratorConfigEditorE@Base 4:14.12.0
  _ZTVN6Kasten38AbstractModelStreamEncoderConfigEditorE@Base 4:14.12.0
- _ZTVN6Kasten40AbstractModelExporterConfigEditorFactoryE@Base 4:14.12.0
+ (arch=!armel !armhf)_ZTVN6Kasten40AbstractModelExporterConfigEditorFactoryE@Base 4:15.08.0
  _ZTVN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@Base 4:14.12.0
- _ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:14.12.0
- _ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:14.12.0
+ (arch=!armel !armhf)_ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@Base 4:15.08.0
+ (arch=!armel !armhf)_ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@Base 4:15.08.0
  _ZTVN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@Base 4:14.12.0
  _ZTVN6Kasten9DummyViewE@Base 4:14.12.0
  _ZTVN6Kasten9StatusBarE@Base 4:14.12.0
