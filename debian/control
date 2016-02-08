@@ -7,29 +7,35 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.7.0~),
                kdoctools-dev,
                kio-dev,
                libkf5bookmarks-dev,
+               libkf5codecs-dev,
+               libkf5completion-dev,
+               libkf5configwidgets-dev,
                libkf5dbusaddons-dev,
                libkf5i18n-dev,
+               libkf5iconthemes-dev,
                libkf5kcmutils-dev,
                libkf5newstuff-dev,
                libkf5parts-dev,
-               libqca-qt5-2-dev,
+               libkf5service-dev,
+               libkf5widgetsaddons-dev,
+               libkf5xmlgui-dev,
+               libqca-qt5-2-dev (>= 2.1.0),
                pkg-config,
-               pkg-kde-tools (>= 0.12),
-               qtbase5-dev,
-               qtscript5-dev,
-               qttools5-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4),
+               qttools5-dev (>= 5.4),
                shared-mime-info (>= 0.30)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/okteta.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/okteta.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/okteta.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/okteta.git
 
 Package: okteta
 Architecture: any
@@ -52,7 +58,7 @@ Description: hexadecimal editor for binary files
 Package: okteta-dev
 Architecture: any
 Section: devel
-Depends: ${misc:Depends}, ${so:Depends}
+Depends: libkf5xmlgui-dev, qtbase5-dev (>= 5.4), ${misc:Depends}, ${so:Depends}
 Description: Development files for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
