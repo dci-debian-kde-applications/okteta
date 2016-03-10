@@ -1,6 +1,7 @@
 okteta (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Remove install_missing_header appears to be fixed upstream.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 22:32:12 -0800
 
