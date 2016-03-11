@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
+# SymbolsHelper-Confirmed: 4:15.12.1 amd64 arm64 armhf i386 powerpc ppc64el s390x
 libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten10JobManager10executeJobEP4KJob@Base 4:14.12.0
  _ZN6Kasten12AbstractTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -185,8 +185,8 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten23ModelStreamEncodeThread13modelExportedEb@Base 4:14.12.0
  _ZN6Kasten23ModelStreamEncodeThread16staticMetaObjectE@Base 4:14.12.0
  _ZN6Kasten23ModelStreamEncodeThread3runEv@Base 4:14.12.0
- _ZN6Kasten23ModelStreamEncodeThreadC1EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
- _ZN6Kasten23ModelStreamEncodeThreadC2EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten23ModelStreamEncodeThreadC1EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten23ModelStreamEncodeThreadC2EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
  _ZN6Kasten23ModelStreamEncodeThreadD0Ev@Base 4:14.12.0
  _ZN6Kasten23ModelStreamEncodeThreadD1Ev@Base 4:14.12.0
  _ZN6Kasten23ModelStreamEncodeThreadD2Ev@Base 4:14.12.0
@@ -311,10 +311,10 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten33AbstractFileSystemSyncToRemoteJobD1Ev@Base 4:14.12.0
  _ZN6Kasten33AbstractFileSystemSyncToRemoteJobD2Ev@Base 4:14.12.0
  _ZN6Kasten35AbstractFileSystemConnectJobPrivate15connectWithFileEv@Base 4:14.12.0
- _ZN6Kasten35AbstractFileSystemConnectJobPrivate5startEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten35AbstractFileSystemConnectJobPrivate5startEv@Base 4:15.12.1
  _ZN6Kasten35AbstractFileSystemConnectJobPrivate8completeEb@Base 4:14.12.0
- _ZN6Kasten35AbstractFileSystemConnectJobPrivateC1EPNS_28AbstractFileSystemConnectJobEPNS_35AbstractModelFileSystemSynchronizerEPNS_16AbstractDocumentERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
- _ZN6Kasten35AbstractFileSystemConnectJobPrivateC2EPNS_28AbstractFileSystemConnectJobEPNS_35AbstractModelFileSystemSynchronizerEPNS_16AbstractDocumentERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten35AbstractFileSystemConnectJobPrivateC1EPNS_28AbstractFileSystemConnectJobEPNS_35AbstractModelFileSystemSynchronizerEPNS_16AbstractDocumentERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten35AbstractFileSystemConnectJobPrivateC2EPNS_28AbstractFileSystemConnectJobEPNS_35AbstractModelFileSystemSynchronizerEPNS_16AbstractDocumentERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
  _ZN6Kasten35AbstractFileSystemConnectJobPrivateD0Ev@Base 4:14.12.0
  _ZN6Kasten35AbstractFileSystemConnectJobPrivateD1Ev@Base 4:14.12.0
  _ZN6Kasten35AbstractFileSystemConnectJobPrivateD2Ev@Base 4:14.12.0
@@ -358,17 +358,17 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZN6Kasten35AbstractModelFileSystemSynchronizerD2Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate12completeReadEb@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate14syncFromRemoteEv@Base 4:14.12.0
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate5startEv@Base 4:15.12.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateC1EPNS_35AbstractFileSystemSyncFromRemoteJobEPNS_35AbstractModelFileSystemSynchronizerE@Base 4:15.12.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateC2EPNS_35AbstractFileSystemSyncFromRemoteJobEPNS_35AbstractModelFileSystemSynchronizerE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate5startEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateC1EPNS_35AbstractFileSystemSyncFromRemoteJobEPNS_35AbstractModelFileSystemSynchronizerE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateC2EPNS_35AbstractFileSystemSyncFromRemoteJobEPNS_35AbstractModelFileSystemSynchronizerE@Base 4:15.12.1
  _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD0Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD1Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD2Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate12completeSyncEb@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate14syncWithRemoteEv@Base 4:14.12.0
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate5startEv@Base 4:15.12.1
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateC1EPNS_35AbstractFileSystemSyncWithRemoteJobEPNS_35AbstractModelFileSystemSynchronizerERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateC2EPNS_35AbstractFileSystemSyncWithRemoteJobEPNS_35AbstractModelFileSystemSynchronizerERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate5startEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateC1EPNS_35AbstractFileSystemSyncWithRemoteJobEPNS_35AbstractModelFileSystemSynchronizerERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateC2EPNS_35AbstractFileSystemSyncWithRemoteJobEPNS_35AbstractModelFileSystemSynchronizerERK4QUrlNS_25AbstractModelSynchronizer13ConnectOptionE@Base 4:15.12.1
  _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD0Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD1Ev@Base 4:14.12.0
  _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD2Ev@Base 4:14.12.0
@@ -419,7 +419,7 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZNK6Kasten23AbstractSyncToRemoteJob10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten23ModelDataGenerateThread10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten23ModelStreamEncodeThread10metaObjectEv@Base 4:14.12.0
- _ZNK6Kasten23ModelStreamEncodeThread7successEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten23ModelStreamEncodeThread7successEv@Base 4:15.12.1
  _ZNK6Kasten25AbstractFileSystemLoadJob10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten25AbstractFileSystemLoadJob12synchronizerEv@Base 4:14.12.0
  _ZNK6Kasten25AbstractFileSystemLoadJob3urlEv@Base 4:14.12.0
@@ -454,9 +454,9 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZNK6Kasten33AbstractFileSystemSyncToRemoteJob10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten33AbstractFileSystemSyncToRemoteJob12synchronizerEv@Base 4:14.12.0
  _ZNK6Kasten33AbstractFileSystemSyncToRemoteJob4fileEv@Base 4:14.12.0
- _ZNK6Kasten35AbstractFileSystemConnectJobPrivate12synchronizerEv@Base 4:15.12.1
- _ZNK6Kasten35AbstractFileSystemConnectJobPrivate4fileEv@Base 4:15.12.1
- _ZNK6Kasten35AbstractFileSystemConnectJobPrivate8documentEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten35AbstractFileSystemConnectJobPrivate12synchronizerEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten35AbstractFileSystemConnectJobPrivate4fileEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten35AbstractFileSystemConnectJobPrivate8documentEv@Base 4:15.12.1
  _ZNK6Kasten35AbstractFileSystemSyncFromRemoteJob10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten35AbstractFileSystemSyncFromRemoteJob12synchronizerEv@Base 4:14.12.0
  _ZNK6Kasten35AbstractFileSystemSyncFromRemoteJob4fileEv@Base 4:14.12.0
@@ -465,18 +465,18 @@ libkasten3core.so.3 libkasten3core3 #MINVER#
  _ZNK6Kasten35AbstractFileSystemSyncWithRemoteJob4fileEv@Base 4:14.12.0
  _ZNK6Kasten35AbstractModelFileSystemSynchronizer10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten35AbstractModelFileSystemSynchronizer15remoteSyncStateEv@Base 4:14.12.0
- _ZNK6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate12synchronizerEv@Base 4:15.12.1
- _ZNK6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate4fileEv@Base 4:15.12.1
- _ZNK6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate12synchronizerEv@Base 4:15.12.1
- _ZNK6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate4fileEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate12synchronizerEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate4fileEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate12synchronizerEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate4fileEv@Base 4:15.12.1
  _ZNK6Kasten6Person4nameEv@Base 4:14.12.0
  _ZNK6Kasten6Person8faceIconEv@Base 4:14.12.0
  _ZNK6Kasten6PersoneqERKS0_@Base 4:14.12.0
- (optional=templinst)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
- (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
- (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
- (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
- (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
  _ZTIN6Kasten12AbstractToolE@Base 4:15.04.0
  _ZTIN6Kasten13AbstractModelE@Base 4:15.04.0
  _ZTIN6Kasten15AbstractLoadJobE@Base 4:15.04.0
