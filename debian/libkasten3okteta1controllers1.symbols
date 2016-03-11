@@ -1,18 +1,84 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64 arm64 i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
 libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
- (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !ppc64el !s390x)_Z17qRegisterMetaTypeI12QScriptValueEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
- (optional=templinst|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !ppc64 !ppc64el !s390x)_Z17qRegisterMetaTypeI13SafeReferenceEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
- (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI12Hexadecimal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+ (optional=templinst)_Z10qDeleteAllI7QVectorIP15DataInformationEEvRKT_@Base 4:15.12.1
+ (optional=templinst)_Z10qDeleteAllIPKP15DataInformationEvT_S4_@Base 4:15.12.1
+ (optional=templinst)_Z10qDeleteAllIPP15DataInformationEvT_S3_@Base 4:15.12.1
+ (optional=templinst)_Z11qMetaTypeIdI12QScriptValueEiv@Base 4:15.12.1
+ (optional=templinst)_Z11qMetaTypeIdI13SafeReferenceEiv@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIP14QDoubleSpinBoxET_P7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIP9KLineEditET_P7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIPK11SIntSpinBoxET_PK7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIPK11UIntSpinBoxET_PK7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIPK14QDoubleSpinBoxET_PK7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIPK9KComboBoxET_PK7QObject@Base 4:15.12.1
+ (optional=templinst)_Z12qobject_castIPK9KLineEditET_PK7QObject@Base 4:15.12.1
+ (optional=templinst)_Z13qvariant_castI12QScriptValueET_RK8QVariant@Base 4:15.12.1
+ (optional=templinst)_Z15qMapLessThanKeyI17AllPrimitiveTypesEbRKT_S3_@Base 4:15.12.1
+ (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !s390x)_Z17qRegisterMetaTypeI12QScriptValueEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !powerpc !ppc64 !s390x)_Z17qRegisterMetaTypeI13SafeReferenceEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+ (optional=templinst)_Z17qVariantFromValueI12QScriptValueE8QVariantRKT_@Base 4:15.12.1
+ (optional=templinst)_Z17qVariantFromValueI13SafeReferenceE8QVariantRKT_@Base 4:15.12.1
+#MISSING: 4:15.12.1# (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI12Hexadecimal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI12QScriptValueEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386)_Z27qRegisterNormalizedMetaTypeI13SafeReferenceEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
+ (optional=templinst|arch=amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386 ppc64el)_Z27qRegisterNormalizedMetaTypeI13SafeReferenceEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst|arch=!arm64 !mips !mipsel !powerpc !ppc64el !s390x)_Z27qRegisterNormalizedMetaTypeI4Utf8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
- (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
- (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI6Octal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+#MISSING: 4:15.12.1# (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+#MISSING: 4:15.12.1# (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI6Octal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst|arch=!arm64 !mips !mipsel !powerpc !ppc64el !s390x)_Z27qRegisterNormalizedMetaTypeI7Binary8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
- (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI7Float32EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
- (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI7Float64EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+#MISSING: 4:15.12.1# (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI7Float32EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
+#MISSING: 4:15.12.1# (optional=templinst|arch=!mips !mipsel)_Z27qRegisterNormalizedMetaTypeI7Float64EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  _Z40LOG_KASTEN_OKTETA_CONTROLLERS_STRUCTURESv@Base 4:14.12.0
+ (optional=templinst)_Z4qAbsIaET_RKS0_@Base 4:15.12.1
+ (optional=templinst)_Z4qAbsIiET_RKS0_@Base 4:15.12.1
+ (optional=templinst)_Z4qAbsIsET_RKS0_@Base 4:15.12.1
+ (optional=templinst)_Z4qAbsIxET_RKS0_@Base 4:15.12.1
+ (optional=templinst)_Z4qMinIjERKT_S2_S2_@Base 4:15.12.1
+ (optional=templinst)_Z5i18ndI7QStringS0_ES0_PKcS2_RKT_RKT0_@Base 4:15.12.1
+ (optional=templinst)_Z5i18ndI7QStringS0_S0_S0_ES0_PKcS2_RKT_RKT0_RKT1_RKT2_@Base 4:15.12.1
+ (optional=templinst)_Z5i18ndI7QStringS0_S0_S0_S0_ES0_PKcS2_RKT_RKT0_RKT1_RKT2_RKT3_@Base 4:15.12.1
+ (optional=templinst)_Z5i18ndIhE7QStringPKcS2_RKT_@Base 4:15.12.1
+ (optional=templinst)_Z5qHashI15DataInformationEjPKT_j@Base 4:15.12.1
+ (optional=templinst)_Z5qHashIN6Okteta22AbstractByteArrayModelEEjPKT_j@Base 4:15.12.1
+ (optional=templinst)_Z5qHashIP15DataInformationEjRKT_j@Base 4:15.12.1
+ _Z5qHashij@Base 4:15.12.1
+ _Z5qHashyj@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP14ChildrenParserEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP14EnumDefinitionEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP15QTypedArrayDataIN12ScriptLogger4DataEEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP15QTypedArrayDataIP15DataInformationEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIP8QMapDataI17AllPrimitiveTypes7QStringEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_Z5qSwapIPN15QtSharedPointer20ExternalRefCountDataEEvRT_S4_@Base 4:15.12.1
+ (optional=templinst)_Z6i18ndpIj7QStringS0_S0_S0_ES0_PKcS2_S2_RKT_RKT0_RKT1_RKT2_RKT3_@Base 4:15.12.1
+ (optional=templinst)_Z6i18ndpIj7QStringS0_S0_S0_S0_ES0_PKcS2_S2_RKT_RKT0_RKT1_RKT2_RKT3_RKT4_@Base 4:15.12.1
+ (optional=templinst)_Z6i18ndpIjE7QStringPKcS2_S2_RKT_@Base 4:15.12.1
+ (optional=templinst)_Z6qbswapIhET_S0_@Base 4:15.12.1
+ (optional=templinst)_Z7i18ndcpIjE7QStringPKcS2_S2_S2_RKT_@Base 4:15.12.1
+ (optional=templinst)_Z9qMakePairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEE5QPairIT_T0_ERKS6_RKS7_@Base 4:15.12.1
+ (optional=templinst)_Z9qMakePairI7QStringyE5QPairIT_T0_ERKS2_RKS3_@Base 4:15.12.1
+ _ZN10ParserInfoC1ERK7QStringP12ScriptLoggerP15DataInformationP13QScriptEngine@Base 4:15.12.1
+ _ZN10ParserInfoC1ERKS_@Base 4:15.12.1
+ _ZN10ParserInfoC2ERK7QStringP12ScriptLoggerP15DataInformationP13QScriptEngine@Base 4:15.12.1
+ _ZN10ParserInfoC2ERKS_@Base 4:15.12.1
+ _ZN10ParserInfoD1Ev@Base 4:15.12.1
+ _ZN10ParserInfoD2Ev@Base 4:15.12.1
+ _ZN10QByteArray4dataEv@Base 4:15.12.1
+ _ZN10QByteArray7reserveEi@Base 4:15.12.1
+ _ZN10QByteArrayixEi@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceE6insertERKS1_RKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceE6removeERKS1_RKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN10QMultiHashIP15DataInformationP13SafeReferenceED2Ev@Base 4:15.12.1
+ _ZN10QStringRefD1Ev@Base 4:15.12.1
+ _ZN10QStringRefD2Ev@Base 4:15.12.1
+ _ZN10QStringRefaSERKS_@Base 4:15.12.1
  _ZN10StringData15setLittleEndianEb@Base 4:14.12.0
+ _ZN10StringData15setMaxByteCountEj@Base 4:15.12.1
+ _ZN10StringData15setMaxCharCountEj@Base 4:15.12.1
+ _ZN10StringData18setTerminationModeENS_15TerminationModeE@Base 4:15.12.1
+ _ZN10StringData19copyTerminationFromEPKS_@Base 4:15.12.1
  _ZN10StringData23setTerminationCodePointEj@Base 4:14.12.0
  _ZN10StringDataC1EP21StringDataInformation@Base 4:14.12.0
  _ZN10StringDataC2EP21StringDataInformation@Base 4:14.12.0
@@ -47,6 +113,16 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN11ParserUtils19byteOrderFromStringERK7QStringRK17LoggerWithContext@Base 4:14.12.0
  _ZN11ParserUtils19uintFromScriptValueERK12QScriptValue@Base 4:14.12.0
  _ZN11ParserUtils21uint64FromScriptValueERK12QScriptValue@Base 4:14.12.0
+ _ZN11QDomElementD1Ev@Base 4:15.12.1
+ _ZN11QDomElementD2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN11QMetaTypeIdI12QScriptValueE14qt_metatype_idEv@Base 4:15.12.1
+ (optional=templinst)_ZN11QMetaTypeIdI13SafeReferenceE14qt_metatype_idEv@Base 4:15.12.1
+ _ZN11QSharedDataC1ERKS_@Base 4:15.12.1
+ _ZN11QSharedDataC1Ev@Base 4:15.12.1
+ _ZN11QSharedDataC2ERKS_@Base 4:15.12.1
+ _ZN11QSharedDataC2Ev@Base 4:15.12.1
+ _ZN11QStringListC1EOS_@Base 4:15.12.1
+ _ZN11QStringListC2EOS_@Base 4:15.12.1
  _ZN11SIntSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN11SIntSpinBox11qt_metacastEPKc@Base 4:14.12.0
  _ZN11SIntSpinBox16staticMetaObjectE@Base 4:14.12.0
@@ -70,13 +146,56 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN12Octal8EditorD0Ev@Base 4:14.12.0
  _ZN12Octal8EditorD1Ev@Base 4:14.12.0
  _ZN12Octal8EditorD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN12ParsedNumberIiE8badInputERK7QString@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiEC1EiRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiEC2EiRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIiEaSEOS0_@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjE8badInputERK7QString@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjEC1EjRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjEC2EjRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIjEaSEOS0_@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIyE8badInputERK7QString@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIyEC1EyRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIyEC2EyRK7QStringb@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIyED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12ParsedNumberIyED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12QMapIteratorI17AllPrimitiveTypes7QStringE4nextEv@Base 4:15.12.1
+ (optional=templinst)_ZN12QMapIteratorI17AllPrimitiveTypes7QStringEC1ERK4QMapIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN12QMapIteratorI17AllPrimitiveTypes7QStringEC2ERK4QMapIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN12QMapIteratorI17AllPrimitiveTypes7QStringED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12QMapIteratorI17AllPrimitiveTypes7QStringED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN12QMetaTypeId2I12QScriptValueE14qt_metatype_idEv@Base 4:15.12.1
+ (optional=templinst)_ZN12QMetaTypeId2I13SafeReferenceE14qt_metatype_idEv@Base 4:15.12.1
  _ZN12ScriptLogger11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN12ScriptLogger11qt_metacastEPKc@Base 4:14.12.0
  _ZN12ScriptLogger12iconForLevelENS_8LogLevelE@Base 4:14.12.0
+ _ZN12ScriptLogger14setLogToStdOutEb@Base 4:15.12.1
  _ZN12ScriptLogger16staticMetaObjectE@Base 4:14.12.0
  _ZN12ScriptLogger3logENS_8LogLevelEPK15DataInformation@Base 4:14.12.0
  _ZN12ScriptLogger3logENS_8LogLevelERK7QString@Base 4:14.12.0
+ _ZN12ScriptLogger4DataC1ENS_8LogLevelERK7QString@Base 4:15.12.1
+ _ZN12ScriptLogger4DataC1ERKS0_@Base 4:15.12.1
+ _ZN12ScriptLogger4DataC1Ev@Base 4:15.12.1
+ _ZN12ScriptLogger4DataC2ENS_8LogLevelERK7QString@Base 4:15.12.1
+ _ZN12ScriptLogger4DataC2ERKS0_@Base 4:15.12.1
+ _ZN12ScriptLogger4DataC2Ev@Base 4:15.12.1
+ _ZN12ScriptLogger4DataD1Ev@Base 4:15.12.1
+ _ZN12ScriptLogger4DataD2Ev@Base 4:15.12.1
+ _ZN12ScriptLogger4infoEPK15DataInformation@Base 4:15.12.1
+ _ZN12ScriptLogger4infoERK7QString@Base 4:15.12.1
+ _ZN12ScriptLogger4warnEPK15DataInformation@Base 4:15.12.1
+ _ZN12ScriptLogger4warnERK7QString@Base 4:15.12.1
  _ZN12ScriptLogger5clearEv@Base 4:14.12.0
+ _ZN12ScriptLogger5errorEPK15DataInformation@Base 4:15.12.1
+ _ZN12ScriptLogger5errorERK7QString@Base 4:15.12.1
  _ZN12ScriptLoggerC1Ev@Base 4:14.12.0
  _ZN12ScriptLoggerC2Ev@Base 4:14.12.0
  _ZN12ScriptLoggerD0Ev@Base 4:14.12.0
@@ -109,9 +228,46 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN13Float64EditorD0Ev@Base 4:14.12.0
  _ZN13Float64EditorD1Ev@Base 4:14.12.0
  _ZN13Float64EditorD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN13I18nTypeCheckIhLi1EE75String_literal_as_second_argument_to_i18n___Perhaps_you_need_i18nc_or_i18npEv@Base 4:15.12.1
+ _ZN13OsdParserInfoC1ERK7QStringP12ScriptLoggerP15DataInformationP13QScriptEngine7QVectorI18QSharedDataPointerI14EnumDefinitionEE@Base 4:15.12.1
+ _ZN13OsdParserInfoC1ERKS_@Base 4:15.12.1
+ _ZN13OsdParserInfoC2ERK7QStringP12ScriptLoggerP15DataInformationP13QScriptEngine7QVectorI18QSharedDataPointerI14EnumDefinitionEE@Base 4:15.12.1
+ _ZN13OsdParserInfoC2ERKS_@Base 4:15.12.1
+ _ZN13OsdParserInfoD1Ev@Base 4:15.12.1
+ _ZN13OsdParserInfoD2Ev@Base 4:15.12.1
  _ZN13PrimitiveType12longTypeNameE17PrimitiveDataType@Base 4:14.12.0
  _ZN13PrimitiveType16standardTypeNameE17PrimitiveDataType@Base 4:14.12.0
  _ZN13PrimitiveType8typeNameE17PrimitiveDataType@Base 4:14.12.0
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderI11QLatin1Char5QCharEE4sizeERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderI11QLatin1Char5QCharEE8appendToIS2_EEvRKS3_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderI11QLatin1Char7QStringEE4sizeERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderI11QLatin1Char7QStringEE8appendToI5QCharEEvRKS3_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char5QCharES1_EE4sizeERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char5QCharES1_EE8appendToIS2_EEvRKS4_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char7QStringES1_EE4sizeERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char7QStringES1_EE8appendToI5QCharEEvRKS4_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char7QStringES2_EE4sizeERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I11QLatin1Char7QStringES2_EE8appendToI5QCharEEvRKS4_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharEE4sizeERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharEE8appendToI5QCharEEvRKS4_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_EE4sizeERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_EE8appendToI5QCharEEvRKS5_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharEE4sizeERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharEE8appendToI5QCharEEvRKS5_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_EE4sizeERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_EE8appendToI5QCharEEvRKS4_RPT_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI5QCharE4sizeES0_@Base 4:15.12.1
+ (optional=templinst)_ZN13QConcatenableI5QCharE8appendToES0_RPS0_@Base 4:15.12.1
+ _ZN13SafeReference10invalidateEv@Base 4:15.12.1
+ _ZN13SafeReferenceC1EP15DataInformation@Base 4:15.12.1
+ _ZN13SafeReferenceC1ERKS_@Base 4:15.12.1
+ _ZN13SafeReferenceC1Ev@Base 4:15.12.1
+ _ZN13SafeReferenceC2EP15DataInformation@Base 4:15.12.1
+ _ZN13SafeReferenceC2ERKS_@Base 4:15.12.1
+ _ZN13SafeReferenceC2Ev@Base 4:15.12.1
+ _ZN13SafeReferenceD1Ev@Base 4:15.12.1
+ _ZN13SafeReferenceD2Ev@Base 4:15.12.1
+ _ZN13ScriptHandler11handlerInfoEv@Base 4:15.12.1
  _ZN13ScriptHandler12callFunctionE12QScriptValueP15DataInformationN17ScriptHandlerInfo4ModeE@Base 4:14.12.0
  _ZN13ScriptHandler12updateLengthEP20ArrayDataInformation@Base 4:14.12.0
  _ZN13ScriptHandler12validateDataEP15DataInformation@Base 4:14.12.0
@@ -122,32 +278,180 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN13ScriptHandlerD0Ev@Base 4:14.12.0
  _ZN13ScriptHandlerD1Ev@Base 4:14.12.0
  _ZN13ScriptHandlerD2Ev@Base 4:14.12.0
+ _ZN14AdditionalData3setENS_18AdditionalDataTypeERK8QVariant@Base 4:15.12.1
+ _ZN14AdditionalData6removeENS_18AdditionalDataTypeE@Base 4:15.12.1
+ _ZN14AdditionalDataC1ERKS_@Base 4:15.12.1
+ _ZN14AdditionalDataC1Ev@Base 4:15.12.1
+ _ZN14AdditionalDataC2ERKS_@Base 4:15.12.1
+ _ZN14AdditionalDataC2Ev@Base 4:15.12.1
+ _ZN14AdditionalDataD1Ev@Base 4:15.12.1
+ _ZN14AdditionalDataD2Ev@Base 4:15.12.1
+ _ZN14Char8ValidatorC1EPN6Okteta9CharCodecEP7QObject@Base 4:15.12.1
+ _ZN14Char8ValidatorC2EPN6Okteta9CharCodecEP7QObject@Base 4:15.12.1
  _ZN14Char8ValidatorD0Ev@Base 4:14.12.0
  _ZN14Char8ValidatorD1Ev@Base 4:14.12.0
  _ZN14Char8ValidatorD2Ev@Base 4:14.12.0
+ _ZN14ChildrenParserC1Ev@Base 4:15.12.1
+ _ZN14ChildrenParserC2Ev@Base 4:15.12.1
+ _ZN14ChildrenParserD0Ev@Base 4:15.12.1
+ _ZN14ChildrenParserD1Ev@Base 4:15.12.1
+ _ZN14ChildrenParserD2Ev@Base 4:15.12.1
  _ZN14EnumDefinition15parseEnumValuesERK12QScriptValueRK17LoggerWithContext17PrimitiveDataType@Base 4:14.12.0
  _ZN14EnumDefinition18convertToEnumEntryERK7QStringRK8QVariantRK17LoggerWithContext17PrimitiveDataType@Base 4:14.12.0
+ _ZN14EnumDefinition9setValuesE4QMapI17AllPrimitiveTypes7QStringE@Base 4:15.12.1
+ _ZN14EnumDefinitionC1E4QMapI17AllPrimitiveTypes7QStringERKS2_17PrimitiveDataType@Base 4:15.12.1
+ _ZN14EnumDefinitionC1ERKS_@Base 4:15.12.1
+ _ZN14EnumDefinitionC2E4QMapI17AllPrimitiveTypes7QStringERKS2_17PrimitiveDataType@Base 4:15.12.1
+ _ZN14EnumDefinitionC2ERKS_@Base 4:15.12.1
+ _ZN14EnumDefinitionD1Ev@Base 4:15.12.1
+ _ZN14EnumDefinitionD2Ev@Base 4:15.12.1
+ _ZN14EnumParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN14EnumParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN14EnumParsedDataD1Ev@Base 4:15.12.1
+ _ZN14EnumParsedDataD2Ev@Base 4:15.12.1
+ _ZN14QMessageLoggerC1EPKciS1_@Base 4:15.12.1
+ _ZN14QMessageLoggerC2EPKciS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EE4takeEv@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15EnumScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15EnumScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15EnumScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI15EnumScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI16ArrayScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI16ArrayScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI16ArrayScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI16ArrayScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17StringScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17StringScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17StringScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI17StringScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI18PointerScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI18PointerScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI18PointerScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI18PointerScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI19BitfieldScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI19BitfieldScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI19BitfieldScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI19BitfieldScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20PrimitiveScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20PrimitiveScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20PrimitiveScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI20PrimitiveScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI22StructUnionScriptClass21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI22StructUnionScriptClass21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI22StructUnionScriptClass21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI22StructUnionScriptClass21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EE5resetEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EE4takeEv@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE12internalSwapERS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE17internalConstructIN15QtSharedPointer13NormalDeleterEEEvPS0_T_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE20enableSharedFromThisEz@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE4swapERS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserE5derefEv@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC1ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC2ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN14QSharedPointerI14ChildrenParserEaSEOS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderI11QLatin1Char5QCharEC1ERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderI11QLatin1Char5QCharEC2ERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderI11QLatin1Char7QStringEC1ERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderI11QLatin1Char7QStringEC2ERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char5QCharES0_EC1ERKS2_RKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char5QCharES0_EC2ERKS2_RKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char7QStringES0_EC1ERKS2_RKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char7QStringES0_EC2ERKS2_RKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char7QStringES1_EC1ERKS2_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I11QLatin1Char7QStringES1_EC2ERKS2_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I7QStringS0_E11QLatin1CharEC1ERKS1_RKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_I7QStringS0_E11QLatin1CharEC2ERKS1_RKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_EC1ERKS3_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_EC2ERKS3_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QStringS0_ES0_E11QLatin1CharEC1ERKS2_RKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QStringS0_ES0_E11QLatin1CharEC2ERKS2_RKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QStringS0_ES0_ES0_EC1ERKS2_RKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN14QStringBuilderIS_IS_I7QStringS0_ES0_ES0_EC2ERKS2_RKS0_@Base 4:15.12.1
  _ZN14Utf8StringData4readEPN6Okteta22AbstractByteArrayModelEiy@Base 4:14.12.0
  _ZN14Utf8StringDataC1EP21StringDataInformation@Base 4:14.12.0
  _ZN14Utf8StringDataC2EP21StringDataInformation@Base 4:14.12.0
  _ZN14Utf8StringDataD0Ev@Base 4:14.12.0
  _ZN14Utf8StringDataD1Ev@Base 4:14.12.0
  _ZN14Utf8StringDataD2Ev@Base 4:14.12.0
+ _ZN15ArrayParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN15ArrayParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN15ArrayParsedDataD1Ev@Base 4:15.12.1
+ _ZN15ArrayParsedDataD2Ev@Base 4:15.12.1
  _ZN15AsciiStringData4readEPN6Okteta22AbstractByteArrayModelEiy@Base 4:14.12.0
  _ZN15AsciiStringDataC1EP21StringDataInformation@Base 4:14.12.0
  _ZN15AsciiStringDataC2EP21StringDataInformation@Base 4:14.12.0
  _ZN15AsciiStringDataD0Ev@Base 4:14.12.0
  _ZN15AsciiStringDataD1Ev@Base 4:14.12.0
  _ZN15AsciiStringDataD2Ev@Base 4:14.12.0
+ _ZN15DataInformation12setByteOrderENS_24DataInformationEndianessE@Base 4:15.12.1
  _ZN15DataInformation13mainStructureEv@Base 4:14.12.0
+ _ZN15DataInformation13setUpdateFuncERK12QScriptValue@Base 4:15.12.1
  _ZN15DataInformation13toScriptValueEP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZN15DataInformation13toScriptValueEP23TopLevelDataInformation@Base 4:14.12.0
  _ZN15DataInformation14eofReachedDataEi@Base 4:14.12.0
  _ZN15DataInformation17setCustomTypeNameERK7QString@Base 4:14.12.0
+ _ZN15DataInformation17setValidationFuncERK12QScriptValue@Base 4:15.12.1
  _ZN15DataInformation18setValidationErrorE7QString@Base 4:14.12.0
+ _ZN15DataInformation19setToStringFunctionERK12QScriptValue@Base 4:15.12.1
  _ZN15DataInformation20resetValidationStateEv@Base 4:14.12.0
  _ZN15DataInformation21setAdditionalFunctionEN14AdditionalData18AdditionalDataTypeERK12QScriptValuePKc@Base 4:14.12.0
+ _ZN15DataInformation7setNameERK7QString@Base 4:15.12.1
  _ZN15DataInformation9beginReadEv@Base 4:14.12.0
+ _ZN15DataInformation9setParentEP19DataInformationBase@Base 4:15.12.1
  _ZN15DataInformationC1ERK7QStringP19DataInformationBase@Base 4:14.12.0
  _ZN15DataInformationC1ERKS_@Base 4:14.12.0
  _ZN15DataInformationC2ERK7QStringP19DataInformationBase@Base 4:14.12.0
@@ -163,7 +467,124 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN15EnumScriptClassD0Ev@Base 4:14.12.0
  _ZN15EnumScriptClassD1Ev@Base 4:14.12.0
  _ZN15EnumScriptClassD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE3endEPS2_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE5beginEPS2_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI18QSharedDataPointerI14EnumDefinitionEE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE3endEPS6_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE5beginEPS6_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE8allocateEmS2_IN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE3endEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE5beginEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN12ScriptLogger4DataEE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE3endEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE5beginEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN21TaggedUnionParsedData12AlternativesEE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE3endEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE5beginEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE3endEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE5beginEPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP15DataInformationE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP23TopLevelDataInformationE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIP23TopLevelDataInformationE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE3endEPa@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE5beginEPa@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIaE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE3endEPd@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE5beginEPd@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIdE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE3endEPf@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE5beginEPf@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIfE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE3endEPh@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE5beginEPh@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIhE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE3endEPj@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE5beginEPj@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIjE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE3endEPs@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE5beginEPs@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIsE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataItE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataItE3endEPt@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataItE5beginEPt@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataItE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE3endEPx@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE5beginEPx@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIxE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE10deallocateEP10QArrayData@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE10sharedNullEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE15unsharableEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE3endEPy@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE5beginEPy@Base 4:15.12.1
+ (optional=templinst)_ZN15QTypedArrayDataIyE8allocateEm6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QCharLi256EEC1Ei@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QCharLi256EEC2Ei@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QCharLi256EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QCharLi256EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QCharLi256EEixEi@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EE10removeLastEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EE6appendERKS2_@Base 4:15.12.1
  (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EE7reallocEii@Base 4:14.12.0
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EEC1Ei@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EEC2Ei@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN15QVarLengthArrayI5QPairI7QStringyELi10EEixEi@Base 4:15.12.1
+ (optional=templinst)_ZN15QtSharedPointer13CustomDeleterI14ChildrenParserNS_13NormalDeleterEE7executeEv@Base 4:15.12.1
+ (optional=templinst)_ZN15QtSharedPointer13CustomDeleterI14ChildrenParserNS_13NormalDeleterEEC1EPS1_S2_@Base 4:15.12.1
+ (optional=templinst)_ZN15QtSharedPointer13CustomDeleterI14ChildrenParserNS_13NormalDeleterEEC2EPS1_S2_@Base 4:15.12.1
+ _ZN15QtSharedPointer20ExternalRefCountData16setQObjectSharedEz@Base 4:15.12.1
+ (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterI14ChildrenParserNS_13NormalDeleterEE6createEPS1_S2_PFvPNS_20ExternalRefCountDataEE@Base 4:15.12.1
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterI14ChildrenParserNS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 4:14.12.0
  _ZN15Utf16StringData4readEPN6Okteta22AbstractByteArrayModelEiy@Base 4:14.12.0
  _ZN15Utf16StringDataC1EP21StringDataInformation@Base 4:14.12.0
@@ -187,6 +608,8 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN16ArrayScriptClassD0Ev@Base 4:14.12.0
  _ZN16ArrayScriptClassD1Ev@Base 4:14.12.0
  _ZN16ArrayScriptClassD2Ev@Base 4:14.12.0
+ _ZN16CommonParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN16CommonParsedDataC2ERK10ParserInfo@Base 4:15.12.1
  _ZN16CommonParsedDataD1Ev@Base 4:14.12.0
  _ZN16CommonParsedDataD2Ev@Base 4:14.12.0
  _ZN16ComplexArrayData10childFlagsEiib@Base 4:14.12.0
@@ -211,6 +634,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN16Latin1StringDataD1Ev@Base 4:14.12.0
  _ZN16Latin1StringDataD2Ev@Base 4:14.12.0
  _ZN16PrimitiveFactory11newInstanceERK7QString17PrimitiveDataTypeRK17LoggerWithContextP15DataInformation@Base 4:14.12.0
+ _ZN16PrimitiveFactory11newInstanceERK7QStringS2_RK17LoggerWithContextP15DataInformation@Base 4:15.12.1
  _ZN16PrimitiveFactory16typeStringToTypeERK7QStringRK17LoggerWithContext@Base 4:14.12.0
  _ZN16ScriptFileParserC1ERK7QStringS2_@Base 4:14.12.0
  _ZN16ScriptFileParserC2ERK7QStringS2_@Base 4:14.12.0
@@ -226,6 +650,10 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN16ScriptLoggerViewD0Ev@Base 4:14.12.0
  _ZN16ScriptLoggerViewD1Ev@Base 4:14.12.0
  _ZN16ScriptLoggerViewD2Ev@Base 4:14.12.0
+ _ZN16StringParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN16StringParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN16StringParsedDataD1Ev@Base 4:15.12.1
+ _ZN16StringParsedDataD2Ev@Base 4:15.12.1
  _ZN17AbstractArrayData12newArrayDataEjP15DataInformationP20ArrayDataInformation@Base 4:14.12.0
  _ZN17AbstractArrayData9setParentEP20ArrayDataInformation@Base 4:14.12.0
  _ZN17AbstractArrayDataC1EP15DataInformationP20ArrayDataInformation@Base 4:14.12.0
@@ -233,12 +661,61 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN17AbstractArrayDataD0Ev@Base 4:14.12.0
  _ZN17AbstractArrayDataD1Ev@Base 4:14.12.0
  _ZN17AbstractArrayDataD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN17AllPrimitiveTypes12readRawBytesILi1EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEi@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes12readRawBytesILi2EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEi@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes12readRawBytesILi4EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEi@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes12readRawBytesILi8EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEi@Base 4:15.12.1
  _ZN17AllPrimitiveTypes13readFullBytesEhPKN6Okteta22AbstractByteArrayModelEN8QSysInfo6EndianEi@Base 4:14.12.0
  _ZN17AllPrimitiveTypes14writeFullBytesEhS_PN6Okteta22AbstractByteArrayModelEN8QSysInfo6EndianEi@Base 4:14.12.0
+ (optional=templinst)_ZN17AllPrimitiveTypes16readValuePrivateILi1EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes16readValuePrivateILi2EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes16readValuePrivateILi4EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes16readValuePrivateILi8EEEN15QIntegerForSizeIXT_EE8UnsignedEPKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
  _ZN17AllPrimitiveTypes17readDataBigEndianEhPKN6Okteta22AbstractByteArrayModelEih@Base 4:14.12.0
  _ZN17AllPrimitiveTypes20readDataLittleEndianEhPKN6Okteta22AbstractByteArrayModelEih@Base 4:14.12.0
  _ZN17AllPrimitiveTypes8readBitsEhPKN6Okteta22AbstractByteArrayModelEN8QSysInfo6EndianEiyPh@Base 4:14.12.0
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIaEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIdEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIfEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIhEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIiEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIjEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIsEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueItEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIxEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
+ (optional=templinst)_ZN17AllPrimitiveTypes9readValueIyEET_PKN6Okteta22AbstractByteArrayModelEiN8QSysInfo6EndianEh@Base 4:15.12.1
  _ZN17AllPrimitiveTypes9writeBitsEhS_PN6Okteta22AbstractByteArrayModelEN8QSysInfo6EndianEiyPh@Base 4:14.12.0
+ _ZN17AllPrimitiveTypesC1ERKS_@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ea@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ed@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ef@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Eh@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ei@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ej@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Es@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Et@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ev@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ex@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC1Ey@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2ERKS_@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ea@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ed@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ef@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Eh@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ei@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ej@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Es@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Et@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ev@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ex@Base 4:15.12.1
+ _ZN17AllPrimitiveTypesC2Ey@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI11KActionMenuEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI13KSelectActionEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI13KToggleActionEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ _ZN17LoggerWithContextC1EP12ScriptLoggerRK7QString@Base 4:15.12.1
+ _ZN17LoggerWithContextC2EP12ScriptLoggerRK7QString@Base 4:15.12.1
+ _ZN17LoggerWithContextD1Ev@Base 4:15.12.1
+ _ZN17LoggerWithContextD2Ev@Base 4:15.12.1
  _ZN17OsdChildrenParser4nextEv@Base 4:14.12.0
  _ZN17OsdChildrenParser7hasNextEv@Base 4:14.12.0
  _ZN17OsdChildrenParser9setParentEP15DataInformation@Base 4:14.12.0
@@ -247,10 +724,22 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN17OsdChildrenParserD0Ev@Base 4:14.12.0
  _ZN17OsdChildrenParserD1Ev@Base 4:14.12.0
  _ZN17OsdChildrenParserD2Ev@Base 4:14.12.0
+ _ZN17PointerParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN17PointerParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN17PointerParsedDataD1Ev@Base 4:15.12.1
+ _ZN17PointerParsedDataD2Ev@Base 4:15.12.1
+ _ZN17PrimitiveDataTypeC1E21PrimitiveDataTypeEnum@Base 4:15.12.1
+ _ZN17PrimitiveDataTypeC2E21PrimitiveDataTypeEnum@Base 4:15.12.1
+ (optional=templinst)_ZN17QForeachContainerI7QVectorIN26TaggedUnionDataInformation9FieldInfoEEEC1ERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN17QForeachContainerI7QVectorIN26TaggedUnionDataInformation9FieldInfoEEEC2ERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN17QForeachContainerI7QVectorIN26TaggedUnionDataInformation9FieldInfoEEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN17QForeachContainerI7QVectorIN26TaggedUnionDataInformation9FieldInfoEEED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI12QScriptValueLb1EE8DestructEPv@Base 4:14.12.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI12QScriptValueLb1EE9ConstructEPvPKv@Base 4:14.12.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI13SafeReferenceLb1EE8DestructEPv@Base 4:14.12.0
  (optional=templinst)_ZN17QtMetaTypePrivate23QMetaTypeFunctionHelperI13SafeReferenceLb1EE9ConstructEPvPKv@Base 4:14.12.0
+ _ZN17ScriptHandlerInfo6loggerEv@Base 4:15.12.1
+ _ZN17ScriptHandlerInfo7setModeENS_4ModeE@Base 4:15.12.1
  _ZN17ScriptHandlerInfoC1EP13QScriptEngineP12ScriptLogger@Base 4:14.12.0
  _ZN17ScriptHandlerInfoC2EP13QScriptEngineP12ScriptLogger@Base 4:14.12.0
  _ZN17ScriptHandlerInfoD1Ev@Base 4:14.12.0
@@ -265,9 +754,15 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN17StringScriptClassD0Ev@Base 4:14.12.0
  _ZN17StringScriptClassD1Ev@Base 4:14.12.0
  _ZN17StringScriptClassD2Ev@Base 4:14.12.0
+ _ZN17Utf8CharValidatorC1EP7QObject@Base 4:15.12.1
+ _ZN17Utf8CharValidatorC2EP7QObject@Base 4:15.12.1
  _ZN17Utf8CharValidatorD0Ev@Base 4:14.12.0
  _ZN17Utf8CharValidatorD1Ev@Base 4:14.12.0
  _ZN17Utf8CharValidatorD2Ev@Base 4:14.12.0
+ _ZN18BitfieldParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN18BitfieldParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN18BitfieldParsedDataD1Ev@Base 4:15.12.1
+ _ZN18BitfieldParsedDataD2Ev@Base 4:15.12.1
  _ZN18DefaultScriptClass11newIteratorERK12QScriptValue@Base 4:14.12.0
  _ZN18DefaultScriptClass11setDataTypeERK12QScriptValueP15DataInformation@Base 4:14.12.0
  _ZN18DefaultScriptClass11setPropertyER12QScriptValueRK13QScriptStringjRKS0_@Base 4:14.12.0
@@ -568,7 +1063,39 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EED0Ev@Base 4:14.12.0
  (optional=templinst)_ZN18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EED1Ev@Base 4:14.12.0
  (optional=templinst)_ZN18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EED2Ev@Base 4:14.12.0
+ _ZN18QMessageLogContextC1Ev@Base 4:15.12.1
+ _ZN18QMessageLogContextC2Ev@Base 4:15.12.1
  (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionE13detach_helperEv@Base 4:14.12.0
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionE5cloneEv@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC1EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC1ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC2EPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC2ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEaSEOS1_@Base 4:15.12.1
+ (optional=templinst)_ZN18QSharedDataPointerI14EnumDefinitionEptEv@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderI11QLatin1Char5QCharE7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderI11QLatin1Char5QCharE7QStringEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderI11QLatin1Char7QStringES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderI11QLatin1Char7QStringES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char5QCharES1_E7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char5QCharES1_E7QStringEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char7QStringES1_ES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char7QStringES1_ES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char7QStringES2_ES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I11QLatin1Char7QStringES2_ES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_ES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_ES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_ES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN18QStringBuilderBaseI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_ES1_EC2Ev@Base 4:15.12.1
  _ZN19BitfieldScriptClass18additionalPropertyEPK15DataInformationRK13QScriptStringj@Base 4:14.12.0
  _ZN19BitfieldScriptClass21setAdditionalPropertyEP15DataInformationRK13QScriptStringjRK12QScriptValue@Base 4:14.12.0
  _ZN19BitfieldScriptClass23queryAdditionalPropertyEPK15DataInformationRK13QScriptStringP6QFlagsIN12QScriptClass9QueryFlagEEPj@Base 4:14.12.0
@@ -577,23 +1104,61 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN19BitfieldScriptClassD0Ev@Base 4:14.12.0
  _ZN19BitfieldScriptClassD1Ev@Base 4:14.12.0
  _ZN19BitfieldScriptClassD2Ev@Base 4:14.12.0
+ _ZN19DataInformationBase10asBitfieldEv@Base 4:15.12.1
  _ZN19DataInformationBase10asTopLevelEv@Base 4:14.12.0
+ _ZN19DataInformationBase11asPrimitiveEv@Base 4:15.12.1
+ _ZN19DataInformationBase29asDataInformationWithChildrenEv@Base 4:15.12.1
+ _ZN19DataInformationBase34asDataInformationWithDummyChildrenEv@Base 4:15.12.1
+ _ZN19DataInformationBase6asEnumEv@Base 4:15.12.1
+ _ZN19DataInformationBase7asUnionEv@Base 4:15.12.1
+ _ZN19DataInformationBase8asStringEv@Base 4:15.12.1
+ _ZN19DataInformationBase8asStructEv@Base 4:15.12.1
+ _ZN19DataInformationBase9asPointerEv@Base 4:15.12.1
  _ZN19DataInformationBaseC1Ev@Base 4:14.12.0
  _ZN19DataInformationBaseC2Ev@Base 4:14.12.0
  _ZN19DataInformationBaseD0Ev@Base 4:14.12.0
  _ZN19DataInformationBaseD1Ev@Base 4:14.12.0
  _ZN19DataInformationBaseD2Ev@Base 4:14.12.0
+ _ZN19EnumDataInformation13setEnumValuesE4QMapI17AllPrimitiveTypes7QStringE@Base 4:15.12.1
  _ZN19EnumDataInformationC1ERK7QStringP24PrimitiveDataInformation18QSharedDataPointerI14EnumDefinitionEP15DataInformation@Base 4:14.12.0
+ _ZN19EnumDataInformationC1ERKS_@Base 4:15.12.1
  _ZN19EnumDataInformationC2ERK7QStringP24PrimitiveDataInformation18QSharedDataPointerI14EnumDefinitionEP15DataInformation@Base 4:14.12.0
+ _ZN19EnumDataInformationC2ERKS_@Base 4:15.12.1
  _ZN19EnumDataInformationD0Ev@Base 4:14.12.0
  _ZN19EnumDataInformationD1Ev@Base 4:14.12.0
  _ZN19EnumDataInformationD2Ev@Base 4:14.12.0
  _ZN19FlagDataInformationC1ERK7QStringP24PrimitiveDataInformation18QSharedDataPointerI14EnumDefinitionEP15DataInformation@Base 4:14.12.0
+ _ZN19FlagDataInformationC1ERKS_@Base 4:15.12.1
  _ZN19FlagDataInformationC2ERK7QStringP24PrimitiveDataInformation18QSharedDataPointerI14EnumDefinitionEP15DataInformation@Base 4:14.12.0
+ _ZN19FlagDataInformationC2ERKS_@Base 4:15.12.1
  _ZN19FlagDataInformationD0Ev@Base 4:14.12.0
  _ZN19FlagDataInformationD1Ev@Base 4:14.12.0
  _ZN19FlagDataInformationD2Ev@Base 4:14.12.0
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceC1ERKS1_@Base 4:15.12.1
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceC1Ev@Base 4:15.12.1
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceC2ERKS1_@Base 4:15.12.1
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceC2Ev@Base 4:15.12.1
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD1Ev@Base 4:15.12.1
+ _ZN19KCoreConfigSkeleton8ItemEnum6ChoiceD2Ev@Base 4:15.12.1
+ _ZN19PrimitiveParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN19PrimitiveParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN19PrimitiveParsedDataD1Ev@Base 4:15.12.1
+ _ZN19PrimitiveParsedDataD2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsI12QScriptValueEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsI12QScriptValueEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsI12QScriptValueED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsI12QScriptValueED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIN19KCoreConfigSkeleton8ItemEnum6ChoiceEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIN19KCoreConfigSkeleton8ItemEnum6ChoiceEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIN19KCoreConfigSkeleton8ItemEnum6ChoiceEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIN19KCoreConfigSkeleton8ItemEnum6ChoiceEED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIP22PointerDataInformationEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIP22PointerDataInformationEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIP22PointerDataInformationED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN19QListSpecialMethodsIP22PointerDataInformationED2Ev@Base 4:15.12.1
  _ZN19SafeReferenceHolder13invalidateAllEP15DataInformation@Base 4:14.12.0
+ _ZN19SafeReferenceHolder21registerSafeReferenceEP13SafeReferenceP15DataInformation@Base 4:15.12.1
+ _ZN19SafeReferenceHolder22safeReferenceDestroyedEP13SafeReference@Base 4:15.12.1
  _ZN19SafeReferenceHolder8instanceE@Base 4:14.12.0
  _ZN19SafeReferenceHolderC1Ev@Base 4:14.12.0
  _ZN19SafeReferenceHolderC2Ev@Base 4:14.12.0
@@ -610,6 +1175,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN20ArrayDataInformation12setArrayTypeEP15DataInformation@Base 4:14.12.0
  _ZN20ArrayDataInformation12setChildDataEjRK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
  _ZN20ArrayDataInformation14setArrayLengthEj@Base 4:14.12.0
+ _ZN20ArrayDataInformation17setLengthFunctionE12QScriptValue@Base 4:15.12.1
  _ZN20ArrayDataInformation7setDataERK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
  _ZN20ArrayDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN20ArrayDataInformationC1ERK7QStringjP15DataInformationS4_RK12QScriptValue@Base 4:14.12.0
@@ -619,11 +1185,14 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN20ArrayDataInformationD0Ev@Base 4:14.12.0
  _ZN20ArrayDataInformationD1Ev@Base 4:14.12.0
  _ZN20ArrayDataInformationD2Ev@Base 4:14.12.0
+ _ZN20DummyDataInformation13setDummyIndexEj@Base 4:15.12.1
  _ZN20DummyDataInformation13toScriptValueEP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZN20DummyDataInformation7setDataERK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
  _ZN20DummyDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN20DummyDataInformationC1EP19DataInformationBaseRK7QString@Base 4:14.12.0
+ _ZN20DummyDataInformationC1ERKS_@Base 4:15.12.1
  _ZN20DummyDataInformationC2EP19DataInformationBaseRK7QString@Base 4:14.12.0
+ _ZN20DummyDataInformationC2ERKS_@Base 4:15.12.1
  _ZN20DummyDataInformationD0Ev@Base 4:14.12.0
  _ZN20DummyDataInformationD1Ev@Base 4:14.12.0
  _ZN20DummyDataInformationD2Ev@Base 4:14.12.0
@@ -637,6 +1206,24 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN20PrimitiveScriptClassD0Ev@Base 4:14.12.0
  _ZN20PrimitiveScriptClassD1Ev@Base 4:14.12.0
  _ZN20PrimitiveScriptClassD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderI11QLatin1Char5QCharE7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderI11QLatin1Char5QCharE7QStringEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderI11QLatin1Char7QStringES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderI11QLatin1Char7QStringES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char5QCharES1_E7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char5QCharES1_E7QStringEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char7QStringES1_ES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char7QStringES1_ES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char7QStringES2_ES2_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I11QLatin1Char7QStringES2_ES2_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_I7QStringS1_E11QLatin1CharES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_ES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QString11QLatin1CharES1_ES2_ES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QStringS1_ES1_E11QLatin1CharES1_EC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_ES1_EC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN20QStringBuilderCommonI14QStringBuilderIS0_IS0_I7QStringS1_ES1_ES1_ES1_EC2Ev@Base 4:15.12.1
  _ZN20ScriptValueConverter10toBitfieldERK12QScriptValueRK10ParserInfo@Base 4:14.12.0
  _ZN20ScriptValueConverter11toPrimitiveERK12QScriptValueRK10ParserInfo@Base 4:14.12.0
  _ZN20ScriptValueConverter13convertValuesERK12QScriptValueP12ScriptLoggerP15DataInformation@Base 4:14.12.0
@@ -659,13 +1246,35 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN20ScriptValueConverter9toPointerERK12QScriptValueRK10ParserInfo@Base 4:14.12.0
  _ZN20UnionDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN20UnionDataInformationC1ERK7QStringRK7QVectorIP15DataInformationES5_@Base 4:14.12.0
+ _ZN20UnionDataInformationC1ERKS_@Base 4:15.12.1
  _ZN20UnionDataInformationC2ERK7QStringRK7QVectorIP15DataInformationES5_@Base 4:14.12.0
+ _ZN20UnionDataInformationC2ERKS_@Base 4:15.12.1
  _ZN20UnionDataInformationD0Ev@Base 4:14.12.0
  _ZN20UnionDataInformationD1Ev@Base 4:14.12.0
  _ZN20UnionDataInformationD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN21QScopedPointerDeleterI10StringDataE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI12ScriptLoggerE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI13QScriptEngineE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI13ScriptHandlerE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI14ChildrenParserE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI15DataInformationE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI15EnumScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI16ArrayScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI17AbstractArrayDataE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI17StringScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI18PointerScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI19BitfieldScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI20DummyDataInformationE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI20PrimitiveScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI22StructUnionScriptClassE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI24PrimitiveDataInformationE7cleanupEPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN21QScopedPointerDeleterI26TaggedUnionDataInformationE7cleanupEPS0_@Base 4:15.12.1
  _ZN21StringDataInformation11setEncodingENS_10StringTypeE@Base 4:14.12.0
  _ZN21StringDataInformation12setChildDataEjRK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
+ _ZN21StringDataInformation15setMaxByteCountEj@Base 4:15.12.1
+ _ZN21StringDataInformation15setMaxCharCountEj@Base 4:15.12.1
  _ZN21StringDataInformation20unsetTerminationModeEN10StringData15TerminationModeE@Base 4:14.12.0
+ _ZN21StringDataInformation23setTerminationCodePointEj@Base 4:15.12.1
  _ZN21StringDataInformation7setDataERK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
  _ZN21StringDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN21StringDataInformationC1ERK7QStringNS_10StringTypeEP19DataInformationBase@Base 4:14.12.0
@@ -675,6 +1284,16 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN21StringDataInformationD0Ev@Base 4:14.12.0
  _ZN21StringDataInformationD1Ev@Base 4:14.12.0
  _ZN21StringDataInformationD2Ev@Base 4:14.12.0
+ _ZN21TaggedUnionParsedData12AlternativesC1ERKS0_@Base 4:15.12.1
+ _ZN21TaggedUnionParsedData12AlternativesC1Ev@Base 4:15.12.1
+ _ZN21TaggedUnionParsedData12AlternativesC2ERKS0_@Base 4:15.12.1
+ _ZN21TaggedUnionParsedData12AlternativesC2Ev@Base 4:15.12.1
+ _ZN21TaggedUnionParsedData12AlternativesD1Ev@Base 4:15.12.1
+ _ZN21TaggedUnionParsedData12AlternativesD2Ev@Base 4:15.12.1
+ _ZN21TaggedUnionParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN21TaggedUnionParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN21TaggedUnionParsedDataD1Ev@Base 4:15.12.1
+ _ZN21TaggedUnionParsedDataD2Ev@Base 4:15.12.1
  _ZN22DataInformationFactory10newPointerERK17PointerParsedData@Base 4:14.12.0
  _ZN22DataInformationFactory11newBitfieldERK18BitfieldParsedData@Base 4:14.12.0
  _ZN22DataInformationFactory12newPrimitiveERK19PrimitiveParsedData@Base 4:14.12.0
@@ -688,6 +1307,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN22DataInformationFactory9newStructERK23StructOrUnionParsedData@Base 4:14.12.0
  _ZN22PointerDataInformation14setPointerTypeEP15DataInformation@Base 4:14.12.0
  _ZN22PointerDataInformation15delayedReadDataEPN6Okteta22AbstractByteArrayModelEi@Base 4:14.12.0
+ _ZN22PointerDataInformation16setPointerTargetEP15DataInformation@Base 4:15.12.1
  _ZN22PointerDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN22PointerDataInformationC1E7QStringP15DataInformationP24PrimitiveDataInformationS2_@Base 4:14.12.0
  _ZN22PointerDataInformationC1ERKS_@Base 4:14.12.0
@@ -746,6 +1366,10 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN23ScriptEngineInitializer7Private23addCustomPropertiesFuncEP14QScriptContextP13QScriptEngine@Base 4:14.12.0
  _ZN23ScriptEngineInitializer7Private8getChildEP14QScriptContextP13QScriptEngine@Base 4:14.12.0
  _ZN23ScriptEngineInitializer9newEngineEv@Base 4:14.12.0
+ _ZN23StructOrUnionParsedDataC1ERK10ParserInfo@Base 4:15.12.1
+ _ZN23StructOrUnionParsedDataC2ERK10ParserInfo@Base 4:15.12.1
+ _ZN23StructOrUnionParsedDataD1Ev@Base 4:15.12.1
+ _ZN23StructOrUnionParsedDataD2Ev@Base 4:15.12.1
  _ZN23TopLevelDataInformation11dataChangedEv@Base 4:14.12.0
  _ZN23TopLevelDataInformation11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN23TopLevelDataInformation11qt_metacastEPKc@Base 4:14.12.0
@@ -756,10 +1380,13 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN23TopLevelDataInformation16childrenInsertedEPK15DataInformationjj@Base 4:14.12.0
  _ZN23TopLevelDataInformation16staticMetaObjectE@Base 4:14.12.0
  _ZN23TopLevelDataInformation17newModelActivatedEPN6Okteta22AbstractByteArrayModelE@Base 4:14.12.0
+ _ZN23TopLevelDataInformation18_childCountChangedEP15DataInformationjj@Base 4:15.12.1
  _ZN23TopLevelDataInformation18isReadingNecessaryEPN6Okteta22AbstractByteArrayModelEiRKNS0_22ArrayChangeMetricsListE@Base 4:14.12.0
+ _ZN23TopLevelDataInformation19setChildDataChangedEv@Base 4:15.12.1
  _ZN23TopLevelDataInformation20lockPositionToOffsetEiPKN6Okteta22AbstractByteArrayModelE@Base 4:14.12.0
  _ZN23TopLevelDataInformation20resetValidationStateEv@Base 4:14.12.0
  _ZN23TopLevelDataInformation20setDefaultLockOffsetEi@Base 4:14.12.0
+ _ZN23TopLevelDataInformation24_childCountAboutToChangeEP15DataInformationjj@Base 4:15.12.1
  _ZN23TopLevelDataInformation24childrenAboutToBeRemovedEP15DataInformationjj@Base 4:14.12.0
  _ZN23TopLevelDataInformation24setActualDataInformationEP15DataInformation@Base 4:14.12.0
  _ZN23TopLevelDataInformation25childrenAboutToBeInsertedEP15DataInformationjj@Base 4:14.12.0
@@ -771,43 +1398,56 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN23TopLevelDataInformationD0Ev@Base 4:14.12.0
  _ZN23TopLevelDataInformationD1Ev@Base 4:14.12.0
  _ZN23TopLevelDataInformationD2Ev@Base 4:14.12.0
+ _ZN24PrimitiveDataInformation10basePrefixEi@Base 4:15.12.1
  _ZN24PrimitiveDataInformation11octalPrefixE@Base 4:14.12.0
  _ZN24PrimitiveDataInformation12binaryPrefixE@Base 4:14.12.0
  _ZN24PrimitiveDataInformation9hexPrefixE@Base 4:14.12.0
+ _ZN24PrimitiveDataInformationC1ERK7QStringP15DataInformation@Base 4:15.12.1
+ _ZN24PrimitiveDataInformationC1ERKS_@Base 4:15.12.1
+ _ZN24PrimitiveDataInformationC2ERK7QStringP15DataInformation@Base 4:15.12.1
+ _ZN24PrimitiveDataInformationC2ERKS_@Base 4:15.12.1
  _ZN24PrimitiveDataInformationD0Ev@Base 4:14.12.0
  _ZN24PrimitiveDataInformationD1Ev@Base 4:14.12.0
  _ZN24PrimitiveDataInformationD2Ev@Base 4:14.12.0
  _ZN24StructureDataInformation12readChildrenE7QVectorIP15DataInformationEPN6Okteta22AbstractByteArrayModelEiyPhPxP23TopLevelDataInformation@Base 4:14.12.0
  _ZN24StructureDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN24StructureDataInformationC1ERK7QStringRK7QVectorIP15DataInformationES5_@Base 4:14.12.0
+ _ZN24StructureDataInformationC1ERKS_@Base 4:15.12.1
  _ZN24StructureDataInformationC2ERK7QStringRK7QVectorIP15DataInformationES5_@Base 4:14.12.0
+ _ZN24StructureDataInformationC2ERKS_@Base 4:15.12.1
  _ZN24StructureDataInformationD0Ev@Base 4:14.12.0
  _ZN24StructureDataInformationD1Ev@Base 4:14.12.0
  _ZN24StructureDataInformationD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN26BoolDataInformationMethodsIhE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE13asScriptValueEhP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE17staticValueStringEhi@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE19staticSetWidgetDataEhP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIhE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26BoolDataInformationMethodsIjE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE13asScriptValueEjP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE17staticValueStringEji@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE19staticSetWidgetDataEjP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIjE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26BoolDataInformationMethodsItE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26BoolDataInformationMethodsItE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsItE13asScriptValueEtP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsItE17staticValueStringEti@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsItE19staticSetWidgetDataEtP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsItE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsItE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26BoolDataInformationMethodsIyE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE13asScriptValueEyP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE17staticValueStringEyi@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE19staticSetWidgetDataEyP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26BoolDataInformationMethodsIyE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ _ZN26CharDataInformationMethods10staticTypeEv@Base 4:15.12.1
+ _ZN26CharDataInformationMethods11fromVariantERK8QVariantPb@Base 4:15.12.1
  _ZN26CharDataInformationMethods13asScriptValueEhP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZN26CharDataInformationMethods17staticValueStringEh@Base 4:14.12.0
  _ZN26CharDataInformationMethods19staticSetWidgetDataEhP7QWidget@Base 4:14.12.0
@@ -822,24 +1462,28 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN26DefaultscriptClassIteratorD0Ev@Base 4:14.12.0
  _ZN26DefaultscriptClassIteratorD1Ev@Base 4:14.12.0
  _ZN26DefaultscriptClassIteratorD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN26SIntDataInformationMethodsIaE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE13asScriptValueEaP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE17staticValueStringEai@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE19staticSetWidgetDataEaP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIaE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26SIntDataInformationMethodsIiE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE13asScriptValueEiP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE17staticValueStringEii@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE19staticSetWidgetDataEiP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIiE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26SIntDataInformationMethodsIsE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE13asScriptValueEsP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE17staticValueStringEsi@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE19staticSetWidgetDataEsP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIsE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26SIntDataInformationMethodsIxE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26SIntDataInformationMethodsIxE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIxE13asScriptValueExP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26SIntDataInformationMethodsIxE17staticValueStringExi@Base 4:14.12.0
@@ -851,6 +1495,14 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN26TaggedUnionDataInformation18appendDefaultFieldEP15DataInformationb@Base 4:14.12.0
  _ZN26TaggedUnionDataInformation18determineSelectionEP23TopLevelDataInformation@Base 4:14.12.0
  _ZN26TaggedUnionDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
+ _ZN26TaggedUnionDataInformation9FieldInfoC1ERK7QStringRK12QScriptValueRK7QVectorIP15DataInformationE@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoC1ERKS0_@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoC1Ev@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoC2ERK7QStringRK12QScriptValueRK7QVectorIP15DataInformationE@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoC2ERKS0_@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoC2Ev@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoD1Ev@Base 4:15.12.1
+ _ZN26TaggedUnionDataInformation9FieldInfoD2Ev@Base 4:15.12.1
  _ZN26TaggedUnionDataInformationC1ERK7QStringP15DataInformation@Base 4:14.12.0
  _ZN26TaggedUnionDataInformationC1ERKS_@Base 4:14.12.0
  _ZN26TaggedUnionDataInformationC2ERK7QStringP15DataInformation@Base 4:14.12.0
@@ -858,30 +1510,38 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN26TaggedUnionDataInformationD0Ev@Base 4:14.12.0
  _ZN26TaggedUnionDataInformationD1Ev@Base 4:14.12.0
  _ZN26TaggedUnionDataInformationD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN26UIntDataInformationMethodsIhE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE13asScriptValueEhP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE17staticValueStringEhi@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE19staticSetWidgetDataEhP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIhE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26UIntDataInformationMethodsIjE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE13asScriptValueEjP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE17staticValueStringEji@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE19staticSetWidgetDataEjP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIjE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26UIntDataInformationMethodsItE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26UIntDataInformationMethodsItE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsItE13asScriptValueEtP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsItE17staticValueStringEti@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsItE19staticSetWidgetDataEtP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsItE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsItE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ (optional=templinst)_ZN26UIntDataInformationMethodsIyE10staticTypeEv@Base 4:15.12.1
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE11fromVariantERK8QVariantPb@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE13asScriptValueEyP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE17staticValueStringEyi@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE19staticSetWidgetDataEyP7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  (optional=templinst)_ZN26UIntDataInformationMethodsIyE22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ _ZN27BoolBitfieldDataInformationC1ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN27BoolBitfieldDataInformationC1ERKS_@Base 4:15.12.1
+ _ZN27BoolBitfieldDataInformationC2ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN27BoolBitfieldDataInformationC2ERKS_@Base 4:15.12.1
  _ZN27BoolBitfieldDataInformationD0Ev@Base 4:14.12.0
  _ZN27BoolBitfieldDataInformationD1Ev@Base 4:14.12.0
  _ZN27BoolBitfieldDataInformationD2Ev@Base 4:14.12.0
@@ -901,11 +1561,15 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN27DataInformationWithChildrenD0Ev@Base 4:14.12.0
  _ZN27DataInformationWithChildrenD1Ev@Base 4:14.12.0
  _ZN27DataInformationWithChildrenD2Ev@Base 4:14.12.0
+ _ZN27FloatDataInformationMethods10staticTypeEv@Base 4:15.12.1
+ _ZN27FloatDataInformationMethods11fromVariantERK8QVariantPb@Base 4:15.12.1
  _ZN27FloatDataInformationMethods13asScriptValueEfP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZN27FloatDataInformationMethods17staticValueStringEf@Base 4:14.12.0
  _ZN27FloatDataInformationMethods19staticSetWidgetDataEfP7QWidget@Base 4:14.12.0
  _ZN27FloatDataInformationMethods20staticDataFromWidgetEPK7QWidget@Base 4:14.12.0
  _ZN27FloatDataInformationMethods22staticCreateEditWidgetEP7QWidget@Base 4:14.12.0
+ _ZN28DoubleDataInformationMethods10staticTypeEv@Base 4:15.12.1
+ _ZN28DoubleDataInformationMethods11fromVariantERK8QVariantPb@Base 4:15.12.1
  _ZN28DoubleDataInformationMethods13asScriptValueEdP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZN28DoubleDataInformationMethods17staticValueStringEd@Base 4:14.12.0
  _ZN28DoubleDataInformationMethods19staticSetWidgetDataEdP7QWidget@Base 4:14.12.0
@@ -1062,6 +1726,10 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN29BasicPrimitiveDataInformationIy26UIntDataInformationMethodsIyEED1Ev@Base 4:14.12.0
  (optional=templinst)_ZN29BasicPrimitiveDataInformationIy26UIntDataInformationMethodsIyEED2Ev@Base 4:14.12.0
  _ZN29SignedBitfieldDataInformation8setValueE17AllPrimitiveTypes@Base 4:14.12.0
+ _ZN29SignedBitfieldDataInformationC1ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN29SignedBitfieldDataInformationC1ERKS_@Base 4:15.12.1
+ _ZN29SignedBitfieldDataInformationC2ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN29SignedBitfieldDataInformationC2ERKS_@Base 4:15.12.1
  _ZN29SignedBitfieldDataInformationD0Ev@Base 4:14.12.0
  _ZN29SignedBitfieldDataInformationD1Ev@Base 4:14.12.0
  _ZN29SignedBitfieldDataInformationD2Ev@Base 4:14.12.0
@@ -1075,6 +1743,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN31AbstractBitfieldDataInformation7setDataERK8QVariantPN6Okteta22AbstractByteArrayModelEiyh@Base 4:14.12.0
  _ZN31AbstractBitfieldDataInformation8readDataEPN6Okteta22AbstractByteArrayModelEiyPh@Base 4:14.12.0
  _ZN31AbstractBitfieldDataInformation8setValueE17AllPrimitiveTypes@Base 4:14.12.0
+ _ZN31AbstractBitfieldDataInformation8setWidthEj@Base 4:15.12.1
  _ZN31AbstractBitfieldDataInformationC1ERK7QStringjP15DataInformation@Base 4:14.12.0
  _ZN31AbstractBitfieldDataInformationC1ERKS_@Base 4:14.12.0
  _ZN31AbstractBitfieldDataInformationC2ERK7QStringjP15DataInformation@Base 4:14.12.0
@@ -1089,33 +1758,190 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN31PrimitiveDataInformationWrapperC1ERKS_@Base 4:14.12.0
  _ZN31PrimitiveDataInformationWrapperC2ERK7QStringP24PrimitiveDataInformationP15DataInformation@Base 4:14.12.0
  _ZN31PrimitiveDataInformationWrapperC2ERKS_@Base 4:14.12.0
+ _ZN31PrimitiveDataInformationWrapperD0Ev@Base 4:15.12.1
+ _ZN31PrimitiveDataInformationWrapperD1Ev@Base 4:15.12.1
+ _ZN31PrimitiveDataInformationWrapperD2Ev@Base 4:15.12.1
+ _ZN31UnsignedBitfieldDataInformationC1ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN31UnsignedBitfieldDataInformationC1ERKS_@Base 4:15.12.1
+ _ZN31UnsignedBitfieldDataInformationC2ERK7QStringjP15DataInformation@Base 4:15.12.1
+ _ZN31UnsignedBitfieldDataInformationC2ERKS_@Base 4:15.12.1
  _ZN31UnsignedBitfieldDataInformationD0Ev@Base 4:14.12.0
  _ZN31UnsignedBitfieldDataInformationD1Ev@Base 4:14.12.0
  _ZN31UnsignedBitfieldDataInformationD2Ev@Base 4:14.12.0
+ _ZN32DataInformationWithDummyChildrenC1ERK7QStringP19DataInformationBase@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenC1ERKS_@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenC2ERK7QStringP19DataInformationBase@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenC2ERKS_@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenD0Ev@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenD1Ev@Base 4:15.12.1
+ _ZN32DataInformationWithDummyChildrenD2Ev@Base 4:15.12.1
  (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE13detach_helperEv@Base 4:14.12.0
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE14const_iteratorC1EPK8QMapNodeIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE14const_iteratorC2EPK8QMapNodeIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE14const_iteratorppEi@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE4swapERS2_@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE6insertERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE8iteratorC1EP8QMapNodeIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE8iteratorC2EP8QMapNodeIS0_S1_E@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringEC1ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringEC2ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringEaSERKS2_@Base 4:15.12.1
+ _ZN5QChar12lowSurrogateEj@Base 4:15.12.1
+ _ZN5QChar13highSurrogateEj@Base 4:15.12.1
+ _ZN5QChar14isLowSurrogateEj@Base 4:15.12.1
+ _ZN5QChar15isHighSurrogateEj@Base 4:15.12.1
+ _ZN5QChar15surrogateToUcs4Ett@Base 4:15.12.1
+ _ZN5QCharC1ENS_16SpecialCharacterE@Base 4:15.12.1
+ _ZN5QCharC1Ehh@Base 4:15.12.1
+ _ZN5QCharC1Ej@Base 4:15.12.1
+ _ZN5QCharC2ENS_16SpecialCharacterE@Base 4:15.12.1
+ _ZN5QCharC2Ehh@Base 4:15.12.1
+ _ZN5QCharC2Ej@Base 4:15.12.1
+ _ZN5QFlagC1Ej@Base 4:15.12.1
+ _ZN5QFlagC2Ej@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE10createNodeEjRKS1_RKS3_PP9QHashNodeIS1_S3_E@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE10deleteNodeEP9QHashNodeIS1_S3_E@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE11alignOfNodeEv@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE11insertMultiERKS1_RKS3_@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE4findERKS1_@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE5eraseENS4_8iteratorE@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE6detachEv@Base 4:15.12.1
  (optional=templinst|arch=arm64 armel powerpc ppc64 ppc64el s390x)_ZN5QHashIP15DataInformationP13SafeReferenceE6removeERKS1_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE8concreteEPN9QHashData4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE8freeDataEP9QHashData@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE8iteratorC1EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE8iteratorC2EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE8iteratorppEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE10createNodeEjRKS3_RKyPP9QHashNodeIS3_yE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE10deleteNodeEP9QHashNodeIS3_yE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE11alignOfNodeEv@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE6insertERKS3_RKy@Base 4:15.12.1
  (optional=templinst|arch=arm64 armel powerpc ppc64 ppc64el s390x)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE6removeERKS3_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE8concreteEPN9QHashData4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE8freeDataEP9QHashData@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE8iteratorC1EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE8iteratorC2EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE10deleteNodeEP9QHashNodeIiS0_E@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE11alignOfNodeEv@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIi8QVariantE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIi8QVariantE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIi8QVariantE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIi8QVariantE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE6insertERKiRKS0_@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIi8QVariantE6removeERKi@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIi8QVariantE8concreteEPN9QHashData4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE8freeDataEP9QHashData@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE8iteratorC1EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantE8iteratorC2EPv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantEC1ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantEC2ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIi8QVariantED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihE10createNodeEjRKiRKhPP9QHashNodeIihE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihE11alignOfNodeEv@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIihE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIihE13detach_helperEv@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIihE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
+ (optional=templinst)_ZN5QHashIihE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihE8concreteEPN9QHashData4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihE8freeDataEP9QHashData@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QHashIihED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN5QHashIihEixERKi@Base 4:14.12.0
+ (optional=templinst)_ZN5QListI12QScriptValueE13node_destructEPNS1_4NodeES3_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI12QScriptValueE14node_constructEPNS1_4NodeERKS0_@Base 4:15.12.1
  (optional=templinst)_ZN5QListI12QScriptValueE18detach_helper_growEii@Base 4:14.12.0
- (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !ppc64el !s390x)_ZN5QListI12QScriptValueED1Ev@Base 4:15.08.0
- (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !ppc64el !s390x)_ZN5QListI12QScriptValueED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListI12QScriptValueE6appendERKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI12QScriptValueE7deallocEPN9QListData4DataE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI12QScriptValueE9node_copyEPNS1_4NodeES3_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI12QScriptValueEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI12QScriptValueEC2Ev@Base 4:15.12.1
+ (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !s390x)_ZN5QListI12QScriptValueED1Ev@Base 4:15.08.0
+ (optional=templinst|arch=!arm64 !armel !powerpc !ppc64 !s390x)_ZN5QListI12QScriptValueED2Ev@Base 4:15.08.0
+ (optional=templinst)_ZN5QListI12QScriptValueElsERKS0_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI7QStringEC1EOS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListI7QStringEC2EOS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE13node_destructEPNS3_4NodeES5_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE14node_constructEPNS3_4NodeERKS2_@Base 4:15.12.1
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE18detach_helper_growEii@Base 4:14.12.0
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE6appendERKS2_@Base 4:14.12.0
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE7deallocEPN9QListData4DataE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE9node_copyEPNS3_4NodeES5_S5_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE11removeFirstEv@Base 4:15.12.1
  (optional=templinst)_ZN5QListIP22PointerDataInformationE13detach_helperEi@Base 4:15.08.0
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE13detach_helperEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE13node_destructEPNS2_4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE13node_destructEPNS2_4NodeES4_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE14node_constructEPNS2_4NodeERKS1_@Base 4:15.12.1
  (optional=templinst)_ZN5QListIP22PointerDataInformationE18detach_helper_growEii@Base 4:14.12.0
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE4Node1tEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE5beginEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE5eraseENS2_8iteratorE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE5firstEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE6appendERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE7deallocEPN9QListData4DataE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE8iteratorC1EPNS2_4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE8iteratorC2EPNS2_4NodeE@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE8iteratorpLEx@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE9node_copyEPNS2_4NodeES4_S4_@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationE9takeFirstEv@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QListIP22PointerDataInformationED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEC1ERKS0_RKS4_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEC1ERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEC2ERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI17AllPrimitiveTypes7QStringEC1ERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI17AllPrimitiveTypes7QStringEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI17AllPrimitiveTypes7QStringED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI17AllPrimitiveTypes7QStringED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI17AllPrimitiveTypes7QStringEaSEOS2_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEC1ERKS0_RKy@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEC1ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEC2ERKS1_@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN5QPairI7QStringyEaSERKS1_@Base 4:15.12.1
+ _ZN5QTimeC1Ev@Base 4:15.12.1
+ _ZN5QTimeC2Ev@Base 4:15.12.1
  _ZN6Kasten10FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten10FilterTool11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten10FilterTool12parameterSetEi@Base 4:14.12.0
@@ -1503,6 +2329,11 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten21SelectRangeControllerD0Ev@Base 4:14.12.0
  _ZN6Kasten21SelectRangeControllerD1Ev@Base 4:14.12.0
  _ZN6Kasten21SelectRangeControllerD2Ev@Base 4:14.12.0
+ _ZN6Kasten21StructViewPreferences14floatPrecisionEv@Base 4:15.12.1
+ _ZN6Kasten21StructViewPreferences14shortTypeNamesEv@Base 4:15.12.1
+ _ZN6Kasten21StructViewPreferences22showCharNumericalValueEv@Base 4:15.12.1
+ _ZN6Kasten21StructViewPreferences26localeAwareFloatFormattingEv@Base 4:15.12.1
+ _ZN6Kasten21StructViewPreferences28localeAwareDecimalFormattingEv@Base 4:15.12.1
  _ZN6Kasten21StructViewPreferences4selfEv@Base 4:14.12.0
  _ZN6Kasten21StructViewPreferencesC1Ev@Base 4:14.12.0
  _ZN6Kasten21StructViewPreferencesC2Ev@Base 4:14.12.0
@@ -1581,6 +2412,10 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten25StructuresToolViewFactoryD0Ev@Base 4:14.12.0
  _ZN6Kasten25StructuresToolViewFactoryD1Ev@Base 4:14.12.0
  _ZN6Kasten25StructuresToolViewFactoryD2Ev@Base 4:14.12.0
+ _ZN6Kasten27StructViewPreferencesHelperC1Ev@Base 4:15.12.1
+ _ZN6Kasten27StructViewPreferencesHelperC2Ev@Base 4:15.12.1
+ _ZN6Kasten27StructViewPreferencesHelperD1Ev@Base 4:15.12.1
+ _ZN6Kasten27StructViewPreferencesHelperD2Ev@Base 4:15.12.1
  _ZN6Kasten28CharsetConversionToolFactory6createEv@Base 4:14.12.0
  _ZN6Kasten28CharsetConversionToolFactoryC1Ev@Base 4:14.12.0
  _ZN6Kasten28CharsetConversionToolFactoryC2Ev@Base 4:14.12.0
@@ -1621,62 +2456,378 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten8InfoToolD0Ev@Base 4:14.12.0
  _ZN6Kasten8InfoToolD1Ev@Base 4:14.12.0
  _ZN6Kasten8InfoToolD2Ev@Base 4:14.12.0
- _ZN6QDebuglsEPKc@Base 4:14.12.0
- _ZN6QDebuglsERK7QString@Base 4:14.12.0
- (arch=arm64 ppc64 ppc64el s390x)_ZN6QDebuglsEi@Base 4:15.08.0
- (arch=!amd64 !arm64 !kfreebsd-amd64 !ppc64 !ppc64el !s390x)_ZN6QDebuglsEj@Base 4:15.08.0
+ _ZN6Okteta12OffsetFormat13printFunctionEi@Base 4:15.12.1
+ _ZN6Okteta22AbstractByteArrayModel7replaceERKN3KDE11NumberRangeIiiEERK10QByteArray@Base 4:15.12.1
+ _ZN6Okteta22AbstractByteArrayModel7replaceEiiPKhi@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIterator12findNextFromEj@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIterator16findPreviousFromEj@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIterator4nextEv@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIterator8previousEv@Base 4:15.12.1
+ _ZN6Okteta27CharByteArrayColumnRenderer16setUndefinedCharE5QChar@Base 4:15.12.1
+ _ZN6Okteta27CharByteArrayColumnRenderer17setSubstituteCharE5QChar@Base 4:15.12.1
+ _ZN6Okteta27CharByteArrayColumnRenderer21setShowingNonprintingEb@Base 4:15.12.1
+ _ZN6Okteta31AbstractByteArrayColumnRenderer12setCharCodecEPKNS_9CharCodecE@Base 4:15.12.1
+ _ZN6Okteta8Bookmark7setNameERK7QString@Base 4:15.12.1
+ _ZN6Okteta8Bookmark9setOffsetEi@Base 4:15.12.1
+ _ZN6Okteta8BookmarkC1Ei@Base 4:15.12.1
+ _ZN6Okteta8BookmarkC1Ev@Base 4:15.12.1
+ _ZN6Okteta8BookmarkC2Ei@Base 4:15.12.1
+ _ZN6Okteta8BookmarkC2Ev@Base 4:15.12.1
+ _ZN6Okteta9CharacterC1E5QChar@Base 4:15.12.1
+ _ZN6Okteta9CharacterC2E5QChar@Base 4:15.12.1
+ _ZN6QColorC1Ev@Base 4:15.12.1
+ _ZN6QColorC2Ev@Base 4:15.12.1
+ _ZN6QDebug5spaceEv@Base 4:15.12.1
+ _ZN6QDebug6StreamC1EP7QString@Base 4:15.12.1
+ _ZN6QDebug6StreamC2EP7QString@Base 4:15.12.1
+ _ZN6QDebugC1EP7QString@Base 4:15.12.1
+ _ZN6QDebugC2EP7QString@Base 4:15.12.1
+ _ZN6QDebuglsEPFR11QTextStreamS1_E@Base 4:15.12.1
+#MISSING: 4:15.12.1# _ZN6QDebuglsEPKc@Base 4:14.12.0
+ _ZN6QDebuglsEPKv@Base 4:15.12.1
+#MISSING: 4:15.12.1# _ZN6QDebuglsERK7QString@Base 4:14.12.0
+ _ZN6QDebuglsEd@Base 4:15.12.1
+ _ZN6QDebuglsEf@Base 4:15.12.1
+#MISSING: 4:15.12.1# (arch=arm64 ppc64 ppc64el s390x)_ZN6QDebuglsEi@Base 4:15.08.0
+ (arch=!amd64 !arm64 !kfreebsd-amd64 !ppc64 !s390x)_ZN6QDebuglsEj@Base 4:15.12.1
+ _ZN6QDebuglsEm@Base 4:15.12.1
+ _ZN6QDebuglsEs@Base 4:15.12.1
+ _ZN6QDebuglsEt@Base 4:15.12.1
+ _ZN6QDebuglsEx@Base 4:15.12.1
+ _ZN6QDebuglsEy@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptClass9QueryFlagEEC1E5QFlag@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptClass9QueryFlagEEC1EMNS2_7PrivateEi@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptClass9QueryFlagEEC1ES1_@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptClass9QueryFlagEEaNEi@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue11ResolveFlagEEC1ES1_@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue12PropertyFlagEEC1E5QFlag@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue12PropertyFlagEEC1EMNS2_7PrivateEi@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue12PropertyFlagEEC1ES1_@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue12PropertyFlagEEC2EMNS2_7PrivateEi@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN12QScriptValue12PropertyFlagEEoRES1_@Base 4:15.12.1
+ (optional=templinst)_ZN6QFlagsIN16QAbstractSpinBox15StepEnabledFlagEEoRES1_@Base 4:15.12.1
+ (optional=templinst)_ZN6QQueueIP22PointerDataInformationE7dequeueEv@Base 4:15.12.1
+ (optional=templinst)_ZN6QQueueIP22PointerDataInformationEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN6QQueueIP22PointerDataInformationEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN6QQueueIP22PointerDataInformationED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN6QQueueIP22PointerDataInformationED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM12QActionGroupFvP7QActionEMN6Kasten19BookmarksControllerEFvS3_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM12QActionGroupFvP7QActionEMN6Kasten21ViewProfileControllerEFvS3_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM13KConfigDialogFvRK7QStringEMN6Kasten10StructToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM13KSelectActionFviEMN6Kasten18ViewModeControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM13KSelectActionFviEMN6Kasten20ViewConfigControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEM7QDialogFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten10StructToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten14PODDecoderToolEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten18StringsExtractToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten20ViewStatusControllerEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten21CharsetConversionToolEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM15QAbstractButtonFvbEMN6Kasten8InfoToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM16QDialogButtonBoxFvvEM7QDialogFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM17QAbstractItemViewFvRK11QModelIndexEM14QStackedWidgetFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM6QTimerFvNS1_14QPrivateSignalEEMN6Kasten16DocumentInfoToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM7QActionFvbEMN6Kasten20ViewConfigControllerEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM7QActionFvbEMN6Kasten21ViewProfileControllerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM7QActionFvbEMN6Kasten23OverwriteModeControllerEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM8QSpinBoxFviEMN6Kasten18StringsExtractToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9KComboBoxFvRK7QStringEMN6Kasten21CharsetConversionToolEFvS4_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9KComboBoxFviEM16ScriptLoggerViewFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9KComboBoxFviEMN6Kasten14PODDecoderToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9KComboBoxFviEMN6Kasten20ViewStatusControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9KComboBoxFviEMN6Kasten21CharsetConversionToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIM9QLineEditFvRK7QStringEM21QSortFilterProxyModelFvS4_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten10StructToolEFvvES4_EEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectES9_PKNS8_IT0_E6ObjectESE_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten12ChecksumToolEFvRK7QStringEM9KLineEditFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvRK7QStringEMNS1_16DocumentInfoToolEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvbEMNS1_10FilterToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvbEMNS1_13ByteTableToolEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvbEMNS1_14PODDecoderToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13BookmarksToolEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvPKNS1_22AbstractModelSelectionEEMNS1_12ChecksumToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvPKNS1_22AbstractModelSelectionEEMNS1_18StringsExtractToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvPKNS1_22AbstractModelSelectionEEMNS1_20ViewStatusControllerEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvPKNS1_22AbstractModelSelectionEEMNS1_21CharsetConversionToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvPKNS1_22AbstractModelSelectionEEMNS1_8InfoToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_10FilterToolEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_14PODDecoderToolEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_20ViewConfigControllerEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_20ViewStatusControllerEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_21CharsetConversionToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEM15QAbstractButtonFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEM7QActionFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEMNS1_10FilterToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEMNS1_20ViewConfigControllerEFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_10StructToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_13BookmarksToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_14PODDecoderToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_18StringsExtractToolEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_19BookmarksControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_19BookmarksControllerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_20ViewConfigControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_20ViewStatusControllerEFviEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteTableToolEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten16AbstractDocumentEFvPNS1_25AbstractModelSynchronizerEEMNS1_16DocumentInfoToolEFvS4_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten25AbstractModelSynchronizerEFvRK4QUrlEMNS1_16DocumentInfoToolEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten32ByteArrayViewProfileSynchronizerEFvNS1_14LocalSyncStateEEMNS1_21ViewProfileControllerEFvS3_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten32ByteArrayViewProfileSynchronizerEFvRK7QStringEMNS1_21ViewProfileControllerEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten8InfoToolEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMS_FvPS_EM23TopLevelDataInformationFvS1_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMS_FvPS_EMN6Kasten12ChecksumToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMS_FvPS_EMN6Kasten18StringsExtractToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMS_FvPS_EMN6Kasten8InfoToolEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ _ZN7QString4dataEv@Base 4:15.12.1
+ _ZN7QString5clearEv@Base 4:15.12.1
+ _ZN7QString6insertEiRKS_@Base 4:15.12.1
+ _ZN7QString7prependERKS_@Base 4:15.12.1
+ _ZN7QString7reserveEi@Base 4:15.12.1
+ _ZN7QStringC1EOS_@Base 4:15.12.1
+ _ZN7QStringC2EOS_@Base 4:15.12.1
+ _ZN7QStringixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE13copyConstructEPKS2_S5_PS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE16defaultConstructEPS2_S4_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE6appendERKS2_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE8destructEPS2_S4_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE8freeDataEP15QTypedArrayDataIS2_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEEC1ERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEEC2ERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE11reallocDataEiiS2_IN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE16defaultConstructEPS6_S8_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE6appendERKS6_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE8destructEPS6_S8_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE8freeDataEP15QTypedArrayDataIS6_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE13copyConstructEPKS1_S4_PS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE16defaultConstructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE4lastEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE5clearEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE8destructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE8freeDataEP15QTypedArrayDataIS1_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEEC1ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEEC2ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEEaSEOS2_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE16defaultConstructEPS1_S3_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE8destructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE8freeDataEP15QTypedArrayDataIS1_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE13copyConstructEPKS1_S4_PS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE16defaultConstructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE4swapERS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE5clearEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE8destructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE8freeDataEP15QTypedArrayDataIS1_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEC1ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEC2ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEaSEOS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEEaSERKS2_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIP15DataInformationE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP15DataInformationE13copyConstructEPKS1_S4_PS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE16defaultConstructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE4swapERS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE5beginEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE5clearEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIP15DataInformationE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP15DataInformationE6detachEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE6resizeEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIP15DataInformationE7reserveEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP15DataInformationE8destructEPS1_S3_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationE8freeDataEP15QTypedArrayDataIS1_E@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEC1ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEC2ERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEaSEOS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEaSERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationEixEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP15DataInformationElsERKS2_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIP15DataInformationEpLERKS2_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE16defaultConstructEPS1_S3_@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationEC2Ev@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIaE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIaE16defaultConstructEPaS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaE6detachEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIaE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIaE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaE8destructEPaS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaE8freeDataEP15QTypedArrayDataIaE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIaEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIdE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIdE16defaultConstructEPdS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdE6detachEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIdE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIdE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdE8destructEPdS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdE8freeDataEP15QTypedArrayDataIdE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIdEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIfE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIfE16defaultConstructEPfS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfE6detachEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIfE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIfE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfE8destructEPfS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfE8freeDataEP15QTypedArrayDataIfE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIfEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIhE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIhE16defaultConstructEPhS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhE4dataEv@Base 4:15.12.1
  (optional=templinst|arch=arm64 powerpc ppc64el s390x)_ZN7QVectorIhE6appendERKh@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIhE6detachEv@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE7reserveEi@Base 4:14.12.0
- (optional=templinst)_ZN7QVectorIiE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIhE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhE8destructEPhS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhE8freeDataEP15QTypedArrayDataIhE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIhEixEi@Base 4:15.12.1
+#MISSING: 4:15.12.1# (optional=templinst)_ZN7QVectorIiE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIiE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIiE7squeezeEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIjE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIjE16defaultConstructEPjS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjE4dataEv@Base 4:15.12.1
  (optional=templinst|arch=arm64 powerpc ppc64el s390x)_ZN7QVectorIjE6appendERKj@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIjE6detachEv@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIjE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE7reserveEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIjE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjE8destructEPjS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjE8freeDataEP15QTypedArrayDataIjE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIjEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIsE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIsE16defaultConstructEPsS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsE6detachEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIsE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIsE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsE8destructEPsS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsE8freeDataEP15QTypedArrayDataIsE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIsEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorItE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorItE16defaultConstructEPtS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItE4dataEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorItE6detachEv@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorItE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorItE7reserveEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorItE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItE8destructEPtS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItE8freeDataEP15QTypedArrayDataItE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorItEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIxE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIxE16defaultConstructEPxS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxE6detachEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIxE6resizeEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIxE7reserveEi@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxE8destructEPxS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxE8freeDataEP15QTypedArrayDataIxE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIxEixEi@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIyE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIyE16defaultConstructEPyS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyE4dataEv@Base 4:15.12.1
  (optional=templinst)_ZN7QVectorIyE6detachEv@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE7reserveEi@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIyE7squeezeEv@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyE8destructEPyS1_@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyE8freeDataEP15QTypedArrayDataIyE@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyEC1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyEC2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN7QVectorIyEixEi@Base 4:15.12.1
+ _ZN7QWidget6resizeEii@Base 4:15.12.1
+ _ZN8QCharRef7unicodeEv@Base 4:15.12.1
+ _ZN8QCharRefaSEt@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE10createNodeERKS0_RKS1_P8QMapNodeIS0_S1_Eb@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE5beginEv@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE6createEv@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE7destroyEv@Base 4:15.12.1
+ (optional=templinst)_ZN8QMapNodeI17AllPrimitiveTypes7QStringE10lowerBoundERKS0_@Base 4:15.12.1
  (optional=templinst)_ZN8QMapNodeI17AllPrimitiveTypes7QStringE14destroySubTreeEv@Base 4:14.12.0
+ (optional=templinst)_ZN8QVariant9fromValueI12QScriptValueEES_RKT_@Base 4:15.12.1
+ (optional=templinst)_ZN8QVariant9fromValueI13SafeReferenceEES_RKT_@Base 4:15.12.1
  _ZN9OsdParser10parseEnumsERK11QDomElementP12ScriptLogger@Base 4:14.12.0
  _ZN9OsdParser11enumFromXMLERK11QDomElementbRK13OsdParserInfo@Base 4:14.12.0
  _ZN9OsdParser12arrayFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
  _ZN9OsdParser12parseElementERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
  _ZN9OsdParser12readPropertyERK11QDomElementRK7QStringS5_@Base 4:14.12.0
+ _ZN9OsdParser12unionFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:15.12.1
  _ZN9OsdParser13stringFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
+ _ZN9OsdParser13structFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:15.12.1
  _ZN9OsdParser14pointerFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
  _ZN9OsdParser15bitfieldFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
  _ZN9OsdParser16primitiveFromXMLERK11QDomElementRK13OsdParserInfo@Base 4:14.12.0
@@ -1691,15 +2842,74 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN9OsdParserD0Ev@Base 4:14.12.0
  _ZN9OsdParserD1Ev@Base 4:14.12.0
  _ZN9OsdParserD2Ev@Base 4:14.12.0
+ _ZN9QHashData8willGrowEv@Base 4:15.12.1
+ _ZN9QHashData9hasShrunkEv@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIP15DataInformationP13SafeReferenceEC1ERKS1_RKS3_jPS4_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIP15DataInformationP13SafeReferenceEC2ERKS1_RKS3_jPS4_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIPKN6Okteta22AbstractByteArrayModelEyEC1ERKS3_RKyjPS4_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIPKN6Okteta22AbstractByteArrayModelEyEC2ERKS3_RKyjPS4_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIi8QVariantEC1ERKiRKS0_jPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIi8QVariantEC2ERKiRKS0_jPS1_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIi8QVariantED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIi8QVariantED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIihEC1ERKiRKhjPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN9QHashNodeIihEC2ERKiRKhjPS0_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11FunctorCallINS_11IndexesListIILi0EEEENS_4ListIIP7QObjectEEEvM23TopLevelDataInformationFvS5_EE4callES9_PS7_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11FunctorCallINS_11IndexesListIILi0EEEENS_4ListIIiEEEvM16ScriptLoggerViewFviEE4callES7_PS5_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11FunctorCallINS_11IndexesListIJLi0EEEENS_4ListIJP7QObjectEEEvM23TopLevelDataInformationFvS5_EE4callES9_PS7_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11FunctorCallINS_11IndexesListIJLi0EEEENS_4ListIJiEEEvM16ScriptLoggerViewFviEE4callES7_PS5_PPv@Base 4:15.12.1
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIIiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 4:14.12.0
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIIiEEEvEC1ES3_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIIiEEEvEC2ES3_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIIiEEEvED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIIiEEEvED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIJiEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb@Base 4:14.12.0
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIJiEEEvEC1ES3_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIJiEEEvEC2ES3_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIJiEEEvED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM16ScriptLoggerViewFviENS_4ListIJiEEEvED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvE4implEiPNS_15QSlotObjectBaseES3_PPvPb@Base 4:14.12.0
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvEC1ES5_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvEC2ES5_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvED2Ev@Base 4:15.12.1
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvE4implEiPNS_15QSlotObjectBaseES3_PPvPb@Base 4:14.12.0
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvEC1ES5_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvEC2ES5_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvED1Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvED2Ev@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate15FunctionPointerIM16ScriptLoggerViewFviEE4callINS_4ListIIiEEEvEEvS3_PS1_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate15FunctionPointerIM16ScriptLoggerViewFviEE4callINS_4ListIJiEEEvEEvS3_PS1_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate15FunctionPointerIM23TopLevelDataInformationFvP7QObjectEE4callINS_4ListIIS3_EEEvEEvS5_PS1_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate15FunctionPointerIM23TopLevelDataInformationFvP7QObjectEE4callINS_4ListIJS3_EEEvEEvS5_PS1_PPv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate15MetaTypeInvokerINS_19QVariantValueHelperI12QScriptValueEERK8QVariantS2_E6invokeES6_@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate17MetaObjectForTypeI12QScriptValuevE5valueEv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate17MetaObjectForTypeI13SafeReferencevE5valueEv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate17QMetaTypeIdHelperI12QScriptValueLb1EE14qt_metatype_idEv@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate17QMetaTypeIdHelperI13SafeReferenceLb1EE14qt_metatype_idEv@Base 4:15.12.1
  (optional=templinst)_ZN9QtPrivate19QVariantValueHelperI12QScriptValueE8metaTypeERK8QVariant@Base 4:15.08.0
- (arch=arm64 armel ppc64 ppc64el s390x)_ZN9QtPrivate8RefCount3refEv@Base 4:15.08.0
- (arch=arm64 armel powerpc ppc64 ppc64el s390x)_ZN9QtPrivate8RefCount5derefEv@Base 4:15.08.0
+ (optional=templinst)_ZN9QtPrivate26MetaTypeSmartPointerHelperI12QScriptValuevE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate26MetaTypeSmartPointerHelperI13SafeReferencevE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate34SequentialContainerConverterHelperI12QScriptValueLb0EE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate34SequentialContainerConverterHelperI13SafeReferenceLb0EE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate35AssociativeContainerConverterHelperI12QScriptValueLb0EE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate35AssociativeContainerConverterHelperI13SafeReferenceLb0EE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate6IsPairI12QScriptValueE17registerConverterEi@Base 4:15.12.1
+ (optional=templinst)_ZN9QtPrivate6IsPairI13SafeReferenceE17registerConverterEi@Base 4:15.12.1
+#MISSING: 4:15.12.1# (arch=arm64 armel ppc64 ppc64el s390x)_ZN9QtPrivate8RefCount3refEv@Base 4:15.08.0
+#MISSING: 4:15.12.1# (arch=arm64 armel powerpc ppc64 ppc64el s390x)_ZN9QtPrivate8RefCount5derefEv@Base 4:15.08.0
+ _ZNK10ParserInfo4infoEv@Base 4:15.12.1
+ _ZNK10ParserInfo4warnEv@Base 4:15.12.1
  _ZNK10ParserInfo5errorEv@Base 4:14.12.0
  _ZNK10ParserInfo7contextEv@Base 4:14.12.0
+ _ZNK10QByteArray3endEv@Base 4:15.12.1
+ _ZNK10QByteArray7isEmptyEv@Base 4:15.12.1
+ _ZNK10QByteArrayixEi@Base 4:15.12.1
+ _ZNK10QStringRef2atEi@Base 4:15.12.1
+ _ZNK10StringData12maxByteCountEv@Base 4:15.12.1
+ _ZNK10StringData15terminationModeEv@Base 4:15.12.1
+ _ZNK10StringData20terminationCodePointEv@Base 4:15.12.1
+ _ZNK10StringData6wasEofEv@Base 4:15.12.1
  _ZNK10Utf8Editor10metaObjectEv@Base 4:14.12.0
  _ZNK10Utf8Editor4dataEv@Base 4:14.12.0
  _ZNK11Char8Editor10metaObjectEv@Base 4:14.12.0
@@ -1716,6 +2926,9 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK11UIntSpinBox8validateER7QStringRi@Base 4:14.12.0
  _ZNK12Octal8Editor10metaObjectEv@Base 4:14.12.0
  _ZNK12Octal8Editor4dataEv@Base 4:14.12.0
+ (optional=templinst)_ZNK12QMapIteratorI17AllPrimitiveTypes7QStringE3keyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK12QMapIteratorI17AllPrimitiveTypes7QStringE5valueEv@Base 4:15.12.1
+ (optional=templinst)_ZNK12QMapIteratorI17AllPrimitiveTypes7QStringE7hasNextEv@Base 4:15.12.1
  _ZNK12ScriptLogger10headerDataEiN2Qt11OrientationEi@Base 4:14.12.0
  _ZNK12ScriptLogger10metaObjectEv@Base 4:14.12.0
  _ZNK12ScriptLogger11columnCountERK11QModelIndex@Base 4:14.12.0
@@ -1728,9 +2941,59 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK13Float32Editor4dataEv@Base 4:14.12.0
  _ZNK13Float64Editor10metaObjectEv@Base 4:14.12.0
  _ZNK13Float64Editor4dataEv@Base 4:14.12.0
+ _ZNK13SafeReference4dataEv@Base 4:15.12.1
+ _ZNK13ScriptHandler6engineEv@Base 4:15.12.1
+ _ZNK14AdditionalData3getENS_18AdditionalDataTypeE@Base 4:15.12.1
  _ZNK14Char8Validator8validateER7QStringRi@Base 4:14.12.0
+ _ZNK14EnumDefinition4nameEv@Base 4:15.12.1
+ _ZNK14EnumDefinition4typeEv@Base 4:15.12.1
+ _ZNK14EnumDefinition5valueE17AllPrimitiveTypes@Base 4:15.12.1
+ _ZNK14EnumDefinition6valuesEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EE6isNullEv@Base 4:15.12.1
+ _ZNK14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EEcvMS3_PS0_Ev@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI10StringData21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EEntEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI12ScriptLogger21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI13QScriptEngine21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI13ScriptHandler21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI14ChildrenParser21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI15DataInformation21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI15EnumScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI16ArrayScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI17AbstractArrayData21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI17StringScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI18PointerScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI19BitfieldScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI20DummyDataInformation21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI20PrimitiveScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI22StructUnionScriptClass21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI24PrimitiveDataInformation21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QScopedPointerI26TaggedUnionDataInformation21QScopedPointerDeleterIS0_EEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QSharedPointerI14ChildrenParserE3refEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QSharedPointerI14ChildrenParserE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QSharedPointerI14ChildrenParserEptEv@Base 4:15.12.1
+ (optional=templinst)_ZNK14QStringBuilderI11QLatin1Char7QStringE9convertToIS1_EET_v@Base 4:15.12.1
+ _ZNK14QStringBuilderI11QLatin1Char7QStringEcvS1_Ev@Base 4:15.12.1
+ (optional=templinst)_ZNK14QStringBuilderIS_I11QLatin1Char5QCharES0_E9convertToI7QStringEET_v@Base 4:15.12.1
+ _ZNK14QStringBuilderIS_I11QLatin1Char5QCharES0_Ecv7QStringEv@Base 4:15.12.1
  (optional=templinst)_ZNK14QStringBuilderIS_I11QLatin1Char7QStringES0_E9convertToIS1_EET_v@Base 4:15.08.0
+ _ZNK14QStringBuilderIS_I11QLatin1Char7QStringES0_EcvS1_Ev@Base 4:15.12.1
+ (optional=templinst)_ZNK14QStringBuilderIS_I11QLatin1Char7QStringES1_E9convertToIS1_EET_v@Base 4:15.12.1
+ _ZNK14QStringBuilderIS_I11QLatin1Char7QStringES1_EcvS1_Ev@Base 4:15.12.1
+ (optional=templinst)_ZNK14QStringBuilderIS_I7QStringS0_E11QLatin1CharE9convertToIS0_EET_v@Base 4:15.12.1
+ _ZNK14QStringBuilderIS_I7QStringS0_E11QLatin1CharEcvS0_Ev@Base 4:15.12.1
  (optional=templinst)_ZNK14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_E9convertToIS0_EET_v@Base 4:15.08.0
+ _ZNK14QStringBuilderIS_IS_I7QString11QLatin1CharES0_ES1_EcvS0_Ev@Base 4:15.12.1
+ (optional=templinst)_ZNK14QStringBuilderIS_IS_I7QStringS0_ES0_ES0_E9convertToIS0_EET_v@Base 4:15.12.1
+ _ZNK14QStringBuilderIS_IS_I7QStringS0_ES0_ES0_EcvS0_Ev@Base 4:15.12.1
  _ZNK14Utf8StringData11stringValueEi@Base 4:14.12.0
  _ZNK14Utf8StringData14completeStringEb@Base 4:14.12.0
  _ZNK14Utf8StringData4sizeEv@Base 4:14.12.0
@@ -1745,15 +3008,24 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK15AsciiStringData6sizeAtEj@Base 4:14.12.0
  _ZNK15AsciiStringData8charTypeEv@Base 4:14.12.0
  _ZNK15AsciiStringData8typeNameEv@Base 4:14.12.0
+ _ZNK15DataInformation10loggedDataEv@Base 4:15.12.1
  _ZNK15DataInformation10sizeStringEv@Base 4:14.12.0
+ _ZNK15DataInformation10updateFuncEv@Base 4:15.12.1
  _ZNK15DataInformation11valueStringEv@Base 4:15.12.0
+ _ZNK15DataInformation13setLoggedDataEN12ScriptLogger8LogLevelE@Base 4:15.12.1
  _ZNK15DataInformation13tooltipStringEv@Base 4:14.12.0
+ _ZNK15DataInformation13wasAbleToReadEv@Base 4:15.12.1
  _ZNK15DataInformation14customToStringERK12QScriptValue@Base 4:14.12.0
  _ZNK15DataInformation14fullObjectPathEv@Base 4:14.12.0
+ _ZNK15DataInformation14hasBeenUpdatedEv@Base 4:15.12.1
  _ZNK15DataInformation14positionInFileEi@Base 4:14.12.0
+ _ZNK15DataInformation14validationFuncEv@Base 4:15.12.1
+ _ZNK15DataInformation15validationErrorEv@Base 4:15.12.1
  _ZNK15DataInformation15valueStringImplEv@Base 4:14.12.0
+ _ZNK15DataInformation16hasBeenValidatedEv@Base 4:15.12.1
  _ZNK15DataInformation16toStringFunctionEv@Base 4:15.12.0
  _ZNK15DataInformation18effectiveByteOrderEv@Base 4:14.12.0
+ _ZNK15DataInformation20validationSuccessfulEv@Base 4:15.12.1
  _ZNK15DataInformation21byteOrderFromSettingsEv@Base 4:14.12.0
  _ZNK15DataInformation23topLevelDataInformationEv@Base 4:14.12.0
  _ZNK15DataInformation3rowEv@Base 4:14.12.0
@@ -1761,7 +3033,21 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK15DataInformation5childERK7QString@Base 4:14.12.0
  (arch=armel armhf)_ZNK15DataInformation5flagsEib@Base 4:15.08.0
  _ZNK15DataInformation6loggerEv@Base 4:14.12.0
+ _ZNK15DataInformation7logInfoEv@Base 4:15.12.1
+ _ZNK15DataInformation7logWarnEv@Base 4:15.12.1
+ _ZNK15DataInformation8logErrorEv@Base 4:15.12.1
  _ZNK15DataInformation8typeNameEv@Base 4:15.12.0
+ _ZNK15DataInformation9byteOrderEv@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE10constBeginEPKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEE8constEndEPKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIP15DataInformationE10constBeginEPKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIP15DataInformationE4dataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK15QTypedArrayDataIP15DataInformationE8constEndEPKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK15QVarLengthArrayI5QCharLi256EE9constDataEv@Base 4:15.12.1
+ (optional=templinst)_ZNK15QVarLengthArrayI5QPairI7QStringyELi10EE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK15QVarLengthArrayI5QPairI7QStringyELi10EE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK15QVarLengthArrayI5QPairI7QStringyELi10EEixEi@Base 4:15.12.1
  _ZNK15Utf16StringData11stringValueEi@Base 4:14.12.0
  _ZNK15Utf16StringData14completeStringEb@Base 4:14.12.0
  _ZNK15Utf16StringData4sizeEv@Base 4:14.12.0
@@ -1798,8 +3084,47 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK16ScriptFileParser15parseStructuresEv@Base 4:14.12.0
  _ZNK16ScriptFileParser19parseStructureNamesEv@Base 4:14.12.0
  _ZNK16ScriptLoggerView10metaObjectEv@Base 4:14.12.0
+ _ZNK17AbstractArrayData9childTypeEv@Base 4:15.12.1
  _ZNK17AllPrimitiveTypes18writeDataBigEndianEhS_PN6Okteta22AbstractByteArrayModelEih@Base 4:14.12.0
  _ZNK17AllPrimitiveTypes21writeDataLittleEndianEhS_PN6Okteta22AbstractByteArrayModelEih@Base 4:14.12.0
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIaEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIdEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIfEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIhEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIiEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIjEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIsEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueItEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIxEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK17AllPrimitiveTypes5valueIyEET_v@Base 4:15.12.1
+ _ZNK17AllPrimitiveTypeseqES_@Base 4:15.12.1
+ _ZNK17AllPrimitiveTypesltES_@Base 4:15.12.1
+ _ZNK17AllPrimitiveTypesneES_@Base 4:15.12.1
+ _ZNK17LoggerWithContext4warnEv@Base 4:15.12.1
+ _ZNK17LoggerWithContext5errorEv@Base 4:15.12.1
+ _ZNK17PrimitiveDataTypeeqERKS_@Base 4:15.12.1
+ _ZNK17PrimitiveDataTypeneERKS_@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi26EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi30EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi34EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi36EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi38EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi3EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi40EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi41EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi42EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi45EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi46EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi49EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi50EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi52EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi53EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi54EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi56EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi70EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi71EE8data_ptrEv@Base 4:15.12.1
+ (optional=templinst)_ZNK17QStaticStringDataILi87EE8data_ptrEv@Base 4:15.12.1
+ _ZNK17ScriptHandlerInfo4modeEv@Base 4:15.12.1
  _ZNK17StringScriptClass9prototypeEv@Base 4:14.12.0
  _ZNK17Utf8CharValidator8validateER7QStringRi@Base 4:14.12.0
  _ZNK18DefaultScriptClass9prototypeEv@Base 4:14.12.0
@@ -1970,19 +3295,28 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZNK18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EE7valueAtEi@Base 4:14.12.0
  (optional=templinst)_ZNK18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EE8typeNameEv@Base 4:14.12.0
  (optional=templinst)_ZNK18PrimitiveArrayDataIL21PrimitiveDataTypeEnum9EE9isComplexEv@Base 4:14.12.0
+ (optional=templinst)_ZNK18QSharedDataPointerI14EnumDefinitionEntEv@Base 4:15.12.1
+ (optional=templinst)_ZNK18QSharedDataPointerI14EnumDefinitionEptEv@Base 4:15.12.1
+ _ZNK19DataInformationBase10asBitfieldEv@Base 4:15.12.1
  _ZNK19DataInformationBase10asTopLevelEv@Base 4:14.12.0
  _ZNK19DataInformationBase10isBitfieldEv@Base 4:14.12.0
+ _ZNK19DataInformationBase11asPrimitiveEv@Base 4:15.12.1
  _ZNK19DataInformationBase11isPrimitiveEv@Base 4:14.12.0
  _ZNK19DataInformationBase13isTaggedUnionEv@Base 4:14.12.0
  _ZNK19DataInformationBase29isDataInformationWithChildrenEv@Base 4:14.12.0
  _ZNK19DataInformationBase34isDataInformationWithDummyChildrenEv@Base 4:14.12.0
+ _ZNK19DataInformationBase6asEnumEv@Base 4:15.12.1
  _ZNK19DataInformationBase6isEnumEv@Base 4:14.12.0
+ _ZNK19DataInformationBase7asArrayEv@Base 4:15.12.1
  _ZNK19DataInformationBase7isArrayEv@Base 4:14.12.0
  _ZNK19DataInformationBase7isDummyEv@Base 4:14.12.0
  _ZNK19DataInformationBase7isUnionEv@Base 4:14.12.0
+ _ZNK19DataInformationBase8asStringEv@Base 4:15.12.1
  _ZNK19DataInformationBase8isStringEv@Base 4:14.12.0
  _ZNK19DataInformationBase8isStructEv@Base 4:14.12.0
+ _ZNK19DataInformationBase9asPointerEv@Base 4:15.12.1
  _ZNK19DataInformationBase9isPointerEv@Base 4:14.12.0
+ _ZNK19EnumDataInformation10enumValuesEv@Base 4:15.12.1
  _ZNK19EnumDataInformation11scriptClassEP17ScriptHandlerInfo@Base 4:14.12.0
  _ZNK19EnumDataInformation12typeNameImplEv@Base 4:14.12.0
  _ZNK19EnumDataInformation15valueStringImplEv@Base 4:14.12.0
@@ -2003,6 +3337,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK20ArrayDataInformation13childTypeNameEj@Base 4:14.12.0
  _ZNK20ArrayDataInformation13setWidgetDataEP7QWidget@Base 4:14.12.0
  _ZNK20ArrayDataInformation14dataFromWidgetEPK7QWidget@Base 4:14.12.0
+ _ZNK20ArrayDataInformation14lengthFunctionEv@Base 4:15.12.1
  _ZNK20ArrayDataInformation15canHaveChildrenEv@Base 4:14.12.0
  _ZNK20ArrayDataInformation16createEditWidgetEP7QWidget@Base 4:14.12.0
  _ZNK20ArrayDataInformation18childToScriptValueEjP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
@@ -2011,6 +3346,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK20ArrayDataInformation21createChildEditWidgetEjP7QWidget@Base 4:14.12.0
  _ZNK20ArrayDataInformation4sizeEv@Base 4:14.12.0
  _ZNK20ArrayDataInformation5cloneEv@Base 4:14.12.0
+ _ZNK20ArrayDataInformation6lengthEv@Base 4:15.12.1
  _ZNK20ArrayDataInformation7childAtEj@Base 4:14.12.0
  _ZNK20ArrayDataInformation7indexOfEPK15DataInformation@Base 4:14.12.0
  _ZNK20ArrayDataInformation7isArrayEv@Base 4:14.12.0
@@ -2019,6 +3355,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK20ArrayDataInformation9childTypeEv@Base 4:14.12.0
  _ZNK20DummyDataInformation10childCountEv@Base 4:14.12.0
  _ZNK20DummyDataInformation11scriptClassEP17ScriptHandlerInfo@Base 4:14.12.0
+ _ZNK20DummyDataInformation12parentHelperEv@Base 4:15.12.1
  _ZNK20DummyDataInformation12typeNameImplEv@Base 4:14.12.0
  _ZNK20DummyDataInformation13childPositionEPK15DataInformationi@Base 4:14.12.0
  _ZNK20DummyDataInformation13setWidgetDataEP7QWidget@Base 4:14.12.0
@@ -2041,6 +3378,9 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK21StringDataInformation10childCountEv@Base 4:14.12.0
  _ZNK21StringDataInformation10childFlagsEiib@Base 4:14.12.0
  _ZNK21StringDataInformation11scriptClassEP17ScriptHandlerInfo@Base 4:14.12.0
+ _ZNK21StringDataInformation12maxByteCountEv@Base 4:15.12.1
+ _ZNK21StringDataInformation12maxCharCountEv@Base 4:15.12.1
+ _ZNK21StringDataInformation12stringLengthEv@Base 4:15.12.1
  _ZNK21StringDataInformation12typeNameImplEv@Base 4:14.12.0
  _ZNK21StringDataInformation13childPositionEPK15DataInformationi@Base 4:14.12.0
  _ZNK21StringDataInformation13childTypeNameEj@Base 4:14.12.0
@@ -2049,22 +3389,28 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK21StringDataInformation15canHaveChildrenEv@Base 4:14.12.0
  _ZNK21StringDataInformation15valueStringImplEv@Base 4:14.12.0
  _ZNK21StringDataInformation16createEditWidgetEP7QWidget@Base 4:14.12.0
+ _ZNK21StringDataInformation16stringByteLengthEv@Base 4:15.12.1
  _ZNK21StringDataInformation18childToScriptValueEjP13QScriptEngineP17ScriptHandlerInfo@Base 4:14.12.0
  _ZNK21StringDataInformation18setChildWidgetDataEjP7QWidget@Base 4:14.12.0
  _ZNK21StringDataInformation19dataFromChildWidgetEjPK7QWidget@Base 4:14.12.0
+ _ZNK21StringDataInformation20terminationCodePointEv@Base 4:15.12.1
  _ZNK21StringDataInformation21createChildEditWidgetEjP7QWidget@Base 4:14.12.0
  _ZNK21StringDataInformation4dataEii@Base 4:14.12.0
  _ZNK21StringDataInformation4sizeEv@Base 4:14.12.0
  _ZNK21StringDataInformation5cloneEv@Base 4:14.12.0
  _ZNK21StringDataInformation5flagsEib@Base 4:14.12.0
  _ZNK21StringDataInformation7childAtEj@Base 4:14.12.0
+ _ZNK21StringDataInformation7valueAtEi@Base 4:15.12.1
+ _ZNK21StringDataInformation8encodingEv@Base 4:15.12.1
  _ZNK21StringDataInformation8isStringEv@Base 4:14.12.0
  _ZNK21StringDataInformation9childDataEiii@Base 4:14.12.0
  _ZNK21StringDataInformation9childSizeEj@Base 4:14.12.0
  _ZNK22PointerDataInformation10childCountEv@Base 4:14.12.0
+ _ZNK22PointerDataInformation11pointerTypeEv@Base 4:15.12.1
  _ZNK22PointerDataInformation11scriptClassEP17ScriptHandlerInfo@Base 4:14.12.0
  _ZNK22PointerDataInformation12typeNameImplEv@Base 4:14.12.0
  _ZNK22PointerDataInformation13childPositionEPK15DataInformationi@Base 4:14.12.0
+ _ZNK22PointerDataInformation13pointerTargetEv@Base 4:15.12.1
  _ZNK22PointerDataInformation15canHaveChildrenEv@Base 4:14.12.0
  _ZNK22PointerDataInformation15valueStringImplEv@Base 4:14.12.0
  _ZNK22PointerDataInformation5cloneEv@Base 4:14.12.0
@@ -2076,8 +3422,10 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK23TopLevelDataInformation10metaObjectEv@Base 4:14.12.0
  _ZNK23TopLevelDataInformation11isLockedForEPKN6Okteta22AbstractByteArrayModelE@Base 4:14.12.0
  _ZNK23TopLevelDataInformation12scriptEngineEv@Base 4:14.12.0
+ _ZNK23TopLevelDataInformation13scriptHandlerEv@Base 4:15.12.1
  _ZNK23TopLevelDataInformation15lockPositionForEPKN6Okteta22AbstractByteArrayModelE@Base 4:14.12.0
  _ZNK23TopLevelDataInformation17isLockedByDefaultEv@Base 4:14.12.0
+ _ZNK23TopLevelDataInformation6loggerEv@Base 4:15.12.1
  _ZNK23TopLevelDataInformation7indexOfEPK15DataInformation@Base 4:14.12.0
  _ZNK24PrimitiveDataInformation10childCountEv@Base 4:14.12.0
  _ZNK24PrimitiveDataInformation11isPrimitiveEv@Base 4:14.12.0
@@ -2100,6 +3448,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK26TaggedUnionDataInformation12typeNameImplEv@Base 4:14.12.0
  _ZNK26TaggedUnionDataInformation13childPositionEPK15DataInformationi@Base 4:14.12.0
  _ZNK26TaggedUnionDataInformation13isTaggedUnionEv@Base 4:14.12.0
+ _ZNK26TaggedUnionDataInformation15currentChildrenEv@Base 4:15.12.1
  _ZNK26TaggedUnionDataInformation4sizeEv@Base 4:14.12.0
  _ZNK26TaggedUnionDataInformation5cloneEv@Base 4:14.12.0
  _ZNK26TaggedUnionDataInformation7childAtEj@Base 4:14.12.0
@@ -2302,10 +3651,12 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK31AbstractBitfieldDataInformation10sizeStringEv@Base 4:14.12.0
  _ZNK31AbstractBitfieldDataInformation11fromVariantERK8QVariantPb@Base 4:14.12.0
  _ZNK31AbstractBitfieldDataInformation11scriptClassEP17ScriptHandlerInfo@Base 4:14.12.0
+ _ZNK31AbstractBitfieldDataInformation4maskEv@Base 4:15.12.1
  _ZNK31AbstractBitfieldDataInformation4sizeEv@Base 4:14.12.0
  _ZNK31AbstractBitfieldDataInformation4typeEv@Base 4:14.12.0
  _ZNK31AbstractBitfieldDataInformation5flagsEib@Base 4:14.12.0
  _ZNK31AbstractBitfieldDataInformation5valueEv@Base 4:14.12.0
+ _ZNK31AbstractBitfieldDataInformation5widthEv@Base 4:15.12.1
  _ZNK31PrimitiveDataInformationWrapper13setWidgetDataEP7QWidget@Base 4:14.12.0
  _ZNK31PrimitiveDataInformationWrapper14dataFromWidgetEPK7QWidget@Base 4:14.12.0
  _ZNK31PrimitiveDataInformationWrapper16createEditWidgetEP7QWidget@Base 4:14.12.0
@@ -2323,10 +3674,37 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK31UnsignedBitfieldDataInformation5cloneEv@Base 4:14.12.0
  (arch=armel armhf)_ZNK32DataInformationWithDummyChildren34isDataInformationWithDummyChildrenEv@Base 4:15.08.0
  (arch=armel armhf)_ZNK32DataInformationWithDummyChildren7indexOfEPK15DataInformation@Base 4:15.08.0
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE10constBeginEv@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE14const_iterator3keyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE14const_iteratordeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE14const_iteratorneERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE5valueERKS0_RKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK4QMapI17AllPrimitiveTypes7QStringE8constEndEv@Base 4:15.12.1
+ _ZNK5QChar7isPrintEv@Base 4:15.12.1
+ _ZNK5QFlagcvjEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE7isEmptyEv@Base 4:15.12.1
  (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8findNodeERKS1_Pj@Base 4:14.12.0
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8iterator3keyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8iterator5valueEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8iteratoreqERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8iteratorneERKS5_@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE5valueERKS3_@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE5valueERKS3_RKy@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8containsERKS3_@Base 4:15.12.1
  (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8findNodeERKS3_Pj@Base 4:14.12.0
+ (optional=templinst)_ZNK5QHashIi8QVariantE5valueERKi@Base 4:15.12.1
+ (optional=templinst)_ZNK5QHashIi8QVariantE7isEmptyEv@Base 4:15.12.1
  (optional=templinst)_ZNK5QHashIi8QVariantE8findNodeERKiPj@Base 4:14.12.0
+ (optional=templinst)_ZNK5QHashIihE5valueERKi@Base 4:15.12.1
  (optional=templinst)_ZNK5QHashIihE8findNodeERKiPj@Base 4:14.12.0
+ (optional=templinst)_ZNK5QHashIihEixERKi@Base 4:15.12.1
+ (optional=templinst)_ZNK5QListIN6Okteta18ArrayChangeMetricsEE6lengthEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QListIN6Okteta18ArrayChangeMetricsEE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QListIP22PointerDataInformationE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK5QListIP22PointerDataInformationE8iteratordeEv@Base 4:15.12.1
  _ZNK6Kasten10FilterTool10filterListEv@Base 4:14.12.0
  _ZNK6Kasten10FilterTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten10FilterTool12hasWriteableEv@Base 4:14.12.0
@@ -2344,13 +3722,18 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten10StructTool7childAtEi@Base 4:14.12.0
  _ZNK6Kasten10StructTool7managerEv@Base 4:14.12.0
  _ZNK6Kasten10StructTool9byteOrderEv@Base 4:14.12.0
+ _ZNK6Kasten12ChecksumTool10isUptodateEv@Base 4:15.12.1
  _ZNK6Kasten12ChecksumTool10metaObjectEv@Base 4:14.12.0
+ _ZNK6Kasten12ChecksumTool11algorithmIdEv@Base 4:15.12.1
  _ZNK6Kasten12ChecksumTool11isApplyableEv@Base 4:14.12.0
  _ZNK6Kasten12ChecksumTool13algorithmListEv@Base 4:14.12.0
  _ZNK6Kasten12ChecksumTool5titleEv@Base 4:14.12.0
+ _ZNK6Kasten12ChecksumTool8checkSumEv@Base 4:15.12.1
  _ZNK6Kasten12InfoToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten12InfoToolView5titleEv@Base 4:14.12.0
  _ZNK6Kasten12InfoToolView6widgetEv@Base 4:14.12.0
+ (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_13ByteArrayViewEEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_17ByteArrayDocumentEEET_v@Base 4:15.12.1
  _ZNK6Kasten13BookmarksTool10bookmarkAtEj@Base 4:14.12.0
  _ZNK6Kasten13BookmarksTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten13BookmarksTool12offsetCodingEv@Base 4:14.12.0
@@ -2368,9 +3751,12 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten14PODDecoderTool10isReadOnlyEv@Base 4:14.12.0
  _ZNK6Kasten14PODDecoderTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten14PODDecoderTool11isApplyableEv@Base 4:14.12.0
+ _ZNK6Kasten14PODDecoderTool15isUnsignedAsHexEv@Base 4:15.12.1
  _ZNK6Kasten14PODDecoderTool5titleEv@Base 4:14.12.0
  _ZNK6Kasten14PODDecoderTool5valueEi@Base 4:14.12.0
  _ZNK6Kasten14PODDecoderTool8podCountEv@Base 4:14.12.0
+ _ZNK6Kasten14PODDecoderTool9byteOrderEv@Base 4:15.12.1
+ _ZNK6Kasten14PODDecoderTool9charCodecEv@Base 4:15.12.1
  _ZNK6Kasten14PODDecoderTool9nameOfPODEi@Base 4:14.12.0
  _ZNK6Kasten14StructToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten14StructToolView5titleEv@Base 4:14.12.0
@@ -2384,6 +3770,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten16DocumentInfoTool13documentTitleEv@Base 4:14.12.0
  _ZNK6Kasten16DocumentInfoTool5titleEv@Base 4:14.12.0
  _ZNK6Kasten16DocumentInfoTool8locationEv@Base 4:14.12.0
+ _ZNK6Kasten16DocumentInfoTool8mimeTypeEv@Base 4:15.12.1
  _ZNK6Kasten16SearchController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten16SearchController13queryContinueENS_14KFindDirectionE@Base 4:14.12.0
  _ZNK6Kasten17BookmarksToolView4toolEv@Base 4:14.12.0
@@ -2398,11 +3785,14 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten18PODDecoderToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten18PODDecoderToolView5titleEv@Base 4:14.12.0
  _ZNK6Kasten18PODDecoderToolView6widgetEv@Base 4:14.12.0
+ _ZNK6Kasten18StringsExtractTool10isUptodateEv@Base 4:15.12.1
  _ZNK6Kasten18StringsExtractTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten18StringsExtractTool11isApplyableEv@Base 4:14.12.0
  _ZNK6Kasten18StringsExtractTool12offsetCodingEv@Base 4:14.12.0
  _ZNK6Kasten18StringsExtractTool18canHighlightStringEv@Base 4:14.12.0
+ _ZNK6Kasten18StringsExtractTool19containedStringListEv@Base 4:15.12.1
  _ZNK6Kasten18StringsExtractTool5titleEv@Base 4:14.12.0
+ _ZNK6Kasten18StringsExtractTool9minLengthEv@Base 4:15.12.1
  _ZNK6Kasten18ViewModeController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten19BookmarksController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten19InfoToolViewFactory15defaultPositionEv@Base 4:14.12.0
@@ -2460,6 +3850,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten29StringsExtractToolViewFactory2idEv@Base 4:14.12.0
  _ZNK6Kasten29StringsExtractToolViewFactory5titleEv@Base 4:14.12.0
  _ZNK6Kasten29StringsExtractToolViewFactory8iconNameEv@Base 4:14.12.0
+ _ZNK6Kasten32ByteArrayViewProfileSynchronizer13viewProfileIdEv@Base 4:15.12.1
  _ZNK6Kasten32CharsetConversionToolViewFactory15defaultPositionEv@Base 4:14.12.0
  _ZNK6Kasten32CharsetConversionToolViewFactory2idEv@Base 4:14.12.0
  _ZNK6Kasten32CharsetConversionToolViewFactory5titleEv@Base 4:14.12.0
@@ -2470,12 +3861,173 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK6Kasten8InfoTool19statisticTableModelEv@Base 4:14.12.0
  _ZNK6Kasten8InfoTool4sizeEv@Base 4:14.12.0
  _ZNK6Kasten8InfoTool5titleEv@Base 4:14.12.0
+ _ZNK6Okteta18ArrayChangeMetrics12insertLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12lengthChangeEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12removeLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics4typeEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics9secondEndEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout10finalCoordEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout11startOffsetEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout15firstLineOffsetEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout16noOfBytesPerLineEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout6lengthEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout9finalLineEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout9noOfLinesEv@Base 4:15.12.1
+ _ZNK6Okteta22AbstractByteArrayModel11lastIndexOfERK10QByteArrayii@Base 4:15.12.1
+ _ZNK6Okteta22AbstractByteArrayModel6copyToEPhii@Base 4:15.12.1
+ _ZNK6Okteta22AbstractByteArrayModel7indexOfERK10QByteArrayii@Base 4:15.12.1
+ _ZNK6Okteta22BookmarksConstIterator7hasNextEv@Base 4:15.12.1
+ _ZNK6Okteta27CharByteArrayColumnRenderer13undefinedCharEv@Base 4:15.12.1
+ _ZNK6Okteta27CharByteArrayColumnRenderer14substituteCharEv@Base 4:15.12.1
+ _ZNK6Okteta27CharByteArrayColumnRenderer20isShowingNonprintingEv@Base 4:15.12.1
+ _ZNK6Okteta28ValueByteArrayColumnRenderer14binaryGapWidthEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer10digitWidthEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer16byteSpacingWidthEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer16noOfGroupedBytesEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer17groupSpacingWidthEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer9byteWidthEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark4nameEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark7isValidEv@Base 4:15.12.1
+ _ZNK6Okteta8BookmarkeqERKS0_@Base 4:15.12.1
+ _ZNK6Okteta9Character11isUndefinedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK6QFlagsIN12QScriptClass9QueryFlagEEanEi@Base 4:15.12.1
+ (optional=templinst)_ZNK6QFlagsIN12QScriptClass9QueryFlagEEorES1_@Base 4:15.12.1
+ (optional=templinst)_ZNK6QFlagsIN12QScriptValue12PropertyFlagEEorES1_@Base 4:15.12.1
+ (optional=templinst)_ZNK6QFlagsIN12QScriptValue12PropertyFlagEEorES2_@Base 4:15.12.1
+ _ZNK7QLocale8toStringEfci@Base 4:15.12.1
+ _ZNK7QLocale8toStringEj@Base 4:15.12.1
+ _ZNK7QLocale8toStringEs@Base 4:15.12.1
+ _ZNK7QLocale8toStringEt@Base 4:15.12.1
+ _ZNK7QString3argERKS_S1_@Base 4:15.12.1
+ _ZNK7QString3argERKS_S1_S1_@Base 4:15.12.1
+ _ZNK7QString3argERKS_S1_S1_S1_@Base 4:15.12.1
+ _ZNK7QString3argEiii5QChar@Base 4:15.12.1
+ _ZNK7QString3argEjii5QChar@Base 4:15.12.1
+ _ZNK7QString3argEtii5QChar@Base 4:15.12.1
+ _ZNK7QString8containsE5QCharN2Qt15CaseSensitivityE@Base 4:15.12.1
+ _ZNK7QString8containsERKS_N2Qt15CaseSensitivityE@Base 4:15.12.1
+ _ZNK7QStringixEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI14QSharedPointerI23TopLevelDataInformationEE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI18QSharedDataPointerI14EnumDefinitionEE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI18QSharedDataPointerI14EnumDefinitionEE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI18QSharedDataPointerI14EnumDefinitionEE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN12ScriptLogger4DataEE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN12ScriptLogger4DataEE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN12ScriptLogger4DataEE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN21TaggedUnionParsedData12AlternativesEE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN21TaggedUnionParsedData12AlternativesEE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN21TaggedUnionParsedData12AlternativesEE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN26TaggedUnionDataInformation9FieldInfoEE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN26TaggedUnionDataInformation9FieldInfoEE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN26TaggedUnionDataInformation9FieldInfoEE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN26TaggedUnionDataInformation9FieldInfoEE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIN26TaggedUnionDataInformation9FieldInfoEE5beginEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE3endEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE5beginEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE5countEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationE7isEmptyEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationEeqERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationEixEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP15DataInformationEneERKS2_@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIP23TopLevelDataInformationE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIaE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIaE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIaE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIdE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIdE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIdE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIfE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIfE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIfE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIhE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIhE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIhE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIiE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIiE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIjE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIjE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIjE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIsE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIsE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIsE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorItE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorItE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorItE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIxE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIxE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIxE4sizeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIyE10isDetachedEv@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIyE2atEi@Base 4:15.12.1
+ (optional=templinst)_ZNK7QVectorIyE4sizeEv@Base 4:15.12.1
+ _ZNK7QWidget11fontMetricsEv@Base 4:15.12.1
+ _ZNK7QWidget4fontEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QMapDataI17AllPrimitiveTypes7QStringE4rootEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QMapDataI17AllPrimitiveTypes7QStringE8findNodeERKS0_@Base 4:15.12.1
  (optional=templinst)_ZNK8QMapNodeI17AllPrimitiveTypes7QStringE4copyEP8QMapDataIS0_S1_E@Base 4:14.12.0
+ (optional=templinst)_ZNK8QMapNodeI17AllPrimitiveTypes7QStringE8leftNodeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QMapNodeI17AllPrimitiveTypes7QStringE8nextNodeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QMapNodeI17AllPrimitiveTypes7QStringE9rightNodeEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant10canConvertI13SafeReferenceEEbv@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant5valueI12QScriptValueEET_v@Base 4:15.12.1
+ _ZNK8QVariant7isValidEv@Base 4:15.12.1
  _ZNK9OsdParser15openDocFromFileEP12ScriptLogger@Base 4:14.12.0
  _ZNK9OsdParser15parseStructuresEv@Base 4:14.12.0
  _ZNK9OsdParser17openDocFromStringEP12ScriptLogger@Base 4:14.12.0
  _ZNK9OsdParser19parseStructureNamesEv@Base 4:14.12.0
  _ZNK9OsdParser7openDocEP12ScriptLogger@Base 4:14.12.0
+ (optional=templinst)_ZNK9QHashNodeIP15DataInformationP13SafeReferenceE8same_keyEjRKS1_@Base 4:15.12.1
+ (optional=templinst)_ZNK9QHashNodeIPKN6Okteta22AbstractByteArrayModelEyE8same_keyEjRKS3_@Base 4:15.12.1
+ (optional=templinst)_ZNK9QHashNodeIi8QVariantE8same_keyEjRKi@Base 4:15.12.1
+ (optional=templinst)_ZNK9QHashNodeIihE8same_keyEjRKi@Base 4:15.12.1
+ _ZNKR7QString7toLowerEv@Base 4:15.12.1
+ _ZNKR7QString7trimmedEv@Base 4:15.12.1
+ _ZNO7QString7toLowerEv@Base 4:15.12.1
+ _ZNO7QString7toUpperEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt10_Iter_baseIPK7QStringLb0EE7_S_baseES2_@Base 4:15.12.1
+ (optional=templinst)_ZNSt10_Iter_baseIPKP15DataInformationLb0EE7_S_baseES3_@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt14numeric_limitsIfE3maxEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt14numeric_limitsIfE3minEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt7__equalILb0EE5equalIPK7QStringS4_EEbT_S5_T0_@Base 4:15.12.1
+ (optional=templinst)_ZNSt7__equalILb1EE5equalIP15DataInformationEEbPKT_S6_S6_@Base 4:15.12.1
+ (optional=templinst)_ZSt11__equal_auxIPK7QStringS2_EbT_S3_T0_@Base 4:15.12.1
+ (optional=templinst)_ZSt11__equal_auxIPKP15DataInformationS3_EbT_S4_T0_@Base 4:15.12.1
+ (optional=templinst)_ZSt12__niter_baseIPK7QStringENSt11_Niter_baseIT_E13iterator_typeES4_@Base 4:15.12.1
+ (optional=templinst)_ZSt12__niter_baseIPKP15DataInformationENSt11_Niter_baseIT_E13iterator_typeES5_@Base 4:15.12.1
+ (optional=templinst)_ZSt19__iterator_categoryIPK7QStringENSt15iterator_traitsIT_E17iterator_categoryERKS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4findIPK7QStringS0_ET_S3_S3_RKT0_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRN8QVariant7PrivateEEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP13KSharedConfigEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP14ChildrenParserEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP14EnumDefinitionEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP15QTypedArrayDataIN12ScriptLogger4DataEEEONSt16remove_referenceIT_E4typeEOS7_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEEEONSt16remove_referenceIT_E4typeEOS7_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP15QTypedArrayDataIP15DataInformationEEONSt16remove_referenceIT_E4typeEOS7_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP8QMapDataI17AllPrimitiveTypes7QStringEEONSt16remove_referenceIT_E4typeEOS7_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRPN15QtSharedPointer20ExternalRefCountDataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP13KSharedConfigEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP14ChildrenParserEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP14EnumDefinitionEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP15QTypedArrayDataIN12ScriptLogger4DataEEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP15QTypedArrayDataIN26TaggedUnionDataInformation9FieldInfoEEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP15QTypedArrayDataIP15DataInformationEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP8QMapDataI17AllPrimitiveTypes7QStringEEvRT_S6_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIPN15QtSharedPointer20ExternalRefCountDataEEvRT_S4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
+ (optional=templinst)_ZSt5equalIPK7QStringS2_EbT_S3_T0_@Base 4:15.12.1
+ (optional=templinst)_ZSt5equalIPKP15DataInformationS3_EbT_S4_T0_@Base 4:15.12.1
  _ZTI10StringData@Base 4:15.04.0
  _ZTI10Utf8Editor@Base 4:15.04.0
  _ZTI11Char8Editor@Base 4:15.04.0
@@ -2770,6 +4322,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZTV13Float64Editor@Base 4:14.12.0
  _ZTV13ScriptHandler@Base 4:14.12.0
  _ZTV14Char8Validator@Base 4:14.12.0
+ _ZTV14ChildrenParser@Base 4:15.12.1
  _ZTV14Utf8StringData@Base 4:14.12.0
  _ZTV15AsciiStringData@Base 4:14.12.0
  _ZTV15DataInformation@Base 4:14.12.0
@@ -2899,9 +4452,23 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZTVN6Kasten8InfoToolE@Base 4:14.12.0
  (optional=templinst)_ZZN11QMetaTypeIdI12QScriptValueE14qt_metatype_idEvE11metatype_id@Base 4:14.12.0
  (optional=templinst)_ZZN11QMetaTypeIdI13SafeReferenceE14qt_metatype_idEvE11metatype_id@Base 4:14.12.0
+ (optional=templinst)_ZeqI17AllPrimitiveTypes7QStringEbRK5QPairIT_T0_ES7_@Base 4:15.12.1
+ _ZeqRK10QStringRefRK7QString@Base 4:15.12.1
  _Zls6QDebug17PrimitiveDataType@Base 4:14.12.0
+ _ZlsR11QTextStreamPFS0_S0_E@Base 4:15.12.1
+ _ZorN12QScriptClass9QueryFlagES0_@Base 4:15.12.1
+ _ZorN12QScriptValue12PropertyFlagES0_@Base 4:15.12.1
  (optional=templinst)_ZpLI14QStringBuilderIS0_I7QStringS1_ES1_E11QLatin1CharERS1_S5_RKS0_IT_T0_E@Base 4:14.12.0
  (optional=templinst)_ZpLI7QStringS0_ERS0_S1_RK14QStringBuilderIT_T0_E@Base 4:14.12.0
+ (optional=templinst)_ZplI11QLatin1Char5QCharE14QStringBuilderIN13QConcatenableIT_E4typeENS3_IT0_E4typeEERKS4_RKS7_@Base 4:15.12.1
+ (optional=templinst)_ZplI11QLatin1Char7QStringE14QStringBuilderIN13QConcatenableIT_E4typeENS3_IT0_E4typeEERKS4_RKS7_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderI11QLatin1Char5QCharES1_ES0_IN13QConcatenableIT_E4typeENS4_IT0_E4typeEERKS5_RKS8_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderI11QLatin1Char7QStringES1_ES0_IN13QConcatenableIT_E4typeENS4_IT0_E4typeEERKS5_RKS8_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderI11QLatin1Char7QStringES2_ES0_IN13QConcatenableIT_E4typeENS4_IT0_E4typeEERKS5_RKS8_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderI7QStringS1_E11QLatin1CharES0_IN13QConcatenableIT_E4typeENS4_IT0_E4typeEERKS5_RKS8_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderIS0_I7QString11QLatin1CharES1_ES2_ES0_IN13QConcatenableIT_E4typeENS5_IT0_E4typeEERKS6_RKS9_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderIS0_I7QStringS1_ES1_E11QLatin1CharES0_IN13QConcatenableIT_E4typeENS5_IT0_E4typeEERKS6_RKS9_@Base 4:15.12.1
+ (optional=templinst)_ZplI14QStringBuilderIS0_I7QStringS1_ES1_ES1_ES0_IN13QConcatenableIT_E4typeENS4_IT0_E4typeEERKS5_RKS8_@Base 4:15.12.1
  (c++)"non-virtual thunk to AbstractValue8Editor::~AbstractValue8Editor()@Base" 4:14.12.0
  (c++)"non-virtual thunk to Binary8Editor::~Binary8Editor()@Base" 4:14.12.0
  (c++)"non-virtual thunk to Char8Editor::~Char8Editor()@Base" 4:14.12.0

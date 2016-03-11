@@ -1,6 +1,10 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
 libokteta2core.so.2 libokteta2core2 #MINVER#
+ _ZN10QByteArray4dataEv@Base 4:15.12.1
+ _ZN10QByteArray7reserveEi@Base 4:15.12.1
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@Base 4:14.12.0
+ _ZN6Okteta10ValueCodecC1Ev@Base 4:15.12.1
+ _ZN6Okteta10ValueCodecC2Ev@Base 4:15.12.1
  _ZN6Okteta10ValueCodecD0Ev@Base 4:14.12.0
  _ZN6Okteta10ValueCodecD1Ev@Base 4:14.12.0
  _ZN6Okteta10ValueCodecD2Ev@Base 4:14.12.0
@@ -37,6 +41,15 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta14ByteArrayModelD0Ev@Base 4:14.12.0
  _ZN6Okteta14ByteArrayModelD1Ev@Base 4:14.12.0
  _ZN6Okteta14ByteArrayModelD2Ev@Base 4:14.12.0
+ _ZN6Okteta15ByteArrayChangeC1ERKNS_18ArrayChangeMetricsERK10QByteArray@Base 4:15.12.1
+ _ZN6Okteta15ByteArrayChangeC2ERKNS_18ArrayChangeMetricsERK10QByteArray@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetrics10asSwappingEiii@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetrics13asReplacementEiii@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetrics6revertEv@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetricsC1ENS0_4TypeEiii@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetricsC1Ev@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetricsC2ENS0_4TypeEiii@Base 4:15.12.1
+ _ZN6Okteta18ArrayChangeMetricsC2Ev@Base 4:15.12.1
  _ZN6Okteta18FileByteArrayModel11setModifiedEb@Base 4:14.12.0
  _ZN6Okteta18FileByteArrayModel11setReadOnlyEb@Base 4:14.12.0
  _ZN6Okteta18FileByteArrayModel4fillEhii@Base 4:14.12.0
@@ -65,11 +78,14 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta22AbstractByteArrayModel16staticMetaObjectE@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModel6insertEiPKhi@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModel6removeERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
+ _ZN6Okteta22AbstractByteArrayModel7replaceEiiPKhi@Base 4:15.12.1
  _ZN6Okteta22AbstractByteArrayModelC1EP7QObject@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModelC2EP7QObject@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModelD0Ev@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModelD1Ev@Base 4:14.12.0
  _ZN6Okteta22AbstractByteArrayModelD2Ev@Base 4:14.12.0
+ _ZN6Okteta22BookmarksConstIteratorC1EPNS_29BookmarksConstIteratorAdapterE@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIteratorC2EPNS_29BookmarksConstIteratorAdapterE@Base 4:15.12.1
  _ZN6Okteta24PieceTableByteArrayModel11changesDoneERK5QListINS_15ByteArrayChangeEEii@Base 4:14.12.0
  _ZN6Okteta24PieceTableByteArrayModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Okteta24PieceTableByteArrayModel11qt_metacastEPKc@Base 4:14.12.0
@@ -106,9 +122,18 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta24PieceTableByteArrayModelD0Ev@Base 4:14.12.0
  _ZN6Okteta24PieceTableByteArrayModelD1Ev@Base 4:14.12.0
  _ZN6Okteta24PieceTableByteArrayModelD2Ev@Base 4:14.12.0
+ _ZN6Okteta8Bookmark4moveEi@Base 4:15.12.1
  _ZN6Okteta9CharCodec10codecNamesEv@Base 4:14.12.0
  _ZN6Okteta9CharCodec11createCodecENS_10CharCodingE@Base 4:14.12.0
  _ZN6Okteta9CharCodec11createCodecERK7QString@Base 4:14.12.0
+ _ZN6Okteta9CharacterC1E5QChar@Base 4:15.12.1
+ _ZN6Okteta9CharacterC1E5QCharb@Base 4:15.12.1
+ _ZN6Okteta9CharacterC2E5QChar@Base 4:15.12.1
+ _ZN6Okteta9CharacterC2E5QCharb@Base 4:15.12.1
+ _ZN7QStringixEj@Base 4:15.12.1
+ _ZNK10QByteArray2atEi@Base 4:15.12.1
+ _ZNK10QByteArray4dataEv@Base 4:15.12.1
+ _ZNK10QByteArrayixEi@Base 4:15.12.1
  _ZNK6Okteta10ValueCodec6decodeEPhRK7QStringj@Base 4:14.12.0
  _ZNK6Okteta14ByteArrayModel10autoDeleteEv@Base 4:14.12.0
  _ZNK6Okteta14ByteArrayModel10bookmarkAtEj@Base 4:14.12.0
@@ -124,6 +149,15 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZNK6Okteta14ByteArrayModel4dataEv@Base 4:14.12.0
  _ZNK6Okteta14ByteArrayModel4sizeEv@Base 4:14.12.0
  _ZNK6Okteta14ByteArrayModel7maxSizeEv@Base 4:14.12.0
+ _ZNK6Okteta15ByteArrayChange4dataEv@Base 4:15.12.1
+ _ZNK6Okteta15ByteArrayChange7metricsEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics11firstLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics11secondStartEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12insertLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12removeLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics4typeEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics9secondEndEv@Base 4:15.12.1
  _ZNK6Okteta18FileByteArrayModel10isModifiedEv@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel10isReadOnlyEv@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel4byteEi@Base 4:14.12.0
@@ -162,6 +196,17 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZNK6Okteta24PieceTableByteArrayModel4byteEi@Base 4:14.12.0
  _ZNK6Okteta24PieceTableByteArrayModel4sizeEv@Base 4:14.12.0
  _ZNK6Okteta24PieceTableByteArrayModel7changesEii@Base 4:14.12.0
+ _ZNK6Okteta8Bookmark6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark7isValidEv@Base 4:15.12.1
+ _ZNK6Okteta8BookmarkeqERKS0_@Base 4:15.12.1
+ _ZNK6Okteta9Character11isUndefinedEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP15QLinkedListDataEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP15QLinkedListDataEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
  _ZTI11QSharedData@Base 4:15.04.0
  _ZTIN6Okteta10ValueCodecE@Base 4:15.04.0
  _ZTIN6Okteta14ByteArrayModelE@Base 4:15.04.0
@@ -181,6 +226,7 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZTVN6Okteta18FileByteArrayModelE@Base 4:14.12.0
  _ZTVN6Okteta22AbstractByteArrayModelE@Base 4:14.12.0
  _ZTVN6Okteta24PieceTableByteArrayModelE@Base 4:14.12.0
+ _ZTVN6Okteta9CharCodecE@Base 4:15.12.1
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::addBookmarks(QList<Okteta::Bookmark> const&)@Base" 4:14.12.0
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::bookmarkAt(unsigned int) const@Base" 4:14.12.0
  (c++)"non-virtual thunk to Okteta::ByteArrayModel::bookmarkFor(int) const@Base" 4:14.12.0

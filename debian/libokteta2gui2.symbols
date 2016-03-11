@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 armel armhf
+# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
 libokteta2gui.so.2 libokteta2gui2 #MINVER#
+ _ZN10QByteArray4dataEv@Base 4:15.12.1
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@Base 4:14.12.0
  _ZN6Okteta11ColumnsView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Okteta11ColumnsView11qt_metacastEPKc@Base 4:14.12.0
@@ -25,6 +26,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta11ColumnsViewD2Ev@Base 4:14.12.0
  _ZN6Okteta12OffsetFormat11CodingWidthE@Base 4:14.12.0
  _ZN6Okteta12OffsetFormat13PrintFunctionE@Base 4:14.12.0
+ _ZN6Okteta12OffsetFormat13printFunctionEi@Base 4:15.12.1
  _ZN6Okteta12OffsetFormat18printDecimalOffsetEPcj@Base 4:14.12.0
  _ZN6Okteta12OffsetFormat22printHexadecimalOffsetEPcj@Base 4:14.12.0
  _ZN6Okteta12OffsetFormat27printHexadecimalSmallOffsetEPcj@Base 4:14.12.0
@@ -233,6 +235,9 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta21AbstractColumnStylistD0Ev@Base 4:14.12.0
  _ZN6Okteta21AbstractColumnStylistD1Ev@Base 4:14.12.0
  _ZN6Okteta21AbstractColumnStylistD2Ev@Base 4:14.12.0
+ _ZN6Okteta22AbstractByteArrayModel6insertEiRK10QByteArray@Base 4:15.12.1
+ _ZN6Okteta22AbstractByteArrayModel7replaceERKN3KDE11NumberRangeIiiEERK10QByteArray@Base 4:15.12.1
+ _ZN6Okteta22AbstractByteArrayModel7replaceEiiPKhi@Base 4:15.12.1
  _ZN6Okteta22AbstractColumnRenderer10setVisibleEb@Base 4:14.12.0
  _ZN6Okteta22AbstractColumnRenderer12renderColumnEP8QPainterRKN3KDE11NumberRangeIiiEES7_@Base 4:14.12.0
  _ZN6Okteta22AbstractColumnRenderer13setLineHeightEi@Base 4:14.12.0
@@ -246,12 +251,17 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta22AbstractColumnRendererD0Ev@Base 4:14.12.0
  _ZN6Okteta22AbstractColumnRendererD1Ev@Base 4:14.12.0
  _ZN6Okteta22AbstractColumnRendererD2Ev@Base 4:14.12.0
+ _ZN6Okteta22BookmarksConstIterator12findNextFromEj@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIterator4nextEv@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIteratorC1EPNS_29BookmarksConstIteratorAdapterE@Base 4:15.12.1
+ _ZN6Okteta22BookmarksConstIteratorC2EPNS_29BookmarksConstIteratorAdapterE@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer10renderByteEP8QPainteriNS_21AbstractByteArrayView12CodingTypeIdE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer10setSpacingEiii@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer11renderPlainEP8QPainterRKN3KDE11NumberRangeIiiEEi@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer11renderRangeEP8QPainterRK6QBrushRKN3KDE11NumberRangeIiiEEi@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer12renderCursorEP8QPainteriNS_21AbstractByteArrayView12CodingTypeIdE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer12resetXBufferEv@Base 4:14.12.0
+ _ZN6Okteta26ByteArrayRowColumnRenderer12setCharCodecEPKNS_9CharCodecE@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer13renderMarkingEP8QPainterRKN3KDE11NumberRangeIiiEEii@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer13setValueCodecENS_11ValueCodingEPKNS_10ValueCodecE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer14renderBookmarkEP8QPainterRK6QBrush@Base 4:14.12.0
@@ -263,13 +273,17 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta26ByteArrayRowColumnRenderer16prepareRenderingERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer16renderEditedByteEP8QPainterhRK7QString@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer16renderFramedByteEP8QPainteriNS_21AbstractByteArrayView12CodingTypeIdENS0_10FrameStyleE@Base 4:14.12.0
+ _ZN6Okteta26ByteArrayRowColumnRenderer16setUndefinedCharE5QChar@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer17renderSpaceBehindEP8QPainterRK6QBrushi@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer17setBinaryGapWidthEi@Base 4:14.12.0
+ _ZN6Okteta26ByteArrayRowColumnRenderer17setSubstituteCharE5QChar@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer17setVisibleCodingsEi@Base 4:14.12.0
+ _ZN6Okteta26ByteArrayRowColumnRenderer18setByteTypeColoredEb@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer19renderLinePositionsEP8QPainteriRKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer19setByteSpacingWidthEi@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer19setNoOfGroupedBytesEi@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer20setGroupSpacingWidthEi@Base 4:14.12.0
+ _ZN6Okteta26ByteArrayRowColumnRenderer21setShowingNonprintingEb@Base 4:15.12.1
  _ZN6Okteta26ByteArrayRowColumnRenderer26renderSelectionSpaceBehindEP8QPainteri@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer3setEPNS_22AbstractByteArrayModelE@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRenderer7recalcXEv@Base 4:14.12.0
@@ -278,6 +292,9 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta26ByteArrayRowColumnRendererD0Ev@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRendererD1Ev@Base 4:14.12.0
  _ZN6Okteta26ByteArrayRowColumnRendererD2Ev@Base 4:14.12.0
+ _ZN6Okteta27CharByteArrayColumnRenderer16setUndefinedCharE5QChar@Base 4:15.12.1
+ _ZN6Okteta27CharByteArrayColumnRenderer17setSubstituteCharE5QChar@Base 4:15.12.1
+ _ZN6Okteta27CharByteArrayColumnRenderer21setShowingNonprintingEb@Base 4:15.12.1
  _ZN6Okteta27CharByteArrayColumnRendererC1EPNS_21AbstractColumnStylistEPNS_22AbstractByteArrayModelEPNS_20ByteArrayTableLayoutEPNS_20ByteArrayTableRangesE@Base 4:14.12.0
  _ZN6Okteta27CharByteArrayColumnRendererC2EPNS_21AbstractColumnStylistEPNS_22AbstractByteArrayModelEPNS_20ByteArrayTableLayoutEPNS_20ByteArrayTableRangesE@Base 4:14.12.0
  _ZN6Okteta27CharByteArrayColumnRendererD0Ev@Base 4:14.12.0
@@ -298,6 +315,8 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta31AbstractByteArrayColumnRenderer11renderRangeEP8QPainterRK6QBrushRKN3KDE11NumberRangeIiiEEi@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer12renderCursorEP8QPainteri@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer12resetXBufferEv@Base 4:14.12.0
+ _ZN6Okteta31AbstractByteArrayColumnRenderer12setByteWidthEi@Base 4:15.12.1
+ _ZN6Okteta31AbstractByteArrayColumnRenderer12setCharCodecEPKNS_9CharCodecE@Base 4:15.12.1
  _ZN6Okteta31AbstractByteArrayColumnRenderer13renderMarkingEP8QPainterRKN3KDE11NumberRangeIiiEEii@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer14renderBookmarkEP8QPainterRK6QBrush@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer14renderNextLineEP8QPainter@Base 4:14.12.0
@@ -308,6 +327,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta31AbstractByteArrayColumnRenderer16prepareRenderingERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer16renderFramedByteEP8QPainteriNS0_10FrameStyleE@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer17renderSpaceBehindEP8QPainterRK6QBrushi@Base 4:14.12.0
+ _ZN6Okteta31AbstractByteArrayColumnRenderer18setByteTypeColoredEb@Base 4:15.12.1
  _ZN6Okteta31AbstractByteArrayColumnRenderer19renderLinePositionsEP8QPainteriRKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer19setByteSpacingWidthEi@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRenderer19setNoOfGroupedBytesEi@Base 4:14.12.0
@@ -320,6 +340,12 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta31AbstractByteArrayColumnRendererD0Ev@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRendererD1Ev@Base 4:14.12.0
  _ZN6Okteta31AbstractByteArrayColumnRendererD2Ev@Base 4:14.12.0
+ _ZN6Okteta9CharacterC1E5QChar@Base 4:15.12.1
+ _ZN6Okteta9CharacterC2E5QChar@Base 4:15.12.1
+ _ZN6QColorC1ERKS_@Base 4:15.12.1
+ _ZN6QColorC2ERKS_@Base 4:15.12.1
+ _ZN7QStringixEi@Base 4:15.12.1
+ _ZNK10QByteArray7isEmptyEv@Base 4:15.12.1
  _ZNK6Okteta11ColumnsView10lineHeightEv@Base 4:14.12.0
  _ZNK6Okteta11ColumnsView10metaObjectEv@Base 4:14.12.0
  _ZNK6Okteta11ColumnsView12columnsWidthEv@Base 4:14.12.0
@@ -345,6 +371,15 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta16ByteArrayRowView16showsNonprintingEv@Base 4:14.12.0
  _ZNK6Okteta16ByteArrayRowView17groupSpacingWidthEv@Base 4:14.12.0
  _ZNK6Okteta16ByteArrayRowView17isByteTypeColoredEv@Base 4:14.12.0
+ _ZNK6Okteta18ArrayChangeMetrics11firstLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics11secondStartEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12insertLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12lengthChangeEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12removeLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics12secondLengthEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics4typeEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta18ArrayChangeMetrics9secondEndEv@Base 4:15.12.1
  _ZNK6Okteta19ByteArrayColumnView10metaObjectEv@Base 4:14.12.0
  _ZNK6Okteta19ByteArrayColumnView13undefinedCharEv@Base 4:14.12.0
  _ZNK6Okteta19ByteArrayColumnView14binaryGapWidthEv@Base 4:14.12.0
@@ -356,8 +391,11 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta19ByteArrayColumnView17groupSpacingWidthEv@Base 4:14.12.0
  _ZNK6Okteta19ByteArrayColumnView17isByteTypeColoredEv@Base 4:14.12.0
  _ZNK6Okteta19WidgetColumnStylist7paletteEv@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout10finalCoordEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout10hasContentEi@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout10startCoordEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout11lineAtIndexEi@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout11startOffsetEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout12coordOfIndexEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout12correctCoordERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout12correctIndexEi@Base 4:14.12.0
@@ -366,22 +404,46 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta20ByteArrayTableLayout13coordOfCIndexEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout13indexAtCCoordERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout13linePositionsEi@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout15byteArrayOffsetEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout15firstLineOffsetEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout16lastLinePositionERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout16lastLinePositionEi@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout16noOfBytesPerLineEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout16noOfLinesPerPageEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout17firstLinePositionERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout17firstLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout18atLastLinePositionERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout19atFirstLinePositionERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout19coordRangeOfIndizesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout19lastByteArrayOffsetEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout22firstStartLinePositionEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableLayout23indexAtLastLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout24indexAtCLastLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout24indexAtFirstLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableLayout25indexAtCFirstLinePositionEi@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableLayout6lengthEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout9finalLineEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout9noOfLinesEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableLayout9startLineEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges10hasMarkingEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges10isModifiedEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges12hasSelectionEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges14noOfSelectionsEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableRanges15overlapsChangesERKNS_10CoordRangeEPS1_@Base 4:14.12.0
  _ZNK6Okteta20ByteArrayTableRanges15overlapsMarkingEiiPiS1_@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableRanges16selectionStartedEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableRanges17overlapsSelectionEiiPiS1_@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableRanges17selectionIncludesEi@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges18changedOffsetLinesEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges18firstWordSelectionEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableRanges18overlappingMarkingERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableRanges20selectionJustStartedEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges21hasFirstWordSelectionEv@Base 4:15.12.1
  _ZNK6Okteta20ByteArrayTableRanges25firstOverlappingSelectionERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
+ _ZNK6Okteta20ByteArrayTableRanges7markingEv@Base 4:15.12.1
+ _ZNK6Okteta20ByteArrayTableRanges9selectionEv@Base 4:15.12.1
+ _ZNK6Okteta20OffsetColumnRenderer13printFunctionEv@Base 4:15.12.1
+ _ZNK6Okteta20OffsetColumnRenderer6formatEv@Base 4:15.12.1
  _ZNK6Okteta21AbstractByteArrayView10charCodingEv@Base 4:14.12.0
  _ZNK6Okteta21AbstractByteArrayView10cursorRectEv@Base 4:14.12.0
  _ZNK6Okteta21AbstractByteArrayView10isModifiedEv@Base 4:14.12.0
@@ -418,6 +480,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta21AbstractByteArrayView9charCodecEv@Base 4:14.12.0
  _ZNK6Okteta21AbstractByteArrayView9selectionEv@Base 4:14.12.0
  _ZNK6Okteta21AbstractByteArrayView9zoomLevelEv@Base 4:14.12.0
+ _ZNK6Okteta22AbstractByteArrayModel6copyToEPhii@Base 4:15.12.1
  _ZNK6Okteta22AbstractColumnRenderer10lineHeightEv@Base 4:14.12.0
  _ZNK6Okteta22AbstractColumnRenderer12visibleWidthEv@Base 4:14.12.0
  _ZNK6Okteta22AbstractColumnRenderer15renderBlankLineEP8QPainter@Base 4:14.12.0
@@ -428,13 +491,24 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta22AbstractColumnRenderer7stylistEv@Base 4:14.12.0
  _ZNK6Okteta22AbstractColumnRenderer8overlapsERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta22AbstractColumnRenderer9isVisibleEv@Base 4:14.12.0
+ _ZNK6Okteta22BookmarksConstIterator7hasNextEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer10renderCodeEP8QPainterRK7QStringRK6QColor@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer11codingIdofYEi@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer11digitHeightEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer11yOfCodingIdENS_21AbstractByteArrayView12CodingTypeIdE@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer13undefinedCharEv@Base 4:15.12.1
+ _ZNK6Okteta26ByteArrayRowColumnRenderer14binaryGapWidthEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer14renderByteTextEP8QPainterhNS_9CharacterEiRK6QColor@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer14substituteCharEv@Base 4:15.12.1
+ _ZNK6Okteta26ByteArrayRowColumnRenderer14visibleCodingsEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer15linePositionOfXEi@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer15xOfLinePositionEi@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer16byteSpacingWidthEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer16linePositionsOfXEii@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer16noOfGroupedBytesEv@Base 4:15.12.1
+ _ZNK6Okteta26ByteArrayRowColumnRenderer17groupSpacingWidthEv@Base 4:15.12.1
+ _ZNK6Okteta26ByteArrayRowColumnRenderer17isByteTypeColoredEv@Base 4:15.12.1
+ _ZNK6Okteta26ByteArrayRowColumnRenderer20isShowingNonprintingEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer20rightXOfLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer21columnXOfLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer21linePositionOfColumnXEi@Base 4:14.12.0
@@ -447,13 +521,23 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta26ByteArrayRowColumnRenderer33columnXsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer8byteRectERKNS_5CoordE@Base 4:14.12.0
  _ZNK6Okteta26ByteArrayRowColumnRenderer8byteRectERKNS_5CoordENS_21AbstractByteArrayView12CodingTypeIdE@Base 4:14.12.0
+ _ZNK6Okteta26ByteArrayRowColumnRenderer9byteWidthEv@Base 4:15.12.1
  _ZNK6Okteta26ByteArrayRowColumnRenderer9rowHeightEv@Base 4:14.12.0
+ _ZNK6Okteta27CharByteArrayColumnRenderer13undefinedCharEv@Base 4:15.12.1
  _ZNK6Okteta27CharByteArrayColumnRenderer14renderByteTextEP8QPainterhNS_9CharacterERK6QColor@Base 4:14.12.0
+ _ZNK6Okteta27CharByteArrayColumnRenderer14substituteCharEv@Base 4:15.12.1
+ _ZNK6Okteta27CharByteArrayColumnRenderer20isShowingNonprintingEv@Base 4:15.12.1
  _ZNK6Okteta28ValueByteArrayColumnRenderer10renderCodeEP8QPainterRK7QStringRK6QColor@Base 4:14.12.0
+ _ZNK6Okteta28ValueByteArrayColumnRenderer14binaryGapWidthEv@Base 4:15.12.1
  _ZNK6Okteta28ValueByteArrayColumnRenderer14renderByteTextEP8QPainterhNS_9CharacterERK6QColor@Base 4:14.12.0
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer10digitWidthEv@Base 4:15.12.1
  _ZNK6Okteta31AbstractByteArrayColumnRenderer15linePositionOfXEi@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer15xOfLinePositionEi@Base 4:14.12.0
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer16byteSpacingWidthEv@Base 4:15.12.1
  _ZNK6Okteta31AbstractByteArrayColumnRenderer16linePositionsOfXEii@Base 4:14.12.0
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer16noOfGroupedBytesEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer17groupSpacingWidthEv@Base 4:15.12.1
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer17isByteTypeColoredEv@Base 4:15.12.1
  _ZNK6Okteta31AbstractByteArrayColumnRenderer20rightXOfLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer21columnXOfLinePositionEi@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer21linePositionOfColumnXEi@Base 4:14.12.0
@@ -465,6 +549,18 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZNK6Okteta31AbstractByteArrayColumnRenderer27xsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer33columnXsOfLinePositionsInclSpacesERKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
  _ZNK6Okteta31AbstractByteArrayColumnRenderer8byteRectERKNS_5CoordE@Base 4:14.12.0
+ _ZNK6Okteta31AbstractByteArrayColumnRenderer9byteWidthEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark4nameEv@Base 4:15.12.1
+ _ZNK6Okteta8Bookmark6offsetEv@Base 4:15.12.1
+ _ZNK6Okteta9Character11isUndefinedEv@Base 4:15.12.1
+ _ZNK7QWidget11fontMetricsEv@Base 4:15.12.1
+ _ZNK7QWidget4fontEv@Base 4:15.12.1
+ _ZNK7QWidget8fontInfoEv@Base 4:15.12.1
+ _ZNK7QWidget9isVisibleEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRP15QLinkedListDataEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIP15QLinkedListDataEvRT_S3_@Base 4:15.12.1
  (arch=!armel !armhf)_ZTI11QSharedData@Base 4:15.04.0
  _ZTIN6Okteta11ColumnsViewE@Base 4:15.04.0
  _ZTIN6Okteta16ByteArrayRowViewE@Base 4:15.04.0
