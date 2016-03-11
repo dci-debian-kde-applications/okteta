@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
+# SymbolsHelper-Confirmed: 4:15.12.1 amd64 arm64 armhf i386 powerpc ppc64el s390x
 libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
- _ZN10QByteArray4dataEv@Base 4:15.12.1
- _ZN10QByteArray7reserveEi@Base 4:15.12.1
- _ZN10QByteArrayixEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN10QByteArray4dataEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN10QByteArray7reserveEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN10QByteArrayixEi@Base 4:15.12.1
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:14.12.0
  _ZN6Kasten13ByteArrayView10insertDataEPK9QMimeData@Base 4:14.12.0
@@ -61,9 +61,9 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZN6Kasten13ByteArrayViewD1Ev@Base 4:14.12.0
  _ZN6Kasten13ByteArrayViewD2Ev@Base 4:14.12.0
  _ZN6Kasten19AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:14.12.0
- _ZN6Kasten19AbstractViewFactoryD0Ev@Base 4:15.12.1
- _ZN6Kasten19AbstractViewFactoryD1Ev@Base 4:15.12.1
- _ZN6Kasten19AbstractViewFactoryD2Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten19AbstractViewFactoryD0Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten19AbstractViewFactoryD1Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten19AbstractViewFactoryD2Ev@Base 4:15.12.1
  _ZN6Kasten20ByteArrayViewFactory13createViewForEPNS_16AbstractDocumentE@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@Base 4:14.12.0
  _ZN6Kasten20ByteArrayViewFactoryC1EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
@@ -159,16 +159,16 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZN6Kasten32ByteArrayViewProfileSynchronizer7setViewEPNS_13ByteArrayViewE@Base 4:14.12.0
  _ZN6Kasten32ByteArrayViewProfileSynchronizerC1EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
  _ZN6Kasten32ByteArrayViewProfileSynchronizerC2EPNS_27ByteArrayViewProfileManagerE@Base 4:14.12.0
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@Base 4:15.12.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@Base 4:15.12.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@Base 4:15.12.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@Base 4:15.12.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@Base 4:15.12.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@Base 4:15.12.1
  _ZN6Kasten48ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@Base 4:14.12.0
  _ZN6Kasten48ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@Base 4:14.12.0
- _ZN6Okteta12OffsetFormat11codingWidthEi@Base 4:15.12.1
- _ZN6Okteta12OffsetFormat13printFunctionEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Okteta12OffsetFormat11codingWidthEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Okteta12OffsetFormat13printFunctionEi@Base 4:15.12.1
  _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Okteta15AddressComboBox11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Okteta15AddressComboBox13formatChangedEi@Base 4:14.12.0
@@ -196,27 +196,27 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZN6Okteta17ByteArrayComboBoxD0Ev@Base 4:14.12.0
  _ZN6Okteta17ByteArrayComboBoxD1Ev@Base 4:14.12.0
  _ZN6Okteta17ByteArrayComboBoxD2Ev@Base 4:14.12.0
- _ZN6Okteta9CharacterC1E5QChar@Base 4:15.12.1
- _ZN6Okteta9CharacterC2E5QChar@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIM17QAbstractItemViewFvRK11QModelIndexEM9KComboBoxFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIM9KDirWatchFvRK7QStringEMN6Kasten27ByteArrayViewProfileManagerEFvS4_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvRK7QStringES7_EEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFv5QCharEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
- (optional=templinst)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
- _ZN7QString5clearEv@Base 4:15.12.1
- _ZN7QStringixEi@Base 4:15.12.1
- _ZN9QHashData8willGrowEv@Base 4:15.12.1
- _ZN9QHashData9firstNodeEv@Base 4:15.12.1
- _ZN9QHashData9hasShrunkEv@Base 4:15.12.1
- _ZNK10QByteArray4dataEv@Base 4:15.12.1
- _ZNK10QByteArray7isEmptyEv@Base 4:15.12.1
- _ZNK10QByteArrayixEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Okteta9CharacterC1E5QChar@Base 4:15.12.1
+ (arch=ppc64el)_ZN6Okteta9CharacterC2E5QChar@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIM17QAbstractItemViewFvRK11QModelIndexEM9KComboBoxFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESE_PKNSD_IT0_E6ObjectESJ_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIM9KDirWatchFvRK7QStringEMN6Kasten27ByteArrayViewProfileManagerEFvS4_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIMN6Kasten13AbstractModelEFvRK7QStringES7_EEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFv5QCharEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESD_PKNSC_IT0_E6ObjectESI_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvRK7QStringEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFvbEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZN7QObject7connectIMN6Kasten13ByteArrayViewEFviEMNS1_32ByteArrayViewProfileSynchronizerEFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (arch=ppc64el)_ZN7QString5clearEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN7QStringixEi@Base 4:15.12.1
+ (arch=ppc64el)_ZN9QHashData8willGrowEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN9QHashData9firstNodeEv@Base 4:15.12.1
+ (arch=ppc64el)_ZN9QHashData9hasShrunkEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK10QByteArray4dataEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK10QByteArray7isEmptyEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK10QByteArrayixEi@Base 4:15.12.1
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:14.12.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:14.12.0
- (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPKNS_17ByteArrayDocumentEEET_v@Base 4:15.12.1
- (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNK6Kasten13AbstractModel13findBaseModelIPKNS_17ByteArrayDocumentEEET_v@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@Base 4:15.12.1
  _ZNK6Kasten13ByteArrayView10cursorRectEv@Base 4:14.12.0
  _ZNK6Kasten13ByteArrayView10isReadOnlyEv@Base 4:14.12.0
  _ZNK6Kasten13ByteArrayView10metaObjectEv@Base 4:14.12.0
@@ -280,7 +280,7 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZNK6Kasten30AbstractByteArrayStreamEncoder10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten30AbstractByteArrayStreamEncoder13modelTypeNameEPNS_13AbstractModelEPKNS_22AbstractModelSelectionE@Base 4:14.12.0
  _ZNK6Kasten32ByteArrayViewProfileSynchronizer10metaObjectEv@Base 4:14.12.0
- _ZNK6Kasten32ByteArrayViewProfileSynchronizer13viewProfileIdEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Kasten32ByteArrayViewProfileSynchronizer13viewProfileIdEv@Base 4:15.12.1
  _ZNK6Kasten32ByteArrayViewProfileSynchronizer14localSyncStateEv@Base 4:14.12.0
  _ZNK6Okteta15AddressComboBox10metaObjectEv@Base 4:14.12.0
  _ZNK6Okteta15AddressComboBox11addressTypeEv@Base 4:14.12.0
@@ -291,22 +291,22 @@ libkasten3okteta1gui.so.1 libkasten3okteta1gui1 #MINVER#
  _ZNK6Okteta17ByteArrayComboBox9byteArrayEv@Base 4:14.12.0
  _ZNK6Okteta17ByteArrayComboBox9maxLengthEv@Base 4:14.12.0
  _ZNK6Okteta17ByteArrayComboBox9minLengthEv@Base 4:14.12.0
- _ZNK6Okteta22AbstractByteArrayModel6copyToEPhii@Base 4:15.12.1
- _ZNK6Okteta9Character11isUndefinedEv@Base 4:15.12.1
- _ZNK7QString3argEiii5QChar@Base 4:15.12.1
- _ZNK7QString3argEjii5QChar@Base 4:15.12.1
- _ZNK7QString3argEsii5QChar@Base 4:15.12.1
- _ZNK7QString3argEtii5QChar@Base 4:15.12.1
- _ZNK7QStringixEi@Base 4:15.12.1
- _ZNK7QWidget4fontEv@Base 4:15.12.1
- _ZNK7QWidget4sizeEv@Base 4:15.12.1
- (optional=templinst)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
- (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
- (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
- (optional=templinst)_ZSt19__iterator_categoryIPK7QStringENSt15iterator_traitsIT_E17iterator_categoryERKS4_@Base 4:15.12.1
- (optional=templinst)_ZSt4findIPK7QStringS0_ET_S3_S3_RKT0_@Base 4:15.12.1
- (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
- (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Okteta22AbstractByteArrayModel6copyToEPhii@Base 4:15.12.1
+ (arch=ppc64el)_ZNK6Okteta9Character11isUndefinedEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QString3argEiii5QChar@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QString3argEjii5QChar@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QString3argEsii5QChar@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QString3argEtii5QChar@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QStringixEi@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QWidget4fontEv@Base 4:15.12.1
+ (arch=ppc64el)_ZNK7QWidget4sizeEv@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt19__iterator_categoryIPK7QStringENSt15iterator_traitsIT_E17iterator_categoryERKS4_@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt4findIPK7QStringS0_ET_S3_S3_RKT0_@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst|arch=ppc64el)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
  _ZTIN6Kasten13ByteArrayViewE@Base 4:15.04.0
  _ZTIN6Kasten19AbstractViewFactoryE@Base 4:15.04.0
  _ZTIN6Kasten20ByteArrayViewFactoryE@Base 4:15.04.0

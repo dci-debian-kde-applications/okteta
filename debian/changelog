@@ -1,3 +1,9 @@
+okteta (4:15.12.1-0ubuntu3) xenial; urgency=medium
+
+  * Refresh symbols for ALL architectures. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 11 Mar 2016 08:35:36 -0800
+
 okteta (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
   * Refresh symbols ppc64el. 
