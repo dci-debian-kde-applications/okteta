@@ -1,5 +1,11 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 4:15.12.1 ppc64el
 libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
+ (optional=templinst)_ZN14KPluginFactory6createIN6KParts12ReadOnlyPartEEEPT_P7QWidgetP7QObjectRK7QStringRK5QListI8QVariantE@Base 4:15.12.1
+ _ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI11KActionMenuEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI13KSelectActionEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ (optional=templinst)_ZN17KActionCollection3addI13KToggleActionEEPT_RK7QStringPK7QObjectPKc@Base 4:15.12.1
+ (optional=templinst)_ZN18KServiceTypeTrader23createInstanceFromQueryIN6KParts12ReadOnlyPartEEEPT_RK7QStringP7QWidgetP7QObjectS7_RK5QListI8QVariantEPS5_@Base 4:15.12.1
  _ZN6Kasten12TerminalTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten12TerminalTool11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten12TerminalTool14setTargetModelEPNS_13AbstractModelE@Base 4:14.12.0
@@ -252,6 +258,10 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten22ViewListMenuController17onActionTriggeredEP7QAction@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
  _ZN6Kasten22ViewListMenuControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@Base 4:14.12.0
+ _ZN6Kasten23ModelDataGenerateThreadC1EP7QObjectPNS_26AbstractModelDataGeneratorE@Base 4:15.12.1
+ _ZN6Kasten23ModelDataGenerateThreadC2EP7QObjectPNS_26AbstractModelDataGeneratorE@Base 4:15.12.1
+ _ZN6Kasten23ModelStreamEncodeThreadC1EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
+ _ZN6Kasten23ModelStreamEncodeThreadC2EP7QObjectP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionEPNS_26AbstractModelStreamEncoderE@Base 4:15.12.1
  _ZN6Kasten23ViewAreaSplitController11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitController11qt_metacastEPKc@Base 4:14.12.0
  _ZN6Kasten23ViewAreaSplitController13splitViewAreaEN2Qt11OrientationE@Base 4:14.12.0
@@ -270,17 +280,34 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZN6Kasten25FileSystemBrowserToolViewD0Ev@Base 4:14.12.0
  _ZN6Kasten25FileSystemBrowserToolViewD1Ev@Base 4:14.12.0
  _ZN6Kasten25FileSystemBrowserToolViewD2Ev@Base 4:14.12.0
+ (optional=templinst)_ZN7QObject7connectIM16QDialogButtonBoxFvvEM7QDialogFvvEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESB_PKNSA_IT0_E6ObjectESG_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten21FileSystemBrowserToolEFvbEM7QActionFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten24AbstractDocumentStrategyEFvRK4QUrlEMNS1_16LoaderControllerEFvS5_EEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESF_PKNSE_IT0_E6ObjectESK_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten33AbstractModelExporterConfigEditorEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten38AbstractModelDataGeneratorConfigEditorEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ (optional=templinst)_ZN7QObject7connectIMN6Kasten38AbstractModelStreamEncoderConfigEditorEFvbEM7QWidgetFvbEEEN11QMetaObject10ConnectionEPKN9QtPrivate15FunctionPointerIT_E6ObjectESC_PKNSB_IT0_E6ObjectESH_N2Qt14ConnectionTypeE@Base 4:15.12.1
+ _ZN7QString5clearEv@Base 4:15.12.1
+ (optional=templinst)_ZN8QVariant9fromValueIPN6Kasten12AbstractViewEEES_RKT_@Base 4:15.12.1
+ (optional=templinst)_ZN8QVariant9fromValueIPN6Kasten21AbstractModelExporterEEES_RKT_@Base 4:15.12.1
+ (optional=templinst)_ZN8QVariant9fromValueIPN6Kasten26AbstractModelDataGeneratorEEES_RKT_@Base 4:15.12.1
+ (optional=templinst)_ZN8QVariant9fromValueIPN6Kasten26AbstractModelStreamEncoderEEES_RKT_@Base 4:15.12.1
  _ZNK6Kasten12TerminalTool10currentUrlEv@Base 4:14.12.0
  _ZNK6Kasten12TerminalTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten12TerminalTool5titleEv@Base 4:14.12.0
+ (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@Base 4:15.12.1
  (optional=templinst)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If11VersionableEEEPS0_v@Base 4:14.12.0
+ (optional=templinst)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If14DataSelectableEEEPS0_v@Base 4:15.12.1
+ (optional=templinst)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If21SelectedDataWriteableEEEPS0_v@Base 4:15.12.1
+ (optional=templinst)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If8ZoomableEEEPS0_v@Base 4:15.12.1
  _ZNK6Kasten13DocumentsTool10metaObjectEv@Base 4:14.12.0
+ _ZNK6Kasten13DocumentsTool16focussedDocumentEv@Base 4:15.12.1
  _ZNK6Kasten13DocumentsTool5titleEv@Base 4:14.12.0
  _ZNK6Kasten13DocumentsTool9documentsEv@Base 4:14.12.0
  _ZNK6Kasten14QuitController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten14ZoomController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten15CloseController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten15VersionViewTool10metaObjectEv@Base 4:14.12.0
+ _ZNK6Kasten15VersionViewTool5modelEv@Base 4:15.12.1
  _ZNK6Kasten15VersionViewTool5titleEv@Base 4:14.12.0
  _ZNK6Kasten16CopyAsController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten16ExportController10metaObjectEv@Base 4:14.12.0
@@ -313,10 +340,26 @@ libkasten3controllers.so.3 libkasten3controllers3 #MINVER#
  _ZNK6Kasten21SynchronizeController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten22ToolListMenuController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten22ViewListMenuController10metaObjectEv@Base 4:14.12.0
+ _ZNK6Kasten23ModelDataGenerateThread4dataEv@Base 4:15.12.1
  _ZNK6Kasten23ViewAreaSplitController10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView4toolEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView5titleEv@Base 4:14.12.0
  _ZNK6Kasten25FileSystemBrowserToolView6widgetEv@Base 4:14.12.0
+ _ZNK7QString3argERKS_S1_S1_@Base 4:15.12.1
+ _ZNK7QString3argEiii5QChar@Base 4:15.12.1
+ _ZNK7QWidget4fontEv@Base 4:15.12.1
+ (optional=templinst)_ZNK8KService14createInstanceIN6KParts12ReadOnlyPartEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant5valueIPN6Kasten12AbstractViewEEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant5valueIPN6Kasten21AbstractModelExporterEEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant5valueIPN6Kasten26AbstractModelDataGeneratorEEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNK8QVariant5valueIPN6Kasten26AbstractModelStreamEncoderEEET_v@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEC2Ei@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEmmEv@Base 4:15.12.1
+ (optional=templinst)_ZNSt13__atomic_baseIiEppEv@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRN8QVariant7PrivateEEONSt16remove_referenceIT_E4typeEOS4_@Base 4:15.12.1
+ (optional=templinst)_ZSt4moveIRPN9QListData4DataEEONSt16remove_referenceIT_E4typeEOS5_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4:15.12.1
+ (optional=templinst)_ZSt4swapIPN9QListData4DataEEvRT_S4_@Base 4:15.12.1
  _ZTIN6Kasten12TerminalToolE@Base 4:15.04.0
  _ZTIN6Kasten13DocumentsToolE@Base 4:15.04.0
  _ZTIN6Kasten14QuitControllerE@Base 4:15.04.0
