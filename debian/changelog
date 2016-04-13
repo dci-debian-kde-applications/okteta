@@ -1,3 +1,13 @@
+okteta (4:15.12.3-1~1.gbp4428bd) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4428bd07b9481e4c61a3ab603438d470a4e24410 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Update symbols files with the logs from the buildds
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 14:10:41 +0200
+
 okteta (4:15.12.0-2) experimental; urgency=medium
 
   * Update symbols files.
