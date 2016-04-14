@@ -1,10 +1,10 @@
-okteta (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
+okteta (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
   * Remove install_missing_header appears to be fixed upstream.
   * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 20:46:13 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 Apr 2016 16:26:07 -0700
 
 okteta (4:15.12.1-0ubuntu3) xenial; urgency=medium
 
