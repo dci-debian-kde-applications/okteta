@@ -1,8 +1,9 @@
-okteta (4:15.12.3-0ubuntu2) UNRELEASED; urgency=medium
+okteta (4:15.12.3-0ubuntu2) xenial; urgency=medium
 
   * Add so dependencies to okteta-dev as dh_sodeps
     is currently broken in pkg-kde-tools. Obviously
     that needs to be fixed. On TODO. 
+  * Release to archive. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 18 Apr 2016 12:52:05 -0700
 
