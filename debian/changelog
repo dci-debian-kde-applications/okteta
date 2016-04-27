@@ -1,13 +1,14 @@
-okteta (4:16.04.0-1~1.gbp092bd6) UNRELEASED; urgency=medium
+okteta (4:16.04.0-1~2.gbpf0948c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @092bd6e1c1f17240c7e602d150be6f43f1fcc017 **
+  ** SNAPSHOT build @f0948ce4dc9554f27c1514f600b0a28b1e37238c **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files with the logs from the buildds
   * UNRELEASED
+  * Update symbols files.
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 01:50:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 08:44:51 +0200
 
 okteta (4:15.12.0-2) experimental; urgency=medium
 
