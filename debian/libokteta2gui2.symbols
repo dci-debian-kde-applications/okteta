@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 armel armhf
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@Base 4:14.12.0
  _ZN6Okteta11ColumnsView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
@@ -178,6 +178,7 @@ libokteta2gui.so.2 libokteta2gui2 #MINVER#
  _ZN6Okteta21AbstractByteArrayView16setOverwriteModeEb@Base 4:14.12.0
  _ZN6Okteta21AbstractByteArrayView16setOverwriteOnlyEb@Base 4:14.12.0
  _ZN6Okteta21AbstractByteArrayView16staticMetaObjectE@Base 4:14.12.0
+ _ZN6Okteta21AbstractByteArrayView16zoomLevelChangedEd@Base 4:16.04.0
  _ZN6Okteta21AbstractByteArrayView17mouseReleaseEventEP11QMouseEvent@Base 4:14.12.0
  _ZN6Okteta21AbstractByteArrayView17setByteArrayModelEPNS_22AbstractByteArrayModelE@Base 4:14.12.0
  _ZN6Okteta21AbstractByteArrayView17setCursorPositionEib@Base 4:14.12.0

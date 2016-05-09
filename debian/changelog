@@ -1,9 +1,13 @@
-okteta (4:15.12.2-1~) UNRELEASED; urgency=medium
+okteta (4:16.04.0-1~2.gbpf0948c) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
-  * Drop patch: install_missing_header
+  ** SNAPSHOT build @f0948ce4dc9554f27c1514f600b0a28b1e37238c **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:42:02 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Update symbols files with the logs from the buildds
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 08:44:51 +0200
 
 okteta (4:15.12.0-2) experimental; urgency=medium
 
