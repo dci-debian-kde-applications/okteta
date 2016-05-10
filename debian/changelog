@@ -1,6 +1,6 @@
-okteta (4:16.04.0-1~3.gbp59ccd3) UNRELEASED; urgency=medium
+okteta (4:16.04.0-1~4.gbpcf3645) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @59ccd34dd4d38306149bf140ac9df76f1096f055 **
+  ** SNAPSHOT build @cf3645d7703948dd8244f909d7a2b92e24360e92 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -13,8 +13,9 @@ okteta (4:16.04.0-1~3.gbp59ccd3) UNRELEASED; urgency=medium
   * Drop patch: install_missing_header
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update testsuite script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:28:51 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 10 May 2016 09:50:15 +0200
 
 okteta (4:15.12.0-2) experimental; urgency=medium
 
