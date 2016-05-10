@@ -3,8 +3,6 @@ okteta (4:16.04.0-1~3.gbp59ccd3) UNRELEASED; urgency=medium
   ** SNAPSHOT build @59ccd34dd4d38306149bf140ac9df76f1096f055 **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @f0948ce4dc9554f27c1514f600b0a28b1e37238c **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files with the logs from the buildds
