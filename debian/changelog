@@ -1,6 +1,4 @@
-okteta (4:16.04.1-1~1.gbpa60648) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a606484b2fe4d26f1add69942ce5e7ce1ca7c426 **
+okteta (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -14,9 +12,8 @@ okteta (4:16.04.1-1~1.gbpa60648) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update testsuite script
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:50:35 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 13:16:49 +0200
 
 okteta (4:15.12.0-2) experimental; urgency=medium
 
