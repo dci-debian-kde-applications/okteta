@@ -1,10 +1,9 @@
-okteta (4:16.04.2-1~1.gbpe50481) UNRELEASED; urgency=medium
+okteta (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e504810f381caf7fb2d539424346027ff56af2ad **
-
+  [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.04.1-2).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 01:51:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 09:48:37 +0200
 
 okteta (4:16.04.1-2) unstable; urgency=medium
 
