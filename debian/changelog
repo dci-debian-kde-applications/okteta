@@ -1,15 +1,32 @@
-okteta (4:16.04.1-0neon) xenial; urgency=medium
+okteta (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (4:16.04.1-2).
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:44:01 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 09:48:37 +0200
 
-okteta (4:15.12.2-1~) UNRELEASED; urgency=medium
+okteta (4:16.04.1-2) unstable; urgency=medium
 
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 16:37:44 +0200
+
+okteta (4:16.04.1-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+  * Update symbols files with the logs from the buildds
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
   * New upstream release (15.12.2).
   * Drop patch: install_missing_header
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update testsuite script
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:42:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 13:16:49 +0200
 
 okteta (4:15.12.0-2) experimental; urgency=medium
 
