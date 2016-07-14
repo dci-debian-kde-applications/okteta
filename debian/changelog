@@ -1,3 +1,11 @@
+okteta (4:16.04.3-1~1.gbp03e5e1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @03e5e162b6264ff794aaf2c4ead49afaf3fcd857 **
+
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Jul 2016 17:55:24 +0200
+
 okteta (4:16.04.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
