@@ -1,13 +1,9 @@
-# SymbolsHelper-Confirmed: 4:16.04.1 alpha hppa hurd-i386 ppc64 sparc64 x32
+# SymbolsHelper-Confirmed: 4:16.04.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x x32
 libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
- (optional=templinst|arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_Z17qRegisterMetaTypeI12QScriptValueEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI12Hexadecimal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI12QScriptValueEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
- (optional=templinst|arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 x32)_Z27qRegisterNormalizedMetaTypeI13SafeReferenceEiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
- (optional=templinst|arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_Z27qRegisterNormalizedMetaTypeI4Utf8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI5Char8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI6Octal8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
- (optional=templinst|arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_Z27qRegisterNormalizedMetaTypeI7Binary8EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:15.08.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI7Float32EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  (optional=templinst)_Z27qRegisterNormalizedMetaTypeI7Float64EiRK10QByteArrayPT_N9QtPrivate21MetaTypeDefinedHelperIS4_Xaasr12QMetaTypeId2IS4_E7DefinedntsrS9_9IsBuiltInEE11DefinedTypeE@Base 4:14.12.0
  _Z40LOG_KASTEN_OKTETA_CONTROLLERS_STRUCTURESv@Base 4:14.12.0
@@ -1092,15 +1088,17 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN31UnsignedBitfieldDataInformationD1Ev@Base 4:14.12.0
  _ZN31UnsignedBitfieldDataInformationD2Ev@Base 4:14.12.0
  (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringE13detach_helperEv@Base 4:14.12.0
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringED1Ev@Base 4:16.04.2
+ (optional=templinst)_ZN4QMapI17AllPrimitiveTypes7QStringED2Ev@Base 4:16.04.2
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE5eraseENS4_8iteratorE@Base 4:14.12.0
- (optional=templinst|arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN5QHashIP15DataInformationP13SafeReferenceE6removeERKS1_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIP15DataInformationP13SafeReferenceE6removeERKS1_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
- (optional=templinst|arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE6removeERKS3_@Base 4:15.08.0
+ (optional=templinst)_ZN5QHashIPKN6Okteta22AbstractByteArrayModelEyE6removeERKS3_@Base 4:15.08.0
  (optional=templinst)_ZN5QHashIi8QVariantE11deleteNode2EPN9QHashData4NodeE@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIi8QVariantE13detach_helperEv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIi8QVariantE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
@@ -1109,8 +1107,6 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN5QHashIihE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:14.12.0
  (optional=templinst)_ZN5QHashIihEixERKi@Base 4:14.12.0
  (optional=templinst)_ZN5QListI12QScriptValueE18detach_helper_growEii@Base 4:14.12.0
- (optional=templinst|arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_ZN5QListI12QScriptValueED1Ev@Base 4:15.08.0
- (optional=templinst|arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc64)_ZN5QListI12QScriptValueED2Ev@Base 4:15.08.0
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE18detach_helper_growEii@Base 4:14.12.0
  (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum6ChoiceEE6appendERKS2_@Base 4:14.12.0
  (optional=templinst)_ZN5QListIP22PointerDataInformationE13detach_helperEi@Base 4:15.08.0
@@ -1622,23 +1618,23 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten8InfoToolD2Ev@Base 4:14.12.0
  _ZN6QDebuglsEPKc@Base 4:14.12.0
  _ZN6QDebuglsERK7QString@Base 4:14.12.0
- (arch=alpha arm64 mips64el ppc64 ppc64el s390x sparc64)_ZN6QDebuglsEi@Base 4:16.04.1
- (arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN6QDebuglsEj@Base 4:15.08.0
+ (optional=external|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZN6QDebuglsEi@Base 4:16.04.2
+ (optional=external|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64)_ZN6QDebuglsEj@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorI18QSharedDataPointerI14EnumDefinitionEE6appendERKS2_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE11reallocDataEiiS2_IN10QArrayData16AllocationOptionEE@Base 4:14.12.0
- (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE6appendERKS6_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorI5QPairI13QScriptString6QFlagsIN12QScriptValue12PropertyFlagEEEE6appendEOS6_@Base 4:16.04.2
  (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
- (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE6appendERKS1_@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIN12ScriptLogger4DataEE6appendEOS1_@Base 4:16.04.2
  (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIN21TaggedUnionParsedData12AlternativesEE6appendERKS1_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
- (optional=templinst)_ZN7QVectorIN26TaggedUnionDataInformation9FieldInfoEE6appendERKS1_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP15DataInformationE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP15DataInformationE6appendERKS1_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP15DataInformationE7reserveEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP15DataInformationEpLERKS2_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
+ (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE6appendEOS1_@Base 4:16.04.2
  (optional=templinst)_ZN7QVectorIP23TopLevelDataInformationE6appendERKS1_@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIaE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIaE6resizeEi@Base 4:14.12.0
@@ -1647,13 +1643,13 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN7QVectorIfE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIfE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
- (optional=templinst|arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorIhE6appendERKh@Base 4:15.12.0
+ (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorIhE6appendERKh@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIhE6detachEv@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIhE7reserveEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIiE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE11reallocDataEii6QFlagsIN10QArrayData16AllocationOptionEE@Base 4:14.12.0
- (optional=templinst|arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN7QVectorIjE6appendERKj@Base 4:15.12.0
+ (optional=templinst)_ZN7QVectorIjE6appendERKj@Base 4:15.12.0
  (optional=templinst)_ZN7QVectorIjE6detachEv@Base 4:15.08.0
  (optional=templinst)_ZN7QVectorIjE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIjE7reserveEi@Base 4:14.12.0
@@ -1669,6 +1665,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN7QVectorIyE6detachEv@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE6resizeEi@Base 4:14.12.0
  (optional=templinst)_ZN7QVectorIyE7reserveEi@Base 4:14.12.0
+ (optional=templinst)_ZN8QMapDataI17AllPrimitiveTypes7QStringE7destroyEv@Base 4:16.04.2
  (optional=templinst)_ZN8QMapNodeI17AllPrimitiveTypes7QStringE14destroySubTreeEv@Base 4:14.12.0
  _ZN9OsdParser10parseEnumsERK11QDomElementP12ScriptLogger@Base 4:14.12.0
  _ZN9OsdParser11enumFromXMLERK11QDomElementbRK13OsdParserInfo@Base 4:14.12.0
@@ -1695,8 +1692,8 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIIS3_EEEvE4implEiPNS_15QSlotObjectBaseES3_PPvPb@Base 4:14.12.0
  (optional=templinst)_ZN9QtPrivate11QSlotObjectIM23TopLevelDataInformationFvP7QObjectENS_4ListIJS3_EEEvE4implEiPNS_15QSlotObjectBaseES3_PPvPb@Base 4:14.12.0
  (optional=templinst)_ZN9QtPrivate19QVariantValueHelperI12QScriptValueE8metaTypeERK8QVariant@Base 4:15.08.0
- (arch=alpha arm64 armel hppa mips64el ppc64 ppc64el s390x sparc64)_ZN9QtPrivate8RefCount3refEv@Base 4:16.04.1
- (arch=alpha arm64 armel hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZN9QtPrivate8RefCount5derefEv@Base 4:16.04.1
+ (optional=external)_ZN9QtPrivate8RefCount3refEv@Base 4:16.04.2
+ (optional=external)_ZN9QtPrivate8RefCount5derefEv@Base 4:16.04.2
  _ZNK10ParserInfo5errorEv@Base 4:14.12.0
  _ZNK10ParserInfo7contextEv@Base 4:14.12.0
  _ZNK10Utf8Editor10metaObjectEv@Base 4:14.12.0
@@ -2322,10 +2319,12 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZNK31UnsignedBitfieldDataInformation5cloneEv@Base 4:14.12.0
  (arch=armel armhf)_ZNK32DataInformationWithDummyChildren34isDataInformationWithDummyChildrenEv@Base 4:15.08.0
  (arch=armel armhf)_ZNK32DataInformationWithDummyChildren7indexOfEPK15DataInformation@Base 4:15.08.0
- (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8findNodeERKS1_Pj@Base 4:14.12.0
- (optional=templinst)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8findNodeERKS3_Pj@Base 4:14.12.0
- (optional=templinst)_ZNK5QHashIi8QVariantE8findNodeERKiPj@Base 4:14.12.0
- (optional=templinst)_ZNK5QHashIihE8findNodeERKiPj@Base 4:14.12.0
+ (optional=templinst|arch=amd64 arm64 kfreebsd-amd64 mips64el ppc64el s390x)_ZNK5QHashIP15DataInformationP13SafeReferenceE8findNodeERKS1_Pj@Base 4:14.12.0
+ (optional=templinst)_ZNK5QHashIP15DataInformationP13SafeReferenceE8findNodeERKS1_j@Base 4:16.04.2
+ (optional=templinst|arch=amd64 arm64 kfreebsd-amd64 mips64el ppc64el s390x)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8findNodeERKS3_Pj@Base 4:14.12.0
+ (optional=templinst|arch=!amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64el !s390x)_ZNK5QHashIPKN6Okteta22AbstractByteArrayModelEyE8findNodeERKS3_j@Base 4:16.04.2
+ (optional=templinst)_ZNK5QHashIi8QVariantE8findNodeERKij@Base 4:16.04.2
+ (optional=templinst)_ZNK5QHashIihE8findNodeERKij@Base 4:16.04.2
  _ZNK6Kasten10FilterTool10filterListEv@Base 4:14.12.0
  _ZNK6Kasten10FilterTool10metaObjectEv@Base 4:14.12.0
  _ZNK6Kasten10FilterTool12hasWriteableEv@Base 4:14.12.0
