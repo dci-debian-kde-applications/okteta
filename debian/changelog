@@ -1,5 +1,7 @@
 okteta (4:16.04.2-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Update okteta description from upstream. (Closes: #749674)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
 
