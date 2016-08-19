@@ -1,10 +1,16 @@
-okteta (4:16.04.2-2) UNRELEASED; urgency=medium
+okteta (4:16.08.0-1~1.gbp6d2098) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6d209835e9afdb2ebf3e1b3ef54147cdca553362 **
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+  * Update build-deps and deps with the info from cmake
 
   [ Pino Toscano ]
   * Update okteta description from upstream. (Closes: #749674)
   * Update symbols files.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:50:32 +0200
 
 okteta (4:16.04.2-1) unstable; urgency=medium
 
