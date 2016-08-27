@@ -1,6 +1,6 @@
-okteta (4:16.08.0-0r1) UNRELEASED; urgency=medium
+okteta (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Update okteta description from upstream. (Closes: #749674)
   * Update symbols files.
@@ -11,7 +11,7 @@ okteta (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Watch only stable releases.
   * Update install files.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 10:46:21 +0200
 
 okteta (4:16.04.2-1) unstable; urgency=medium
 
