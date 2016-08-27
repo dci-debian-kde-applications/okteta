@@ -9,6 +9,7 @@ okteta (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Remove DEB_CFLAGS_MAINT_STRIP and DEB_CXXFLAGS_MAINT_STRIP from rules,
     as not much useful and most likely some workaround for an old bug.
   * Watch only stable releases.
+  * Update install files.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
 
