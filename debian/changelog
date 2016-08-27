@@ -6,6 +6,8 @@ okteta (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Update symbols files.
   * Bump the pkg-kde-tools build dependency to >= 0.15.23, so dh_sodeps can
     determine again the dependencies for okteta-dev.
+  * Remove DEB_CFLAGS_MAINT_STRIP and DEB_CXXFLAGS_MAINT_STRIP from rules,
+    as not much useful and most likely some workaround for an old bug.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
 
