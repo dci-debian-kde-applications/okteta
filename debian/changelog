@@ -4,6 +4,8 @@ okteta (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update okteta description from upstream. (Closes: #749674)
   * Update symbols files.
+  * Bump the pkg-kde-tools build dependency to >= 0.15.23, so dh_sodeps can
+    determine again the dependencies for okteta-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Aug 2016 23:32:54 +0200
 
