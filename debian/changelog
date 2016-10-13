@@ -1,11 +1,12 @@
-okteta (4:16.08.1-1~1.gbp61897c) UNRELEASED; urgency=medium
+okteta (4:16.08.2-1~1.gbp993d17) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @61897c176226601b255808984fe80ed5cd0ca090 **
+  ** SNAPSHOT build @993d17f0257b4a1184f64b47db8f3dc909de37ad **
 
   * Update symbols files from buildds logs (4:16.08.0-2).
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:50:40 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:50:45 +0200
 
 okteta (4:16.08.0-2) unstable; urgency=medium
 
