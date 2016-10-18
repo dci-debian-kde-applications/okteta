@@ -1,12 +1,13 @@
-okteta (4:16.08.2-1~1.gbp993d17) UNRELEASED; urgency=medium
+okteta (4:16.08.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @993d17f0257b4a1184f64b47db8f3dc909de37ad **
-
+  [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.08.0-2).
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:50:45 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 13:56:13 +0200
 
 okteta (4:16.08.0-2) unstable; urgency=medium
 
