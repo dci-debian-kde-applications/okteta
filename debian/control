@@ -92,6 +92,8 @@ Package: libkasten3core3
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: core Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -114,6 +116,8 @@ Package: libokteta2core2
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -126,6 +130,8 @@ Package: libokteta2gui2
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -151,6 +157,8 @@ Package: libkasten3okteta1core1
 Architecture: any
 Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
