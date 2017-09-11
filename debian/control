@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
@@ -14,6 +14,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5codecs-dev (>= 5.7.0~),
                libkf5completion-dev (>= 5.7.0~),
                libkf5configwidgets-dev (>= 5.7.0~),
+               libkf5crash-dev,
                libkf5dbusaddons-dev (>= 5.7.0~),
                libkf5doctools-dev (>= 5.7.0~),
                libkf5i18n-dev (>= 5.7.0~),
@@ -25,56 +26,17 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5service-dev (>= 5.7.0~),
                libkf5widgetsaddons-dev (>= 5.7.0~),
                libkf5xmlgui-dev (>= 5.7.0~),
-               libkf5crash-dev,
                libqca-qt5-2-dev (>= 2.1.0),
                pkg-config,
                pkg-kde-tools (>= 0.15.23~),
                qtbase5-dev (>= 5.4),
                qtscript5-dev (>= 5.4),
                qttools5-dev (>= 5.4),
-               shared-mime-info (>= 0.30)
+               shared-mime-info (>= 0.30),
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/okteta.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/okteta.git
-
-Package: okteta
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
-Description: hexadecimal editor for binary files
- Okteta is a simple editor for the raw data of files. This type of program is
- also called hexadecimal editor or binary editor.
- .
- The data is displayed in two variants: as the numeric values of the bytes
- and as the character assigned to the values. Values and characters can be
- shown either in two columns (the traditional display in hex editors) or in
- rows with the value on top of the character. Editing can be done both for
- the values and for the characters.
- .
- Besides the usual editing capabilities Okteta also brings a small set of
- tools, like a table listing decodings into common simple data types, a table
- listing all possible bytes with their character and value equivalents, an
- info view with a statistic, a checksum calculator, a filter tool and a string
- extraction tool.
- .
- This package is part of the KDE Software Development Kit module.
-
-Package: okteta-dev
-Architecture: any
-Section: devel
-Depends: libkf5xmlgui-dev (>= 5.7.0~),
-         qtbase5-dev (>= 5.4),
-         ${misc:Depends},
-         ${so:Depends}
-Description: Development files for Okteta
- Okteta is a simple editor for the raw data of files. This type of program is
- also called hexadecimal editor or binary editor.
- .
- This package contains the development files for Okteta.
- .
- This package is part of the KDE Software Development Kit module.
 
 Package: libkasten3controllers3
 Architecture: any
@@ -108,34 +70,6 @@ Description: gui Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
  This package provides the GUI part of Kasten.
- .
- This package is part of the KDE Software Development Kit module.
-
-Package: libokteta2core2
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
-Description: core Okteta library
- Okteta is a simple editor for the raw data of files. This type of program is
- also called hexadecimal editor or binary editor.
- .
- This package provides the core part of the Okteta libraries.
- .
- This package is part of the KDE Software Development Kit module.
-
-Package: libokteta2gui2
-Architecture: any
-Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
-Description: gui Okteta library
- Okteta is a simple editor for the raw data of files. This type of program is
- also called hexadecimal editor or binary editor.
- .
- This package provides the GUI part of the Okteta libraries.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -177,5 +111,71 @@ Description: kastengui library for Okteta
  .
  This package provides the part of the Okteta libraries interfacing
  with Kasten GUI.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: libokteta2core2
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: core Okteta library
+ Okteta is a simple editor for the raw data of files. This type of program is
+ also called hexadecimal editor or binary editor.
+ .
+ This package provides the core part of the Okteta libraries.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: libokteta2gui2
+Architecture: any
+Section: libs
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: gui Okteta library
+ Okteta is a simple editor for the raw data of files. This type of program is
+ also called hexadecimal editor or binary editor.
+ .
+ This package provides the GUI part of the Okteta libraries.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: okteta
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: hexadecimal editor for binary files
+ Okteta is a simple editor for the raw data of files. This type of program is
+ also called hexadecimal editor or binary editor.
+ .
+ The data is displayed in two variants: as the numeric values of the bytes
+ and as the character assigned to the values. Values and characters can be
+ shown either in two columns (the traditional display in hex editors) or in
+ rows with the value on top of the character. Editing can be done both for
+ the values and for the characters.
+ .
+ Besides the usual editing capabilities Okteta also brings a small set of
+ tools, like a table listing decodings into common simple data types, a table
+ listing all possible bytes with their character and value equivalents, an
+ info view with a statistic, a checksum calculator, a filter tool and a string
+ extraction tool.
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: okteta-dev
+Architecture: any
+Section: devel
+Depends: libkf5xmlgui-dev (>= 5.7.0~),
+         qtbase5-dev (>= 5.4),
+         ${misc:Depends},
+         ${so:Depends},
+Description: Development files for Okteta
+ Okteta is a simple editor for the raw data of files. This type of program is
+ also called hexadecimal editor or binary editor.
+ .
+ This package contains the development files for Okteta.
  .
  This package is part of the KDE Software Development Kit module.
