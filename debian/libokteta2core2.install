@@ -1,2 +1,3 @@
 usr/lib/*/libokteta2core.so.0.*
 usr/lib/*/libokteta2core.so.2
+usr/share/locale/*/LC_MESSAGES/liboktetacore.mo
