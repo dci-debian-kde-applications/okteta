@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.0 amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 4:17.08.1 amd64
 libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@Base 4:14.12.0
  _ZN6Okteta10ValueCodecD0Ev@Base 4:14.12.0
@@ -37,8 +37,11 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZN6Okteta14ByteArrayModelD0Ev@Base 4:14.12.0
  _ZN6Okteta14ByteArrayModelD1Ev@Base 4:14.12.0
  _ZN6Okteta14ByteArrayModelD2Ev@Base 4:14.12.0
+ _ZN6Okteta18FileByteArrayModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.1
+ _ZN6Okteta18FileByteArrayModel11qt_metacastEPKc@Base 4:17.08.1
  _ZN6Okteta18FileByteArrayModel11setModifiedEb@Base 4:14.12.0
  _ZN6Okteta18FileByteArrayModel11setReadOnlyEb@Base 4:14.12.0
+ _ZN6Okteta18FileByteArrayModel16staticMetaObjectE@Base 4:17.08.1
  _ZN6Okteta18FileByteArrayModel4fillEhii@Base 4:14.12.0
  _ZN6Okteta18FileByteArrayModel4openERK7QString@Base 4:14.12.0
  _ZN6Okteta18FileByteArrayModel4swapEiRKN3KDE11NumberRangeIiiEE@Base 4:14.12.0
@@ -126,6 +129,7 @@ libokteta2core.so.2 libokteta2core2 #MINVER#
  _ZNK6Okteta14ByteArrayModel7maxSizeEv@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel10isModifiedEv@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel10isReadOnlyEv@Base 4:14.12.0
+ _ZNK6Okteta18FileByteArrayModel10metaObjectEv@Base 4:17.08.1
  _ZNK6Okteta18FileByteArrayModel4byteEi@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel4sizeEv@Base 4:14.12.0
  _ZNK6Okteta18FileByteArrayModel6isOpenEv@Base 4:14.12.0

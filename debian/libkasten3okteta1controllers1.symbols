@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 alpha amd64 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:17.08.1 amd64
 libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZN6Kasten10FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:14.12.0
  _ZN6Kasten10FilterTool11qt_metacastEPKc@Base 4:14.12.0
@@ -693,6 +693,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZTIN6Kasten29StringsExtractToolViewFactoryE@Base 4:15.04.0
  _ZTIN6Kasten32CharsetConversionToolViewFactoryE@Base 4:15.04.0
  _ZTIN6Kasten8InfoToolE@Base 4:15.04.0
+ _ZTIN6Okteta9CharCodecE@Base 4:17.08.1
  (arch=!armel !armhf)_ZTS11QSharedData@Base 4:15.08.0
  _ZTSN6Kasten10FilterToolE@Base 4:15.04.0
  _ZTSN6Kasten10StructToolE@Base 4:15.04.0
@@ -744,6 +745,7 @@ libkasten3okteta1controllers.so.1 libkasten3okteta1controllers1 #MINVER#
  _ZTSN6Kasten29StringsExtractToolViewFactoryE@Base 4:15.04.0
  _ZTSN6Kasten32CharsetConversionToolViewFactoryE@Base 4:15.04.0
  _ZTSN6Kasten8InfoToolE@Base 4:15.04.0
+ _ZTSN6Okteta9CharCodecE@Base 4:17.08.1
  _ZTVN6Kasten10FilterToolE@Base 4:14.12.0
  _ZTVN6Kasten10StructToolE@Base 4:14.12.0
  _ZTVN6Kasten12ChecksumToolE@Base 4:14.12.0
