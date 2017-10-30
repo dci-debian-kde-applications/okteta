@@ -1,6 +1,7 @@
 etc/xdg/okteta-structures.knsrc
 usr/bin/okteta
 usr/bin/struct2osd
+usr/lib/*/qt5/plugins/designer/oktetawidgets.so
 usr/lib/*/qt5/plugins/oktetapart.so
 usr/share/applications/org.kde.okteta.desktop
 usr/share/config.kcfg/structviewpreferences.kcfg
