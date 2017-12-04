@@ -1,10 +1,13 @@
-okteta (4:17.08.1-2~) UNRELEASED; urgency=medium
+okteta (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
-  * New revision
+  [ Maximiliano Curia ]
   * Bump kde-l10n breaks/replaces versions
   * Update uploaders list as requested by MIA team (Closes: #879416)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 18:03:58 +0100
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:03:58 +0100
 
 okteta (4:17.08.1-1) experimental; urgency=medium
 
