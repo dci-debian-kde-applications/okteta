@@ -2,9 +2,6 @@
 
 l10npkgs_firstversion_ok := 4:17.04.3-2~
 
-export DEB_CFLAGS_MAINT_STRIP = -O3
-export DEB_CXXFLAGS_MAINT_STRIP = -O3
-
 dh = --with sodeps
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
