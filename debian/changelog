@@ -10,6 +10,8 @@ okteta (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove DEB_CFLAGS_MAINT_STRIP and DEB_CXXFLAGS_MAINT_STRIP from rules,
     as not much useful and most likely some workaround for an old bug.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:03:58 +0100
 
