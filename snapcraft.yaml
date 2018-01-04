@@ -1,0 +1,64 @@
+---
+name: okteta
+version: 17.08.1
+summary: Hex editor
+description: |-
+    Okteta is a simple editor for the raw data of files.
+
+    Features:
+
+    - Values and characters shown either in two columns (the traditional display in hex editors) or in rows with the value on top of the character
+    - Editing and navigating similar to a text editor
+    - Customizable data views, with loadable and storable profiles
+    - Tools dockable on all sides or floating
+    - Numerical encodings: Hexadecimal, Decimal, Octal, Binary
+    - Character encodings: All 8-bit encodings as supplied by Qt, EBCDIC
+    - Fast data rendering on screen
+    - Multiple open files
+    - Undo/redo support
+    - Structures tool for analyzing and editing based on user-creatable structure definitions
+    - And more...
+confinement: strict
+grade: stable
+apps:
+    okteta:
+        command: kf5-launch okteta
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.okteta
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    okteta:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libqca-qt5-2-dev
+        - pkg-config
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/okteta-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
