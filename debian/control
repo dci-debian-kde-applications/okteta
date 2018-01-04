@@ -30,6 +30,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev,
                qtscript5-dev (>= 5.4),
                qttools5-dev (>= 5.4),
                shared-mime-info (>= 0.30)
